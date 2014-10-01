@@ -1,0 +1,73 @@
+WARNING: There are no voltage nets defined in this design.
+WARNING: Dc pin @@C1.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J2.12 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J2.14 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@U2.8 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@C2.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@R1.2 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J1.14 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@Q2.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J2.10 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@U1.8 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@U1.18 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@C3.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J3.14 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J3.12 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@C4.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J4.10 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@JP1.2 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J4.12 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@R2.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J3.10 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@J4.14 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@U1.40 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@U1.30 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.
+WARNING: Dc pin @@C5.1 has no voltage info; the pin will be open circuited.
+WARNING: No DC voltage property is defined for net 3##3V which has power or ground pins.
+Please add VOLTAGE property to this net, or correct the pin types.

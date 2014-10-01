@@ -1,0 +1,216 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pcbsonde.brd                                  )
+(    Software Version : 16.5S022                                      )
+(    Date/Time        : Tue Apr 30 12:57:50 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.03100                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.11000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.06500                     0.000 NO     DARK 
+  RECTANGLE  0.06300     x 0.07000       0.000 NO     DARK 
+  RECTANGLE  0.06300     x 0.07000      90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.03100                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.11000                                  DARK 
+  SQUARE     0.05500                     0.000 NO     DARK 
+  SQUARE     0.06500                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < silkscreen_top >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/silkscreen_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: 0 width line found at (535.00 425.00)
+           ... using undefined line width of 10.00
+
+    WARNING: text composed 0 width line found at (575.00 650.00)
+           ... using undefined line width of 10.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00300                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+
+     silkscreen_top created with warnings
+
+
+================================================================
+     PROCESSING FILM < soldermask_top >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/soldermask_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  CIRCLE     0.12200                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.08000                     0.000 NO     DARK 
+  RECTANGLE  0.06800     x 0.07500       0.000 NO     DARK 
+  RECTANGLE  0.06800     x 0.07500      90.000 NO     DARK 
+
+     soldermask_top created with warnings
+
+
+================================================================
+     PROCESSING FILM < soldermask_bottom >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/soldermask_bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.08000                     0.000 NO     DARK 
+
+     soldermask_bottom created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        silkscreen_top created with warnings
+        soldermask_top created with warnings
+        soldermask_bottom created with warnings
+
+ ARTWORK had warnings

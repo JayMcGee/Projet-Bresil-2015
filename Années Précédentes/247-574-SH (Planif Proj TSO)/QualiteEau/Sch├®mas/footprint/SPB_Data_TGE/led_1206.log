@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LED_1206.dra                                  )
+(    Software Version : 16.5S006                                      )
+(    Date/Time        : Wed Feb 29 13:45:01 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = I:/ORCAD 16_5/SPB_Data_TGE
+    Name      = led_1206.psm
+    User      = tge
+    Machine   = TGE-39
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

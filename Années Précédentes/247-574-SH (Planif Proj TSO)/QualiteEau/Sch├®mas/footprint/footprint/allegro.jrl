@@ -1,0 +1,17 @@
+\t (00:00:01) allegro 16.5 S023 (v16-5-13BE) i86
+\t (00:00:01)     Journal start - Fri Mar 22 14:47:51 2013
+\t (00:00:01)         Host=TGE-3-102 User=tge Pid=4784 CPUs=2
+\t (00:00:01) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: C:/temp/footprint/BNC_connecteur.dra
+\i (00:00:04) trapsize 707
+\i (00:00:04) trapsize 686
+\i (00:00:04) trapsize 710
+\i (00:00:04) trapsize 710
+\i (00:00:04) generaledit 
+\i (00:00:14) open 
+\i (00:00:16) fillin "menu_cancel"
+\i (00:00:16) generaledit 
+\i (00:00:18) new 
+\i (00:00:34) newdrawfillin "TEST.brd" "Board"
+\t (00:00:34)     Journal end - Fri Mar 22 14:48:23 2013

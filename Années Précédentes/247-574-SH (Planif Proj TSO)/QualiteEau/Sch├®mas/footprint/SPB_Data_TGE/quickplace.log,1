@@ -1,0 +1,48 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : template_carte_2_3.brd                        )
+(    Software Version : 16.5S006                                      )
+(    Date/Time        : Wed Mar 14 11:22:00 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Cannot place symbol:  U1 / P8X32A-D40_15_PQFP44_P8X32A-Q44 / PQFP44
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+         Placed symbol:  J4 / HEADER 7X2_HEADER_14_8-SORTIES / HEADER_14 at (706.00 2072.00)
+         Placed symbol:  J3 / HEADER 7X2_HEADER_14_8-ENTREES / HEADER_14 at (1430.00 2072.00)
+         Placed symbol:  J1 / DIPSOC-7X2_DIP14_3_DIP-14 / DIP14_3 at (2138.00 2687.00)
+         Placed symbol:  J2 / HEADER 7X2_HEADER_14_8-ENTREES/ / HEADER_14 at (70.00 2830.00)
+         Placed symbol:  P1 / CONNECTOR DB9_DB9_CONNECTOR DB9 / DB9 at (1592.00 2878.00)
+         Placed symbol:  U2 / 24LC256_1_SOIC8_24LC256 / SOIC8 at (2172.50 2870.00)
+         Placed symbol:  Q1 / 2N3904_SOT23_2N3904 / SOT23 at (2392.00 2830.00)
+         Placed symbol:  Q3 / 2N3904_SOT23_2N3904 / SOT23 at (2541.00 2830.00)
+         Placed symbol:  Q2 / 2N3906_SOT23_2N3906 / SOT23 at (2690.00 2830.00)
+         Placed symbol:  D1 / LED_0_D_1206_ROUGE / D_1206 at (70.00 3790.00)
+         Placed symbol:  C6 / CAP_C_0805_0.01UF / C_0805 at (314.00 3785.00)
+         Placed symbol:  JP1 / HEADER 2_0_CONNECTEUR_2_200_3.3 / CONNECTEUR_2_200 at (557.00 3900.00)
+         Placed symbol:  C5 / C_C_0805_0.1UF / C_0805 at (921.00 3785.00)
+         Placed symbol:  C3 / C_C_0805_0.1UF / C_0805 at (1120.00 3785.00)
+         Placed symbol:  C4 / C_C_0805_0.1UF / C_0805 at (1319.00 3785.00)
+         Placed symbol:  R1 / R_R_0805_10K / R_0805 at (1518.00 3785.00)
+         Placed symbol:  R3 / R_R_0805_10K / R_0805 at (1717.00 3785.00)
+         Placed symbol:  R4 / R_R_0805_10K / R_0805 at (1916.00 3785.00)
+         Placed symbol:  R5 / R_R_0805_10K / R_0805 at (2115.00 3785.00)
+         Placed symbol:  R8 / R_R_0805_10K / R_0805 at (2314.00 3785.00)
+         Placed symbol:  R9 / R_R_0805_10K / R_0805 at (2513.00 3785.00)
+         Placed symbol:  R2 / R_R_0805_220 / R_0805 at (2712.00 3785.00)
+         Placed symbol:  R6 / R_R_0805_1K / R_0805 at (60.00 4118.00)
+         Placed symbol:  R7 / R_R_0805_4.7K / R_0805 at (259.00 4118.00)
+         Placed symbol:  C2 / C_C_0805_0.1UF / C_0805 at (458.00 4118.00)
+         Placed symbol:  C1 / C_C_0805_0.1UF / C_0805 at (657.00 4118.00)
+         Placed symbol:  Y1 / CRYSTAL_CRYSTAL_SMD_10.0MHZ / CRYSTAL_SMD at (1035.00 4171.00)
+
+
+Placed 27 of 28 applicable (28 total) symbols.
+
+-----------------------------------------------------------------------
+

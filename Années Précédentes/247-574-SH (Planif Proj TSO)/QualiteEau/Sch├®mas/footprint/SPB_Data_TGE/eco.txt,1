@@ -1,0 +1,251 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3.3V         pins ADDED TO this new net
+                                 J2.10          J2.12          J2.14          
+                                 R1.1           R2.1           R3.1           
+                                 R4.1           R5.1           R6.1           
+                                 R7.1           R8.1           R17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 D9.1           J2.9           J2.11          
+                                 J2.13          U1.9           U1.11          
+                                 U1.13          U1.15          U2.9           
+                                 U2.11          U2.13          U2.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN0          pins ADDED TO this new net
+                                 D1.1           J2.1           U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN1          pins ADDED TO this new net
+                                 D2.1           J2.2           U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN2          pins ADDED TO this new net
+                                 D3.1           J2.3           U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN3          pins ADDED TO this new net
+                                 D4.1           J2.4           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN4          pins ADDED TO this new net
+                                 D5.1           J2.5           U2.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN5          pins ADDED TO this new net
+                                 D6.1           J2.6           U2.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN6          pins ADDED TO this new net
+                                 D7.1           J2.7           U2.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN7          pins ADDED TO this new net
+                                 D8.1           J2.8           U2.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07807       pins ADDED TO this new net
+                                 J1.1           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07855       pins ADDED TO this new net
+                                 J1.2           R10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07867       pins ADDED TO this new net
+                                 J1.3           R11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N07879       pins ADDED TO this new net
+                                 J1.4           R12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07887       pins ADDED TO this new net
+                                 J1.5           R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07899       pins ADDED TO this new net
+                                 J1.6           R14.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07911       pins ADDED TO this new net
+                                 J1.7           R15.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07927       pins ADDED TO this new net
+                                 J1.8           R16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07939       pins ADDED TO this new net
+                                 R9.2           U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07943       pins ADDED TO this new net
+                                 R10.2          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07947       pins ADDED TO this new net
+                                 R11.2          U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07951       pins ADDED TO this new net
+                                 R12.2          U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07955       pins ADDED TO this new net
+                                 R13.2          U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07959       pins ADDED TO this new net
+                                 R14.2          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07963       pins ADDED TO this new net
+                                 R15.2          U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07967       pins ADDED TO this new net
+                                 R16.2          U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07971       pins ADDED TO this new net
+                                 J1.9           U1.2           U1.4           
+                                 U1.6           U1.8           U2.2           
+                                 U2.4           U2.6           U2.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08279       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 D1.2           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08283       pins ADDED TO this new net
+                                 D2.2           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08287       pins ADDED TO this new net
+                                 D3.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08291       pins ADDED TO this new net
+                                 D4.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08295       pins ADDED TO this new net
+                                 D5.2           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08299       pins ADDED TO this new net
+                                 D6.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08303       pins ADDED TO this new net
+                                 D7.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08307       pins ADDED TO this new net
+                                 D8.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08435       pins ADDED TO this new net
+                                 D9.2           R17.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON10_CONNECTEUR_10_200_CON10
+ HEADER 7X2_HEADER_14_ENTREES 0-
+ LED_D_1206_
+ LED_D_1206_ROUGE
+ LTV844_LTV844_LTV844
+ R_R_0805_100
+ R_R_0805_1K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1                  LED_D_1206_           
+ D2                  LED_D_1206_           
+ D3                  LED_D_1206_           
+ D4                  LED_D_1206_           
+ D5                  LED_D_1206_           
+ D6                  LED_D_1206_           
+ D7                  LED_D_1206_           
+ D8                  LED_D_1206_           
+ D9                  LED_D_1206_ROUGE      
+ J1                  CON10_CONNECTEUR_10_200_CON10 
+ J2                  HEADER 7X2_HEADER_14_ENTREES 0- 
+ R1                  R_R_0805_100          
+ R2                  R_R_0805_100          
+ R3                  R_R_0805_100          
+ R4                  R_R_0805_100          
+ R5                  R_R_0805_100          
+ R6                  R_R_0805_100          
+ R7                  R_R_0805_100          
+ R8                  R_R_0805_100          
+ R9                  R_R_0805_1K           
+ R10                 R_R_0805_1K           
+ R11                 R_R_0805_1K           
+ R12                 R_R_0805_1K           
+ R13                 R_R_0805_1K           
+ R14                 R_R_0805_1K           
+ R15                 R_R_0805_1K           
+ R16                 R_R_0805_1K           
+ R17                 R_R_0805_100          
+ U1                  LTV844_LTV844_LTV844  
+ U2                  LTV844_LTV844_LTV844  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  I:/ORCAD 16_5/SPB_Data_TGE/template_carte_2_3_V2.brd                        |
+|                                                    Mon Sep 24 11:04:13 2012  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ D6.1                           PRIM_FILE      .\pstchip.dat
+ D7.1                           PRIM_FILE      .\pstchip.dat
+ D8.1                           PRIM_FILE      .\pstchip.dat
+ D9.1                           PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J2.9                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ U1.9                           PRIM_FILE      .\pstchip.dat
+ U2.9                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  174                                            |
+|------------------------------------------------------------------------------|

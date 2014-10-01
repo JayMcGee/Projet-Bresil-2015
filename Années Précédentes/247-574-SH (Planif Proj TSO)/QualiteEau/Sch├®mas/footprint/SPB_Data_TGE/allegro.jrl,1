@@ -1,0 +1,15 @@
+\t (00:00:05) allegro 16.5 S023 (v16-5-13BE) i86
+\t (00:00:05)     Journal start - Fri Feb 15 14:12:02 2013
+\t (00:00:05)         Host=TGE-8-100 User=tge Pid=3412 CPUs=2
+\t (00:00:05) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Database opened: I:/ORCAD 16_5/SPB_Data_TGE/Pot_sq_200.dra
+\i (00:00:08) trapsize 69
+\i (00:00:08) trapsize 66
+\i (00:00:08) trapsize 70
+\i (00:00:08) trapsize 53
+\i (00:00:08) trapsize 59
+\i (00:00:09) generaledit 
+\i (00:00:13) trapsize 40
+\i (00:40:42) exit 
+\t (00:40:42)     Journal end - Fri Feb 15 14:52:38 2013

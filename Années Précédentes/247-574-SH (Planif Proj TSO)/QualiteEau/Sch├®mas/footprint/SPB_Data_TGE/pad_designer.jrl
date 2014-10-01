@@ -1,0 +1,44 @@
+\t (00:00:58) pad_designer 16.5 S023 (v16-5-13BD) i86
+\t (00:00:58)     Journal start - Fri Feb 15 14:24:10 2013
+\t (00:00:58)         Host=TGE-8-108 User=tge Pid=3960 CPUs=2
+\t (00:00:58) 
+\i (00:01:36) pse_save_as 
+\i (00:02:12) fillin "C:\Users\tge\Desktop\pad65cir42dx.pad"
+\i (00:02:37) FORM padedit hole_size_x 42 
+\i (00:02:39) FORM padedit drill_fig Square 
+\i (00:03:36) FORM padedit layers  
+\i (00:04:07) FORM padedit grid row begin_layer 
+\i (00:04:46) FORM padedit width 65 
+\i (00:05:51) FORM padedit width_th 90 
+\i (00:06:05) FORM padedit width_ant 90 
+\i (00:06:10) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:06:11) setwindow form.padcopy
+\i (00:06:11) FORM padcopy pse_copy_done  
+\i (00:06:16) setwindow form.padedit
+\i (00:06:16) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:06:24) setwindow form.padcopy
+\i (00:06:24) FORM padcopy pse_copy_done  
+\i (00:07:19) setwindow form.padedit
+\i (00:07:19) FORM padedit grid row soldermask_top 
+\i (00:07:35) pse_save 
+\i (00:07:37) pse_save_as 
+\i (00:07:46) fillin "C:\Users\tge\Desktop\pad65sq42dx.pad"
+\i (00:07:48) FORM padedit grid row begin_layer 
+\i (00:07:51) FORM padedit geometry Square 
+\i (00:07:52) FORM padedit geometry_th Square 
+\i (00:07:54) FORM padedit geometry_ant Square 
+\i (00:07:57) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:07:58) setwindow form.padcopy
+\i (00:07:58) FORM padcopy pse_copy_done  
+\i (00:08:02) setwindow form.padedit
+\i (00:08:02) FORM padedit grid row soldermask_top 
+\i (00:08:04) FORM padedit geometry Square 
+\i (00:08:05) FORM padedit grid row soldermask_bottom 
+\i (00:08:07) FORM padedit geometry Square 
+\i (00:08:10) pse_save 
+\i (00:09:44) pse_open 
+\i (00:10:01) fillin "smd50_60.pad"
+\i (00:10:05) FORM padedit parameters  
+\i (00:10:15) FORM padedit layers  
+\i (00:10:38) pse_exit
+\t (00:10:38)     Journal end - Fri Feb 15 14:33:50 2013

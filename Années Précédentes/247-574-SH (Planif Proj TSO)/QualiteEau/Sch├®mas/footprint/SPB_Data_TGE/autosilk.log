@@ -1,0 +1,78 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : Microcontroleur.brd                           )
+(    Software Version : 16.5S017                                      )
+(    Date/Time        : Tue Apr 03 15:03:43 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 8.00
+Max Text displacement is 150.00
+Min Line Length is 10.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+No Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : None
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : Silkscreen
+
+Line segment from (2185.49, 735.00) --> (2189.51, 735.00) is too small.
+Line segment from (2189.51, 815.00) --> (2185.49, 815.00) is too small.
+Line segment from (2185.49, 835.00) --> (2189.51, 835.00) is too small.
+Line segment from (2189.51, 915.00) --> (2185.49, 915.00) is too small.
+Line segment from (364.51, 1490.00) --> (360.49, 1490.00) is too small.
+Line segment from (360.49, 1410.00) --> (364.51, 1410.00) is too small.
+Line segment from (2185.49, 635.00) --> (2189.51, 635.00) is too small.
+Line segment from (2189.51, 715.00) --> (2185.49, 715.00) is too small.
+Line segment from (2189.51, 1115.00) --> (2185.49, 1115.00) is too small.
+Line segment from (2185.49, 1035.00) --> (2189.51, 1035.00) is too small.
+Line segment from (2185.49, 935.00) --> (2189.51, 935.00) is too small.
+Line segment from (2189.51, 1015.00) --> (2185.49, 1015.00) is too small.
+Line segment from (2189.51, 1315.00) --> (2185.49, 1315.00) is too small.
+Line segment from (2185.49, 1235.00) --> (2189.51, 1235.00) is too small.
+Line segment from (2185.49, 1335.00) --> (2189.51, 1335.00) is too small.
+Line segment from (2189.51, 1415.00) --> (2185.49, 1415.00) is too small.
+Line segment from (1190.00, 1335.49) --> (1190.00, 1339.51) is too small.
+Line segment from (1110.00, 1339.51) --> (1110.00, 1335.49) is too small.
+Line segment from (760.49, 1135.00) --> (764.51, 1135.00) is too small.
+Line segment from (764.51, 1215.00) --> (760.49, 1215.00) is too small.
+Line segment from (964.51, 1565.00) --> (960.49, 1565.00) is too small.
+Line segment from (960.49, 1485.00) --> (964.51, 1485.00) is too small.
+Line segment from (789.51, 515.00) --> (785.49, 515.00) is too small.
+Line segment from (785.49, 435.00) --> (789.51, 435.00) is too small.
+Line segment from (465.00, 785.49) --> (465.00, 789.51) is too small.
+Line segment from (385.00, 789.51) --> (385.00, 785.49) is too small.
+Line segment from (1085.00, 839.51) --> (1085.00, 835.49) is too small.
+Line segment from (1165.00, 835.49) --> (1165.00, 839.51) is too small.
+Line segment from (2189.51, 1215.00) --> (2185.49, 1215.00) is too small.
+Line segment from (2185.49, 1135.00) --> (2189.51, 1135.00) is too small.
+Line segment from (1017.50, 1250.00) --> (1017.50, 1254.51) is too small.
+Line segment from (1017.50, 1295.49) --> (1017.50, 1304.51) is too small.
+Line segment from (1017.50, 1345.49) --> (1017.50, 1354.51) is too small.
+Line segment from (1017.50, 1395.49) --> (1017.50, 1404.51) is too small.
+Line segment from (1017.50, 1445.49) --> (1017.50, 1450.00) is too small.
+Line segment from (882.50, 1450.00) --> (882.50, 1445.49) is too small.
+Line segment from (882.50, 1404.51) --> (882.50, 1395.49) is too small.
+Line segment from (882.50, 1354.51) --> (882.50, 1345.49) is too small.
+Line segment from (882.50, 1304.51) --> (882.50, 1295.49) is too small.
+Line segment from (882.50, 1254.51) --> (882.50, 1250.00) is too small.
+Text string '***' is not at a suitable location
+(location: 2965.00, 572.00)
+Total segments less than 10.00, not copied: 40
+
+
+Total Failures: 1
+
+Log End
+

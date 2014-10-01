@@ -1,0 +1,66 @@
+(ExpressProject "Projet telecom"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\cadence\spb_16.5\tools\capture\library\tge.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\projet telecom.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (TitleBlockTGE-2
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM_9_0_0.OLB")
+      (DeviceIndex "0"))
+    ("GPRS Shield"
+      (FullPartName "GPRS Shield.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0"))
+    (Probe
+      (FullPartName "Probe.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0"))
+    (Conductivite
+      (FullPartName "Conductivite.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0"))
+    (Oxygene
+      (FullPartName "Oxygene.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0"))
+    (pH
+      (FullPartName "pH.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0"))
+    (Arduino
+      (FullPartName "Arduino.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TGE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\projet telecom.dsn")
+      (Path "Design Resources" ".\projet telecom.dsn" "SCHEMATIC1")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 264"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1170 50 352")
+        (Scroll "-51 60")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "M:\SESSION AUT12\PROJET TÉLÉCOM\ORCAD\PROJET TELECOM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "tge")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library"))

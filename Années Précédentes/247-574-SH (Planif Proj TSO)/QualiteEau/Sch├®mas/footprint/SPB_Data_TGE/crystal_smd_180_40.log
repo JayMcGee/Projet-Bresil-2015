@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : crystal_smd_180_40.dra                        )
+(    Software Version : 16.5S017                                      )
+(    Date/Time        : Thu Apr 26 14:20:14 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE
+    Name      = crystal_smd_180_40.psm
+    User      = tge
+    Machine   = TGE-39
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

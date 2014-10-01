@@ -1,0 +1,31 @@
+Date and Time : 04/30/13 11:00:31
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Net Names
+    N15957
+    GND
+    N02030
+    N00904
+    N00918
+    N01887
+    N03203
+    N09763
+    N00765
+    VCC
+    N01308
+    N01087
+    N02295
+    N02678
+    N01056

@@ -1,0 +1,17 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : alimentation.brd                              )
+(    Software Version : 16.5S023                                      )
+(    Date/Time        : Tue Apr 30 12:46:01 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'C:/Cadence/SPB_16.5/share/pcb/text/nclegend/default-mil.dlt' ...
+End of drill legend template file processing.
+
+Begin processing drill holes.
+Warning : Hole 52.0-0.0-C-P-0.0-0.0 uses multiple drill figures.
+End processing drill holes.

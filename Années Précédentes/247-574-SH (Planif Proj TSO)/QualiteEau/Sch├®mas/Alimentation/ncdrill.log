@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : alimentation.brd                              )
+(    Software Version : 16.5S022                                      )
+(    Date/Time        : Tue Apr 30 12:45:25 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.3
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING: Design precision is greater than that of the drill output file data.
+          Data rounding errors are very possible.
+
+
+ Drill files being output to directory 'C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation' ...
+
+
+
+     'alimentation-1-2.drl' created for holes connecting TOP and BOTTOM
+     ------------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  20.0000    0.0000/  0.0000      PLATED         10
+            2.  35.0000    0.0000/  0.0000      PLATED          2
+            3.  52.0000    0.0000/  0.0000      PLATED          4
+            4. 125.0000    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                         20
+
+     ---- Total head travel:              1.43 feet (0.44 meters)
+

@@ -1,0 +1,79 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : alimentation.brd                              )
+(    Software Version : 16.5S022                                      )
+(    Date/Time        : Tue Apr 30 15:28:14 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < silkscreen_top3 >
+     TO FILE < C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/silkscreen_top3.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                25.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: text composed 0 width line found at (75.0 775.0)
+           ... using undefined line width of 25.0
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 25.0
+
+    WARNING: 0 width line found at (437.0 679.0)
+           ... using undefined line width of 25.0
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 25.0
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+
+     silkscreen_top3 created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        silkscreen_top3 created with warnings
+
+ ARTWORK had warnings

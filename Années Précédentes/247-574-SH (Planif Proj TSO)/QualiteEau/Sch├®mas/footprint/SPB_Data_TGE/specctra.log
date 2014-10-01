@@ -1,0 +1,809 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Thu May 10 09:03:01 2012
+# 
+# Allegro PCB Router v16-5-13 made 2012/01/23 at 12:38:17
+# Running on: tge-39, OS Version: WindowsNT 5.1.2600, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/specctra.did
+# Current time = Thu May 10 09:03:01 2012
+# PCB C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-123.6000 ylo=-171.2000 xhi=3123.6000 yhi=2073.6000
+# Total 22 Images Consolidated.
+# Via VIA z=1, 2 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 151, Vias Processed 14
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 32, Images Processed 43, Padstacks Processed 16
+# Nets Processed 45, Net Terminals 163
+# PCB Area=5762304.000  EIC=12  Area/EIC=480192.000  SMDs=22
+# Total Pin Count: 168
+# Signal Connections Created 0
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55361.1353 Horizontal 32939.7100 Vertical 25737.0000
+# Ratio Actual / Manhattan   1.0883
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaab03536.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net RESN Selected.
+set route_diagonal 4
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via 100
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: Only part of the wires are selected for routing. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 50 route passes.
+# Current time = Thu May 10 09:03:03 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55361.1353 Horizontal 32939.7100 Vertical 25737.0000
+# Ratio Actual / Manhattan   1.0883
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 50
+# Routing 0 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 0 Successes 0 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 50
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:03:04 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 0 Failures 1 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 0 Failures 1 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:03:05 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 0 Failures 1 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 0 Failures 1 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaac03536.tmp
+# Routing Written to File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaac03536.tmp
+# Loading Do File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaad03536.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net RX Selected.
+set route_diagonal 4
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via 100
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: Only part of the wires are selected for routing. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:03:18 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1820 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 2 Failures 1 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:03:19 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 3 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 3 Successes 3 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaae03536.tmp
+# Routing Written to File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaae03536.tmp
+# Loading Do File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaaf03536.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net P25 Selected.
+set route_diagonal 4
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via 100
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: Only part of the wires are selected for routing. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:03:59 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Thu May 10 09:04:00 2012
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 1 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 1 Successes 1 Failures 0 Vias 14
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=12.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|   14|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   1|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 13|     0|     0|   0|    0|   14|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE\Microcontroleur.dsn
+# Nets 45 Connections 104 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 6 Total Vias 14
+# Percent Connected  100.00
+# Manhattan Length 50867.6900 Horizontal 29590.9210 Vertical 21276.7690
+# Routed Length 55286.1844 Horizontal 32939.7100 Vertical 25631.0000
+# Ratio Actual / Manhattan   1.0869
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaag03536.tmp
+# Routing Written to File C:/DOCUME~1/tge/LOCALS~1/Temp/#Taaaaag03536.tmp
+quit

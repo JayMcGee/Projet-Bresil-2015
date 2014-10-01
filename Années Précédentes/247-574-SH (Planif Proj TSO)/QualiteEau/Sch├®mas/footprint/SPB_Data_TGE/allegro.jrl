@@ -1,0 +1,33 @@
+\t (03:29:23) allegro 16.5 S023 (v16-5-13BE) i86
+\t (03:29:23)     Journal start - Tue Mar 26 13:02:22 2013
+\t (03:29:23)         Host=TGE-3-102 User=tge Pid=916 CPUs=2
+\t (03:29:23) 
+\d (03:29:23) Database opened: C:/temp/SPB_Data_TGE/Connecteur_2_200.dra
+\i (03:29:23) generaledit 
+\i (03:29:25) pick grid 209.1 2.7
+\t (03:29:25) last pick:  200.0  0.0
+\i (03:29:27) drag_start grid 520.3 -34.4
+\i (03:29:27) drag_stop 409.1 93.4
+\i (03:29:29) prepopup 188.7 2.7
+\i (03:29:29) pick grid 190.6 26.7
+\t (03:29:29) last pick:  200.0  25.0
+\i (03:29:30) pick grid 186.9 13.8
+\t (03:29:30) last pick:  175.0  25.0
+\i (03:29:30) pick grid dbl 186.9 13.8
+\t (03:29:30) last pick:  175.0  25.0
+\i (03:29:32) setwindow form.find
+\i (03:29:32) FORM find all_on  
+\i (03:29:52) setwindow pcb
+\i (03:29:52) open 
+\i (03:30:18) fillin "M:\dessin pcb\alimentation.brd"
+\i (03:30:18) cd "M:\dessin pcb"
+\t (03:30:19) Opening existing design...
+\w (03:30:19) WARNING(SPMHDB-214): OrCAD PCB Designer Professional w/PSpice opening an Librarian EOL design.
+\w (03:30:19) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (03:30:19) WARNING(SPMHOD-34): Design was last saved by lower capability product (Librarian EOL). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (03:30:20) fillin confirm
+\i (03:30:20) trapsize 446
+\i (03:30:20) trapsize 431
+\i (03:30:20) trapsize 446
+\i (03:30:20) trapsize 446
+\t (03:30:21)     Journal end - Tue Mar 26 13:03:19 2013

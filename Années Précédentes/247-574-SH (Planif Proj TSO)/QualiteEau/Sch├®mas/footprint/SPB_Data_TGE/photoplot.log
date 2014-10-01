@@ -1,0 +1,185 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : Route-1.brd                                   )
+(    Software Version : 16.5S017                                      )
+(    Date/Time        : Wed Apr 11 14:17:43 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01700                                  DARK 
+  CIRCLE     0.01900                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.13500                                  DARK 
+  CIRCLE     0.14500                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.07000                     0.000 NO     DARK 
+  RECTANGLE  0.02000     x 0.01700      90.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01900       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01900      90.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.02500       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.06300       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.06300      90.000 NO     DARK 
+  RECTANGLE  0.06300     x 0.07000      90.000 NO     DARK 
+  RECTANGLE  0.11000     x 0.02300      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: text composed 0 width line found at (2725.00 50.00)
+           ... using undefined line width of 10.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.13500                                  DARK 
+  CIRCLE     0.14500                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  SQUARE     0.07000                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < serig_top >
+     TO FILE < C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/serig_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+
+     serig_top created.
+
+
+================================================================
+     PROCESSING FILM < soldm_bot >
+     TO FILE < C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/soldm_bot.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:  NONE
+     soldm_bot created.
+
+
+================================================================
+     PROCESSING FILM < soldm_top >
+     TO FILE < C:/Orcad projets en court/Projet_2_2012/SPB_Data_TGE/soldm_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:  NONE
+     soldm_top created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created with warnings
+        serig_top created.
+        soldm_bot created.
+        soldm_top created.
+
+ ARTWORK finished

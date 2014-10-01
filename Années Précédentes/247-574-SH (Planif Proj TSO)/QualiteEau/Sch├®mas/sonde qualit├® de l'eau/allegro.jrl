@@ -1,0 +1,576 @@
+\t (00:03:56) allegro 16.5 S023 (v16-5-13BE) i86
+\t (00:03:56)     Journal start - Fri May 03 08:50:16 2013
+\t (00:03:56)         Host=TGE-3-102 User=tge Pid=900 CPUs=2
+\t (00:03:56) 
+\t (00:03:56) Starting new design...
+\i (00:03:56) trapsize 446
+\i (00:03:56) trapsize 446
+\i (00:03:56) generaledit 
+\i (00:03:59) load photoplot 
+\i (00:04:01) setwindow form.load_photoplot
+\i (00:04:01) FORM load_photoplot browse  
+\i (00:04:05) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\TOP.art"
+\i (00:04:07) FORM load_photoplot loadfile  
+\t (00:04:07) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/TOP.art ...
+\i (00:04:09) setwindow pcb
+\i (00:04:09) pick grid -774.7 2756.6
+\t (00:04:09) last pick:  -775.0  2750.0
+\t (00:04:09) Adding the film data on ETCH/TOP.
+\w (00:04:09) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) DRC errors detected.
+\t (00:04:09) Load Photoplot complete.
+\i (00:04:13) setwindow form.load_photoplot
+\i (00:04:13) FORM load_photoplot browse  
+\i (00:04:14) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\BOTTOM.art"
+\i (00:04:16) FORM load_photoplot loadfile  
+\t (00:04:16) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/BOTTOM.art ...
+\i (00:04:19) setwindow pcb
+\i (00:04:19) pick grid -721.2 669.3
+\t (00:04:19) last pick:  -725.0  675.0
+\t (00:04:19) Adding the film data on ETCH/TOP.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) DRC errors detected.
+\t (00:04:19) Load Photoplot complete.
+\i (00:04:22) setwindow form.load_photoplot
+\i (00:04:22) FORM load_photoplot browse  
+\i (00:04:26) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\silkscreen_top.art"
+\i (00:04:28) FORM load_photoplot loadfile  
+\t (00:04:28) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/silkscreen_top.art ...
+\t (00:04:29) last pick:  -328.7  -1462.5
+\w (00:04:29) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:30) last pick:  -159.3  -1516.0
+\w (00:04:30) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:31) last pick:  90.5  -1471.4
+\w (00:04:31) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:31) last pick:  313.5  -1453.6
+\w (00:04:31) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:32) last pick:  670.3  -1426.8
+\w (00:04:32) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:32) last pick:  483.0  -1382.2
+\w (00:04:32) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:33) last pick:  1.3  -1409.0
+\w (00:04:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:33) last pick:  -34.4  -1417.9
+\w (00:04:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:33) last pick:  -364.4  -1489.2
+\w (00:04:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:04:33) last pick:  -364.4  -1489.2
+\w (00:04:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1820.9 -418.9
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1820.9 -418.9
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1776.3 -410.0
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1705.0 -410.0
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1651.5 -392.1
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 1589.0 -392.1
+\i (00:04:35) trapsize 446
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 1553.4 -392.1
+\i (00:04:35) trapsize 223
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 1531.1 494.9
+\i (00:04:35) trapsize 111
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in 1522.2 495.0
+\i (00:04:36) trapsize 56
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in 1516.6 493.9
+\i (00:04:36) trapsize 28
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1513.3 493.4
+\i (00:04:36) trapsize 56
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1513.2 493.4
+\i (00:04:36) trapsize 111
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1511.1 493.4
+\i (00:04:36) trapsize 223
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1497.6 493.4
+\i (00:04:36) trapsize 446
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1312.5 -410.0
+\i (00:04:36) trapsize 446
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1285.8 -392.1
+\i (00:04:36) trapsize 446
+\i (00:04:36) zoom out 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 1241.2 -374.3
+\i (00:04:36) trapsize 446
+\t (00:04:37) last pick:  -194.9  -1453.6
+\w (00:04:37) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:04:38) prepopup -194.9 -1453.6
+\i (00:04:40) pop Cancel 
+\i (00:04:42) setwindow form.load_photoplot
+\i (00:04:42) FORM load_photoplot done  
+\i (00:04:42) setwindow pcb
+\i (00:04:42) generaledit 
+\i (00:04:50) define grid 
+\t (00:04:50) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:04:50) generaledit 
+\i (00:04:53) setwindow form.grid
+\i (00:04:53) FORM grid done  
+\i (00:05:02) setwindow pcb
+\i (00:05:02) prmed 
+\i (00:05:04) setwindow form.prmedit
+\i (00:05:04) FORM prmedit design  
+\i (00:05:25) FORM prmedit width 20000.0 
+\i (00:05:28) FORM prmedit height 10000.0 
+\i (00:05:36) FORM prmedit y -5000.0 
+\i (00:05:44) FORM prmedit x -10000.0 
+\i (00:05:44) FORM prmedit apply  
+\i (00:05:44) setwindow pcb
+\i (00:05:44) trapsize 446
+\i (00:05:44) setwindow form.prmedit
+\i (00:05:44) FORM prmedit done  
+\i (00:05:44) setwindow pcb
+\i (00:05:44) generaledit 
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out 1713.9 -294.0
+\i (00:05:46) trapsize 892
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out -2862.5 -5008.1
+\i (00:05:46) trapsize 991
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out -4291.3 -6119.9
+\i (00:05:46) trapsize 991
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out -4291.3 -6119.9
+\i (00:05:46) trapsize 991
+\i (00:05:46) zoom out 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom out -4311.2 -6119.9
+\i (00:05:46) trapsize 991
+\i (00:05:46) zoom in 1 
+\i (00:05:46) setwindow pcb
+\i (00:05:46) zoom in -4430.1 -6159.6
+\i (00:05:46) trapsize 496
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in -4509.4 -3196.2
+\i (00:05:47) trapsize 248
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in -4524.2 -3211.1
+\i (00:05:47) trapsize 124
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in -4526.7 -3211.1
+\i (00:05:47) trapsize 62
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in -4526.7 -3211.0
+\i (00:05:47) trapsize 31
+\i (00:05:47) zoom out 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom out -4526.7 -3211.0
+\i (00:05:47) trapsize 62
+\i (00:05:47) zoom out 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom out -4528.0 -3212.3
+\i (00:05:47) trapsize 124
+\i (00:05:47) zoom out 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom out -4527.9 -3212.2
+\i (00:05:47) trapsize 248
+\i (00:05:47) zoom out 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom out -4532.9 -3192.4
+\i (00:05:47) trapsize 496
+\i (00:05:47) zoom out 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom out -4532.9 -3142.9
+\i (00:05:47) trapsize 991
+\i (00:05:48) zoom out 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom out -2031.7 -4791.9
+\i (00:05:48) trapsize 991
+\i (00:05:48) zoom out 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom out 10.0 -2591.7
+\i (00:05:48) trapsize 991
+\i (00:05:48) zoom out 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom out 465.9 -1818.6
+\i (00:05:48) trapsize 991
+\i (00:05:48) zoom out 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom out 743.4 -1323.1
+\i (00:05:48) trapsize 991
+\i (00:05:48) zoom in 1 
+\i (00:05:48) setwindow pcb
+\i (00:05:48) zoom in 1833.6 1709.6
+\i (00:05:48) trapsize 496
+\i (00:05:49) zoom out 1 
+\i (00:05:49) setwindow pcb
+\i (00:05:49) zoom out 1883.1 2611.5
+\i (00:05:49) trapsize 991
+\i (00:05:49) zoom out 1 
+\i (00:05:49) setwindow pcb
+\i (00:05:49) zoom out 1932.7 3513.4
+\i (00:05:49) trapsize 991
+\i (00:05:49) zoom out 1 
+\i (00:05:49) setwindow pcb
+\i (00:05:49) zoom out 1952.5 3434.1
+\i (00:05:49) trapsize 991
+\i (00:05:55) delete 
+\i (00:05:56) drag_start grid 6432.2 -193.3
+\i (00:05:57) drag_stop -1159.5 4861.3
+\i (00:05:58) delete 
+\i (00:05:59) drag_start grid -1595.6 3949.5
+\i (00:05:59) drag_stop 2230.0 2641.3
+\i (00:06:01) pick grid 128.9 3414.3
+\t (00:06:01) last pick:  125.0  3425.0
+\i (00:06:02) setwindow form.find
+\i (00:06:02) FORM find all_on  
+\i (00:06:03) setwindow pcb
+\i (00:06:03) drag_start grid 3577.9 -530.2
+\i (00:06:04) drag_stop -1417.2 4008.9
+\i (00:06:05) delete 
+\i (00:06:05) drag_start grid -1040.6 3790.9
+\i (00:06:05) drag_stop 1417.3 2958.4
+\i (00:06:06) pick grid 29.8 3434.1
+\t (00:06:06) last pick:  25.0  3425.0
+\i (00:06:06) zoom in 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) zoom in 565.0 2423.2
+\i (00:06:06) trapsize 496
+\i (00:06:06) zoom in 1 
+\i (00:06:06) setwindow pcb
+\i (00:06:06) zoom in 356.8 2611.5
+\i (00:06:06) trapsize 248
+\i (00:06:07) zoom out 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom out 292.4 2760.2
+\i (00:06:07) trapsize 496
+\i (00:06:07) zoom out 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom out 302.4 2750.2
+\i (00:06:07) trapsize 991
+\i (00:06:07) zoom out 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom out -69.3 3176.4
+\i (00:06:07) trapsize 991
+\i (00:06:10) netin 
+\i (00:06:11) setwindow form.niparams
+\i (00:06:11) FORM niparams cancel  
+\i (00:06:11) setwindow pcb
+\i (00:06:11) generaledit 
+\i (00:06:13) load photoplot 
+\i (00:06:15) setwindow form.load_photoplot
+\i (00:06:15) FORM load_photoplot browse  
+\i (00:06:17) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\TOP.art"
+\i (00:06:19) FORM load_photoplot loadfile  
+\t (00:06:19) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/TOP.art ...
+\i (00:06:21) setwindow pcb
+\i (00:06:21) pick grid -7185.3 361.8
+\t (00:06:21) last pick:  -7175.0  350.0
+\t (00:06:21) Adding the film data on ETCH/TOP.
+\w (00:06:21) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) DRC errors detected.
+\t (00:06:21) Load Photoplot complete.
+\i (00:06:23) setwindow form.load_photoplot
+\i (00:06:23) FORM load_photoplot browse  
+\i (00:06:25) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\BOTTOM.art"
+\i (00:06:26) FORM load_photoplot loadfile  
+\t (00:06:26) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/BOTTOM.art ...
+\i (00:06:28) setwindow pcb
+\i (00:06:28) pick grid -7145.7 -2651.1
+\t (00:06:28) last pick:  -7150.0  -2650.0
+\t (00:06:28) Adding the film data on ETCH/TOP.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) DRC errors detected.
+\t (00:06:28) Load Photoplot complete.
+\i (00:06:30) setwindow form.load_photoplot
+\i (00:06:30) FORM load_photoplot browse  
+\i (00:06:32) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\silkscreen_top.art"
+\i (00:06:33) FORM load_photoplot loadfile  
+\t (00:06:33) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/silkscreen_top.art ...
+\i (00:06:35) setwindow pcb
+\i (00:06:35) pick grid -327.0 262.6
+\t (00:06:35) last pick:  -325.0  275.0
+\t (00:06:35) Adding the film data on ETCH/TOP.
+\w (00:06:35) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:06:35) Load Photoplot complete.
+\i (00:06:37) setwindow form.load_photoplot
+\i (00:06:37) FORM load_photoplot browse  
+\i (00:06:40) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\soldermask_top.art"
+\i (00:06:41) FORM load_photoplot loadfile  
+\t (00:06:41) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/soldermask_top.art ...
+\i (00:06:43) setwindow pcb
+\i (00:06:43) pick grid -406.3 -2215.1
+\t (00:06:43) last pick:  -400.0  -2225.0
+\t (00:06:43) Adding the film data on ETCH/TOP.
+\t (00:06:43) Load Photoplot complete.
+\i (00:06:44) setwindow form.load_photoplot
+\i (00:06:44) FORM load_photoplot browse  
+\i (00:06:46) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\sonde qualité de l'eau\Gerber\soldermask_bottom.art"
+\i (00:06:47) FORM load_photoplot loadfile  
+\t (00:06:47) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/sonde qualité de l'eau/Gerber/soldermask_bottom.art ...
+\i (00:06:49) setwindow pcb
+\i (00:06:49) pick grid -208.1 -4692.8
+\t (00:06:49) last pick:  -200.0  -4700.0
+\t (00:06:49) Adding the film data on ETCH/TOP.
+\t (00:06:49) Load Photoplot complete.
+\i (00:06:50) setwindow form.load_photoplot
+\i (00:06:50) FORM load_photoplot done  
+\i (00:06:50) setwindow pcb
+\i (00:06:50) generaledit 
+\i (00:06:51) zoom in 1 
+\i (00:06:51) setwindow pcb
+\i (00:06:51) zoom in 3419.3 1451.9
+\i (00:06:51) trapsize 496
+\i (00:06:52) zoom in 1 
+\i (00:06:52) setwindow pcb
+\i (00:06:52) zoom in 3399.5 1432.1
+\i (00:06:52) trapsize 248
+\i (00:07:04) zoom out 1 
+\i (00:07:04) setwindow pcb
+\i (00:07:04) zoom out 2799.9 1352.8
+\i (00:07:04) trapsize 496
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out -986.0 -203.1
+\i (00:08:17) trapsize 991
+\i (00:08:17) zoom out 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom out -6630.3 -1878.1
+\i (00:08:17) trapsize 991
+\i (00:08:17) zoom in 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom in -3478.7 1233.9
+\i (00:08:17) trapsize 496
+\i (00:08:23) zoom out 1 
+\i (00:08:23) setwindow pcb
+\i (00:08:23) zoom out -3637.2 1144.7
+\i (00:08:23) trapsize 991
+\i (00:08:24) zoom out 1 
+\i (00:08:24) setwindow pcb
+\i (00:08:24) zoom out -3795.8 1055.5
+\i (00:08:24) trapsize 991
+\i (00:08:26) save 
+\i (00:08:27) generaledit 
+\i (00:08:28) exit 
+\t (00:08:28)     Journal end - Fri May 03 08:54:48 2013

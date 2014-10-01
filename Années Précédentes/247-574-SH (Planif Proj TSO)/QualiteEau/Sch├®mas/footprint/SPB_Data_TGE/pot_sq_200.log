@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Pot_sq_200.dra                                )
+(    Software Version : 16.5S022                                      )
+(    Date/Time        : Tue Jan 29 16:26:14 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = I:/ORCAD 16_5/SPB_Data_TGE
+    Name      = pot_sq_200.psm
+    User      = tge
+    Machine   = TGE-9-100
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

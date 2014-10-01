@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Diode_400.dra                                 )
+(    Software Version : 16.5S021                                      )
+(    Date/Time        : Wed May 30 10:46:39 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = I:/ORCAD 16_5/SPB_Data_TGE
+    Name      = diode_400.psm
+    User      = prof
+    Machine   = TGE-34
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

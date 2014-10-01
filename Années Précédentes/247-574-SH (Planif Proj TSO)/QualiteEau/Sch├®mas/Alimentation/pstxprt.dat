@@ -1,0 +1,200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001Apr-30-2013 at 11:00:49 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SYSTEMEDECONTROLE';
+ POST_TIME='Mar 26 2012 19:10:13';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_C10_10U':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS585@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins585@discrete.\c.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins585@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_C220_47U':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS15842@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins15842@analog.\c.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins15842@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_C220_47U':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS15858@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins15858@analog.\c.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins15858@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE_R_1206_DIODE':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS15101@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins15101@discrete.\diode.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins15101@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP1 'HEADER 2_0_CONNECTEUR_2_200_ALI':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS8183@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.HEADER 2_0.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins8183@.\header 2_0.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins8183@.\header 2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ JP2 'HEADER 2_0_CONNECTEUR_2_200_A_1':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS7065@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.HEADER 2_0.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins7065@.\header 2_0.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins7065@.\header 2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'G6A-DPDT_1_RELAIS_G6A-DPDT':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS429@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.G6A-DPDT_1.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins429@.\g6a-dpdt_1.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins429@.\g6a-dpdt_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN BCE_0_SOT23-312_2N4401':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS1657@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.NPN BCE_0.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins1657@.\npn bce_0.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins1657@.\npn bce_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_R_1206_100K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS491@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins491@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins491@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_R_1206_200K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS507@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins507@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins507@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_R_1206_100K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS523@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins523@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins523@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'POT_0_POT_POT=100K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS558@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.POT_0.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins558@.\pot_0.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins558@.\pot_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR VAR 2_PHORES_PHOTO-CEL':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS711@DISCRETE.RESISTOR VAR 2.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins711@discrete.\resistor var 2.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins711@discrete.\resistor var 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_R_1206_500K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS1402@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins1402@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins1402@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_R_1206_5.1K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS1967@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins1967@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins1967@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_R_1206_10K':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS6200@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins6200@discrete.\r.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins6200@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LM339_SOIC14_LM339':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS109@ANALOG.LM339.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins109@analog.\lm339.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins109@analog.\lm339.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U2 '74HCT86_0_SOIC14_74HCT86':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS217@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.74HCT86_0.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins217@.\74hct86_0.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins217@.\74hct86_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U3 '4047_5_SOIC14_CD4047':;
+
+SECTION_NUMBER 1
+ '@SYSTEMEDECONTROLE.SCHEMATIC1(SCH_1):INS50@SYSTÈME DE CONTRÔLE DE L_ALIMENTATION.4047_5.NORMAL(CHIPS)':
+ C_PATH='@systemedecontrole.schematic1(sch_1):ins50@.\4047_5.normal\(chips)',
+ P_PATH='@systemedecontrole.schematic1(sch_1):page1_ins50@.\4047_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

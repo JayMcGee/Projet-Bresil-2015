@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : Relais.dra                                    )
+(    Software Version : 16.5S022                                      )
+(    Date/Time        : Fri Feb 22 10:59:44 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = M:/footprint
+    Name      = relais.psm
+    User      = tge
+    Machine   = TGE-3-102
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

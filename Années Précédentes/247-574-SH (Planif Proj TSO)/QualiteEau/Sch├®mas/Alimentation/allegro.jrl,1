@@ -1,0 +1,218 @@
+\t (00:00:04) allegro 16.5 S023 (v16-5-13BE) i86
+\t (00:00:04)     Journal start - Fri May 03 08:46:25 2013
+\t (00:00:04)         Host=TGE-3-102 User=tge Pid=900 CPUs=2
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
+\w (00:00:06) WARNING(SPMHDB-214): OrCAD PCB Designer Professional w/PSpice opening an Librarian EOL design.
+\w (00:00:06) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:00:06) WARNING(SPMHOD-34): Design was last saved by lower capability product (Librarian EOL). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:00:07) fillin confirm
+\d (00:00:07) Database opened: C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/alimentation.brd
+\i (00:00:07) trapsize 222
+\i (00:00:07) trapsize 216
+\i (00:00:07) trapsize 223
+\i (00:00:07) trapsize 223
+\i (00:00:08) generaledit 
+\i (00:00:12) new 
+\i (00:01:06) newdrawfillin "gerberfile.brd" "Board"
+\t (00:01:06) Starting new design...
+\i (00:01:06) trapsize 446
+\i (00:01:06) trapsize 446
+\i (00:01:06) generaledit 
+\i (00:01:10) pick grid 4247.1 2935.0
+\t (00:01:10) last pick:  4200.0  2900.0
+\i (00:02:07) pick grid 2213.4 1775.4
+\t (00:02:07) last pick:  2200.0  1800.0
+\i (00:02:10) load photoplot 
+\i (00:02:11) setwindow form.load_photoplot
+\i (00:02:11) FORM load_photoplot browse  
+\i (00:02:19) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\Alimentation\Gerber\TOP.art"
+   (00:02:19) Loading mfg.cxt 
+\i (00:02:21) FORM load_photoplot loadfile  
+\t (00:02:21) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/Gerber/TOP.art ...
+   (00:02:21) Loading axlcore.cxt 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) pick grid -694.4 2159.0
+\t (00:02:22) last pick:  -700.0  2150.0
+\t (00:02:22) Adding the film data on ETCH/TOP.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) DRC errors detected.
+\t (00:02:22) Load Photoplot complete.
+\i (00:02:25) setwindow form.load_photoplot
+\i (00:02:25) FORM load_photoplot browse  
+\i (00:02:27) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\Alimentation\Gerber\BOTTOM.art"
+\i (00:02:28) FORM load_photoplot loadfile  
+\t (00:02:28) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/Gerber/BOTTOM.art ...
+\i (00:02:30) setwindow pcb
+\i (00:02:30) pick grid -721.2 169.8
+\t (00:02:30) last pick:  -725.0  175.0
+\t (00:02:30) Adding the film data on ETCH/TOP.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) Load Photoplot complete.
+\i (00:02:33) setwindow form.load_photoplot
+\i (00:02:33) FORM load_photoplot browse  
+\i (00:02:36) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\Alimentation\Gerber\silkscreen_top.art"
+\i (00:02:38) FORM load_photoplot loadfile  
+\t (00:02:38) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/Gerber/silkscreen_top.art ...
+\i (00:02:39) setwindow pcb
+\i (00:02:39) pick grid 1972.6 2141.1
+\t (00:02:39) last pick:  1975.0  2150.0
+\t (00:02:39) Adding the film data on ETCH/TOP.
+\t (00:02:39) DRC errors detected.
+\t (00:02:39) Load Photoplot complete.
+\i (00:02:42) setwindow form.load_photoplot
+\i (00:02:42) FORM load_photoplot browse  
+\i (00:02:46) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\Alimentation\Gerber\Soldermask_top.art"
+\i (00:02:47) FORM load_photoplot loadfile  
+\t (00:02:47) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/Gerber/Soldermask_top.art ...
+\i (00:02:48) setwindow pcb
+\i (00:02:48) pick grid 2159.9 98.5
+\t (00:02:48) last pick:  2150.0  100.0
+\t (00:02:48) Adding the film data on ETCH/TOP.
+\t (00:02:48) Load Photoplot complete.
+\i (00:02:52) setwindow form.load_photoplot
+\i (00:02:52) FORM load_photoplot browse  
+\i (00:02:56) fillin "C:\Users\tge\Desktop\Photo projet et schéma final\Alimentation\Gerber\Soldermask_bottom.art"
+\i (00:02:57) FORM load_photoplot loadfile  
+\t (00:02:57) Processing photoplot file C:/Users/tge/Desktop/Photo projet et schéma final/Alimentation/Gerber/Soldermask_bottom.art ...
+\t (00:03:01) last pick:  2115.3  -1828.2
+\w (00:03:01) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\t (00:03:02) last pick:  2115.3  -1828.2
+\w (00:03:02) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:03:03) setwindow pcb
+\i (00:03:03) pick grid 4523.7 80.6
+\t (00:03:03) last pick:  4525.0  75.0
+\t (00:03:03) Adding the film data on ETCH/TOP.
+\t (00:03:03) Load Photoplot complete.
+\i (00:03:05) setwindow form.load_photoplot
+\i (00:03:05) FORM load_photoplot done  
+\i (00:03:05) setwindow pcb
+\i (00:03:05) generaledit 
+\i (00:03:08) zoom in 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom in 2597.0 3068.8
+\i (00:03:08) trapsize 223
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 2494.4 3050.9
+\i (00:03:08) trapsize 446
+\i (00:03:09) zoom out 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom out 2382.9 3015.3
+\i (00:03:09) trapsize 446
+\i (00:03:10) zoom out 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom out 3283.8 3889.4
+\i (00:03:10) trapsize 446
+\i (00:03:10) zoom out 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom out 3274.9 3916.2
+\i (00:03:10) trapsize 446
+\i (00:03:11) zoom in 1 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) zoom in 3221.4 3996.4
+\i (00:03:11) trapsize 223
+\i (00:03:22) zoom out 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom out 2405.2 3501.3
+\i (00:03:22) trapsize 446
+\i (00:03:22) zoom out 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom out 1259.0 3095.5
+\i (00:03:22) trapsize 446
+\i (00:03:23) zoom in 1 
+\i (00:03:23) setwindow pcb
+\i (00:03:23) zoom in 206.5 3443.4
+\i (00:03:23) trapsize 223
+\i (00:03:28) zoom out 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom out 304.6 3220.4
+\i (00:03:28) trapsize 446
+\i (00:03:28) zoom out 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom out 402.7 2997.4
+\i (00:03:28) trapsize 446
+\i (00:03:28) zoom out 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom out 402.7 3015.3
+\i (00:03:28) trapsize 446
+\i (00:03:32) save 
+\i (00:03:32) generaledit 
+\i (00:03:37) new 
+\i (00:03:56) newdrawfillin "gerberfile.brd" "Board"
+\t (00:03:56)     Journal end - Fri May 03 08:50:16 2013
