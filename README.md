@@ -8,3 +8,4 @@ http://www.microchip.com/forums/m819434.aspx
 
 http://visualgdb.com/tutorials/beaglebone/
 
+https://gist.github.com/RIAEvangelist/6335743
