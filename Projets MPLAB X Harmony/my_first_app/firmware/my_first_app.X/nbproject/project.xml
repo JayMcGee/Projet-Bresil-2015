@@ -2,7 +2,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>my_first_app</name>
+            <name>my_first_app_jp</name>
             <creation-uuid>00f356f4-17d0-4d71-b118-27a1fc573103</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

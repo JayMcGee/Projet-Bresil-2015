@@ -1,12 +1,10 @@
-build/default/production/_ext/120723158/system_init.o:  \
- ../src/system_config/wi_fire_pic32_mz/system_init.c  \
- ../src/system_config/wi_fire_pic32_mz/system_config.h  \
- ../src/system_config/wi_fire_pic32_mz/system_definitions.h  \
- C:/microchip/harmony/v1_00/framework/system/system.h  \
- C:/microchip/harmony/v1_00/framework/system/common/sys_common.h  \
- C:/microchip/harmony/v1_00/framework/system/common/sys_module.h  \
+build/default/production/_ext/1226300807/sys_clk.o:  \
+ C:/microchip/harmony/v1_00/framework/system/clk/src/sys_clk.c  \
+ C:/microchip/harmony/v1_00/framework/system/clk/src/sys_clk_local.h  \
  C:/microchip/harmony/v1_00/framework/system/clk/sys_clk.h  \
  ../src/system_config/wi_fire_pic32_mz/system_config.h  \
+ C:/microchip/harmony/v1_00/framework/system/common/sys_module.h  \
+ C:/microchip/harmony/v1_00/framework/system/common/sys_common.h  \
  C:/microchip/harmony/v1_00/framework/peripheral/osc/plib_osc.h  \
  C:/microchip/harmony/v1_00/framework/peripheral/osc/processor/osc_processor.h  \
  C:/microchip/harmony/v1_00/framework/peripheral/osc/processor/osc_p32xxxx.h  \
@@ -43,4 +41,4 @@ build/default/production/_ext/120723158/system_init.o:  \
  C:/microchip/harmony/v1_00/framework/peripheral/osc/processor/../templates/osc_PLLInputClockSource_Default.h  \
  C:/microchip/harmony/v1_00/framework/peripheral/osc/processor/../templates/osc_PLLFrequencyRange_Default.h  \
  C:/microchip/harmony/v1_00/framework/system/clk/sys_clk_mapping.h  \
- C:/microchip/harmony/v1_00/framework/system/devcon/sys_devcon.h 
+ C:/microchip/harmony/v1_00/framework/system/clk/src/sys_clk_variant_mapping.h 

@@ -12,6 +12,9 @@
 extern "C" {
 #endif
 
+#include "system/system.h"
+#include "system/clk/sys_clk.h"
+#include "system/devcon/sys_devcon.h"
 #include "system/common/sys_module.h"
 
 

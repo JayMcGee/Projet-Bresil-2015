@@ -72,7 +72,9 @@
 
 // DEVSN1
 
-
+#include <stdlib.h>
+#include "system_config.h"
+#include "system_definitions.h"
 
 /* Initialize the System */
 void SYS_Initialize ( void *data )

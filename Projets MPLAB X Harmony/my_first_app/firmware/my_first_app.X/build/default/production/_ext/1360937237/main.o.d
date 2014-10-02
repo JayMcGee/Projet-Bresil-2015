@@ -1,4 +1,4 @@
 build/default/production/_ext/1360937237/main.o:  \
 ../src/main.c  \
- ../../../../framework/system/common/sys_module.h  \
- ../../../../framework/system/common/sys_common.h 
+ C:/microchip/harmony/v1_00/framework/system/common/sys_module.h  \
+ C:/microchip/harmony/v1_00/framework/system/common/sys_common.h 
