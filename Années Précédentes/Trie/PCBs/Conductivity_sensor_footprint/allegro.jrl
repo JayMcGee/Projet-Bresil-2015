@@ -1,0 +1,626 @@
+\t (00:06:10) allegro 16.6 S021 (v16-6-112BL) Windows 32
+\t (00:06:10)     Journal start - Fri Feb 21 08:58:38 2014
+\t (00:06:10)         Host=tge-9-108 User=tge Pid=5564 CPUs=4
+\t (00:06:10) 
+\t (00:06:10) Starting new design...
+\i (00:06:10) trapsize 568
+\i (00:06:10) trapsize 568
+\i (00:06:10) package symbol wizard 
+\i (00:06:10) generaledit 
+\i (00:06:12) setwindow form.sym_wizard
+\i (00:06:12) FORM sym_wizard wiz_next  
+   (00:06:12) Loading cmds.cxt 
+   (00:06:12) Loading axlcore.cxt 
+\i (00:06:14) FORM sym_wizard load_template  
+\t (00:06:14) Opening existing design...
+\i (00:06:15) fillin yes 
+\t (00:06:15) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:06:15) setwindow pcb
+\i (00:06:15) trapsize 227
+\d (00:06:15) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:06:15) setwindow form.sym_wizard
+\i (00:06:15) FORM sym_wizard wiz_next  
+\i (00:06:24) FORM sym_wizard wiz_next  
+\i (00:08:07) FORM sym_wizard dip_pin_count 6 
+\i (00:08:22) FORM sym_wizard dip_e1 700 
+\i (00:08:42) FORM sym_wizard dip_width 800 
+\i (00:09:17) FORM sym_wizard dip_len 725 
+\i (00:09:17) FORM sym_wizard wiz_next  
+\i (00:09:22) FORM sym_wizard default_pad_browse  
+\i (00:09:42) fillin "Pad60cir35d"
+\i (00:09:44) FORM sym_wizard pin1_pad_browse  
+\i (00:09:49) fillin "Pad60sq36d"
+\i (00:09:51) FORM sym_wizard wiz_next  
+\i (00:09:52) FORM sym_wizard origin_at_pin1 YES 
+\i (00:09:56) FORM sym_wizard wiz_next  
+\i (00:09:57) FORM sym_wizard wiz_finish  
+\i (00:09:57) setwindow pcb
+\i (00:09:57) trapsize 227
+\i (00:09:57) trapsize 6
+\i (00:09:57) trapsize 5
+\i (00:09:57) trapsize 5
+\t (00:09:57) Creating package symbol 'C:/Users/tge/Desktop/Conductivity_sensor_footprint/conductivity_sensor.psm'.
+\t (00:09:57) Starting Create symbol...
+\i (00:09:59) generaledit 
+\i (00:10:01) zoom out 1 
+\i (00:10:01) setwindow pcb
+\i (00:10:01) zoom out 500 -244
+\i (00:10:01) trapsize 11
+\i (00:12:34) move 
+\t (00:12:35) Select element(s) to move.
+\i (00:12:36) pick grid 4 13
+\t (00:12:36) last pick:  0  0
+\t (00:12:36) last pick:  0  0
+\t (00:12:36) Pick new location for the element(s).
+\i (00:12:38) pick grid 48 22
+\t (00:12:38) last pick:  0  0
+\i (00:12:39) pick grid -2 8
+\t (00:12:39) last pick:  0  0
+\t (00:12:39) last pick:  0  0
+\t (00:12:39) Pick new location for the element(s).
+\i (00:12:42) pick grid -48 6
+\t (00:12:42) last pick:  0  0
+\i (00:12:42) prepopup 957 215
+\i (00:12:43) pick grid 998 274
+\t (00:12:43) last pick:  1000  300
+\i (00:12:45) setwindow form.find
+\i (00:12:45) FORM find all_off  
+\i (00:12:46) FORM find pins YES 
+\i (00:12:48) setwindow pcb
+\i (00:12:48) move 
+\t (00:12:48) Select element(s) to move.
+\i (00:12:49) pick grid -17 4
+\t (00:12:49) last pick:  0  0
+\t (00:12:49) last pick:  0  0
+\t (00:12:49) Pick new location for the element(s).
+\i (00:12:50) pick grid 17 56
+\t (00:12:50) last pick:  0  100
+\i (00:12:51) pick grid -6 2
+\t (00:12:51) last pick:  0  0
+\i (00:12:52) pick grid 22 -92
+\t (00:12:52) last pick:  0  -100
+\t (00:12:52) last pick:  0  -100
+\t (00:12:52) Pick new location for the element(s).
+\i (00:12:54) pick grid 48 -57
+\t (00:12:54) last pick:  0  -100
+\i (00:12:59) define grid 
+\t (00:12:59) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:13:05) setwindow form.grid
+\i (00:13:05) FORM grid non_etch non_etch_x_grids 5 
+\i (00:13:05) FORM grid non_etch non_etch_y_grids 5 
+\i (00:13:05) FORM grid done  
+\t (00:13:05) Grids are drawn 10, 10 apart for enhanced viewability.
+\i (00:13:07) setwindow pcb
+\i (00:13:07) pick grid -15 104
+\t (00:13:07) last pick:  -15  105
+\t (00:13:07) last pick:  0  100
+\t (00:13:07) Pick new location for the element(s).
+\i (00:13:09) pick grid 2 102
+\t (00:13:09) last pick:  0  100
+\i (00:13:12) zoom in 1 
+\i (00:13:12) setwindow pcb
+\i (00:13:12) zoom in 9 -94
+\i (00:13:12) trapsize 5
+\i (00:13:12) zoom in 1 
+\i (00:13:12) setwindow pcb
+\i (00:13:12) zoom in 12 -95
+\i (00:13:12) trapsize 3
+\i (00:13:42) zoom out 1 
+\i (00:13:42) setwindow pcb
+\i (00:13:42) zoom out 89 -104
+\i (00:13:42) trapsize 5
+\i (00:13:56) zoom in 1 
+\i (00:13:56) setwindow pcb
+\i (00:13:56) zoom in -7 265
+\i (00:13:56) trapsize 3
+\i (00:14:05) zoom out 1 
+\i (00:14:05) setwindow pcb
+\i (00:14:05) zoom out 2 224
+\i (00:14:05) trapsize 5
+\i (00:14:20) zoom out 1 
+\i (00:14:20) setwindow pcb
+\i (00:14:20) zoom out 2 -201
+\i (00:14:20) trapsize 11
+\i (00:15:35) pick grid 23 290
+\t (00:15:35) last pick:  25  290
+\i (00:16:01) add pin 
+\i (00:16:07) zoom out 1 
+\i (00:16:07) setwindow pcb
+\i (00:16:07) zoom out 219 171
+\t (00:16:07) Grids are drawn 20, 20 apart for enhanced viewability.
+\i (00:16:07) trapsize 15
+\i (00:16:08) zoom in 1 
+\i (00:16:08) setwindow pcb
+\i (00:16:08) zoom in 581 451
+\t (00:16:08) Grids are drawn 10, 10 apart for enhanced viewability.
+\i (00:16:08) trapsize 7
+\i (00:16:11) delete 
+\t (00:16:11) Exiting from Add Pin.
+\i (00:16:12) pick grid 24 112
+\t (00:16:12) last pick:  25  110
+\t (00:16:12) Pin "Pad60sq36d, 1"
+\i (00:16:14) delete 
+\i (00:16:15) pick grid 2 -95
+\t (00:16:15) last pick:  0  -95
+\t (00:16:15) Pin "Pad60cir35d, 2"
+\i (00:16:16) delete 
+\i (00:16:17) pick grid -4 -181
+\t (00:16:17) last pick:  -5  -180
+\t (00:16:17) Pin "Pad60cir35d, 3"
+\i (00:16:18) zoom in 1 
+\i (00:16:18) setwindow pcb
+\i (00:16:18) zoom in 510 165
+\i (00:16:18) trapsize 4
+\i (00:16:18) delete 
+\i (00:16:19) zoom out 1 
+\i (00:16:19) setwindow pcb
+\i (00:16:19) zoom out 647 65
+\i (00:16:19) trapsize 7
+\i (00:16:19) zoom out 1 
+\i (00:16:19) setwindow pcb
+\i (00:16:19) zoom out 338 99
+\t (00:16:19) Grids are drawn 20, 20 apart for enhanced viewability.
+\i (00:16:19) trapsize 15
+\i (00:16:20) pick grid 708 8
+\t (00:16:20) last pick:  710  10
+\t (00:16:20) Pin "Pad60cir35d, 6"
+\i (00:16:21) delete 
+\i (00:16:22) pick grid 702 -95
+\t (00:16:22) last pick:  700  -95
+\t (00:16:22) Pin "Pad60cir35d, 5"
+\i (00:16:23) delete 
+\i (00:16:24) pick grid 694 -222
+\t (00:16:24) last pick:  695  -220
+\t (00:16:24) Pin "Pad60cir35d, 4"
+\i (00:16:25) delete 
+\i (00:16:25) pick grid 767 445
+\t (00:16:25) last pick:  765  445
+\i (00:22:54) chg origin 
+\t (00:22:54) Pick new location for drawing origin.
+\i (00:22:58) zoom in 1 
+\i (00:22:58) setwindow pcb
+\i (00:22:58) zoom in -10 -4
+\t (00:22:58) Grids are drawn 10, 10 apart for enhanced viewability.
+\i (00:22:59) trapsize 7
+\i (00:23:00) pick grid -49 265
+\t (00:23:00) last pick:  -50  265
+\i (00:23:00) trapsize 7
+\t (00:23:00) Pick point (-50 265) changed to origin (0, 0)
+\i (00:23:00) generaledit 
+\i (00:23:02) zoom in 1 
+\i (00:23:02) setwindow pcb
+\i (00:23:02) zoom in 67 -129
+\i (00:23:02) trapsize 4
+\i (00:23:02) zoom in 1 
+\i (00:23:02) setwindow pcb
+\i (00:23:02) zoom in 67 -136
+\i (00:23:02) trapsize 2
+\i (00:23:02) zoom out 1 
+\i (00:23:02) setwindow pcb
+\i (00:23:02) zoom out 67 -136
+\i (00:23:02) trapsize 4
+\i (00:23:06) pick grid 4 -2
+\t (00:23:06) last pick:  5  0
+\i (00:23:08) chg origin 
+\t (00:23:08) Pick new location for drawing origin.
+\i (00:23:09) zoom in 1 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) zoom in 2 -2
+\i (00:23:09) trapsize 2
+\i (00:23:09) zoom in 1 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) zoom in 3 -2
+\i (00:23:09) trapsize 1
+\i (00:23:09) zoom in 1 
+\i (00:23:09) setwindow pcb
+\i (00:23:09) zoom in 3 -2
+\i (00:23:09) trapsize 1
+\i (00:23:10) zoom in 1 
+\i (00:23:10) setwindow pcb
+\i (00:23:10) zoom in 3 -1
+\i (00:23:10) trapsize 1
+\i (00:23:10) zoom in 1 
+\i (00:23:10) setwindow pcb
+\i (00:23:10) zoom in 3 0
+\i (00:23:10) trapsize 1
+\i (00:23:12) pick grid 0 -3
+\t (00:23:12) last pick:  0  -5
+\i (00:23:12) trapsize 1
+\t (00:23:12) Pick point (0 -5) changed to origin (0, 0)
+\i (00:23:12) generaledit 
+\i (00:23:14) zoom out 1 
+\i (00:23:14) setwindow pcb
+\i (00:23:14) zoom out 3 3
+\i (00:23:14) trapsize 1
+\i (00:23:14) zoom out 1 
+\i (00:23:14) setwindow pcb
+\i (00:23:14) zoom out 2 5
+\i (00:23:14) trapsize 1
+\i (00:23:15) zoom in 1 
+\i (00:23:15) setwindow pcb
+\i (00:23:15) zoom in -1 2
+\i (00:23:15) trapsize 1
+\i (00:23:15) zoom in 1 
+\i (00:23:15) setwindow pcb
+\i (00:23:15) zoom in 0 3
+\i (00:23:15) trapsize 1
+\i (00:23:15) zoom in 1 
+\i (00:23:15) setwindow pcb
+\i (00:23:15) zoom in 0 3
+\i (00:23:15) trapsize 1
+\i (00:23:15) zoom in 1 
+\i (00:23:15) setwindow pcb
+\i (00:23:15) zoom in -3 4
+\i (00:23:15) trapsize 1
+\i (00:23:19) chg origin 
+\t (00:23:19) Pick new location for drawing origin.
+\i (00:23:21) zoom in 1 
+\i (00:23:21) setwindow pcb
+\i (00:23:21) zoom in 0 2
+\i (00:23:21) trapsize 1
+\i (00:23:22) zoom in 1 
+\i (00:23:22) setwindow pcb
+\i (00:23:22) zoom in 0 2
+\i (00:23:22) trapsize 1
+\i (00:23:22) zoom in 1 
+\i (00:23:22) setwindow pcb
+\i (00:23:22) zoom in 0 2
+\i (00:23:22) trapsize 1
+\i (00:23:22) zoom in 1 
+\i (00:23:22) setwindow pcb
+\i (00:23:22) zoom in 0 2
+\i (00:23:22) trapsize 1
+\i (00:23:29) pick grid 0 2
+\t (00:23:29) last pick:  0  0
+\t (00:23:29) Pick point (0 0) changed to origin (0, 0)
+\i (00:23:29) generaledit 
+\i (00:23:33) define grid 
+\t (00:23:33) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:23:33) generaledit 
+\i (00:23:35) setwindow form.grid
+\i (00:23:35) FORM grid non_etch non_etch_x_grids 1 
+\i (00:23:36) FORM grid non_etch non_etch_y_grids 1 
+\i (00:23:36) FORM grid done  
+\i (00:23:39) setwindow pcb
+\i (00:23:39) chg origin 
+\t (00:23:39) Pick new location for drawing origin.
+\i (00:23:42) pick grid 0 2
+\t (00:23:42) last pick:  0  2
+\i (00:23:42) trapsize 1
+\t (00:23:42) Pick point (0 2) changed to origin (0, 0)
+\i (00:23:42) generaledit 
+\i (00:23:43) zoom out 1 
+\i (00:23:43) setwindow pcb
+\i (00:23:43) zoom out 2 2
+\i (00:23:43) trapsize 1
+\i (00:23:43) zoom out 1 
+\i (00:23:43) setwindow pcb
+\i (00:23:43) zoom out 1 3
+\i (00:23:43) trapsize 1
+\i (00:23:44) zoom out 1 
+\i (00:23:44) setwindow pcb
+\i (00:23:44) zoom out 1 2
+\i (00:23:44) trapsize 1
+\i (00:23:44) zoom out 1 
+\i (00:23:44) setwindow pcb
+\i (00:23:44) zoom out 2 3
+\t (00:23:44) Grids are drawn 2, 2 apart for enhanced viewability.
+\i (00:23:44) trapsize 2
+\i (00:23:44) zoom out 1 
+\i (00:23:44) setwindow pcb
+\i (00:23:44) zoom out 1 2
+\t (00:23:44) Grids are drawn 4, 4 apart for enhanced viewability.
+\i (00:23:44) trapsize 3
+\i (00:23:45) zoom out 1 
+\i (00:23:45) setwindow pcb
+\i (00:23:45) zoom out 1 2
+\t (00:23:45) Grids are drawn 8, 8 apart for enhanced viewability.
+\i (00:23:45) trapsize 6
+\i (00:23:45) zoom out 1 
+\i (00:23:45) setwindow pcb
+\i (00:23:45) zoom out -34 9
+\t (00:23:45) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:23:45) trapsize 13
+\i (00:23:45) zoom out 1 
+\i (00:23:45) setwindow pcb
+\i (00:23:45) zoom out 461 -1
+\i (00:23:45) trapsize 15
+\i (00:23:46) zoom in 1 
+\i (00:23:46) setwindow pcb
+\i (00:23:46) zoom in 673 -26
+\t (00:23:46) Grids are drawn 8, 8 apart for enhanced viewability.
+\i (00:23:46) trapsize 7
+\i (00:23:48) add pin 
+\i (00:23:51) setwindow form.mini
+\i (00:23:51) FORM mini pad_browse  
+\i (00:25:43) fillin "Pad60cir35d"
+\t (00:25:43) Using 'PAD60CIR35D.pad'.
+\i (00:25:48) FORM mini pad_browse  
+\i (00:26:02) fillin "Pad60sq36d"
+\t (00:26:02) Using 'PAD60SQ36D.pad'.
+\i (00:26:23) setwindow pcb
+\i (00:26:23) pick grid 507 -133
+\t (00:26:23) last pick:  507  -133
+\t (00:26:23) Using 'PAD60SQ36D.pad'.
+\i (00:26:26) undo 
+\t (00:26:26) Exiting from Add Pin.
+\i (00:26:26) generaledit 
+\i (00:26:26) undo 
+\i (00:26:26) generaledit 
+\i (00:26:30) delete 
+\i (00:26:30) generaledit 
+\i (00:26:31) pick grid 498 -143
+\t (00:26:31) last pick:  498  -143
+\i (00:26:32) delete 
+\i (00:26:32) generaledit 
+\i (00:26:34) add pin 
+\t (00:26:34) Using 'PAD60SQ36D.pad'.
+\i (00:31:22) pick grid -60 -189
+\t (00:31:22) last pick:  -60  -189
+\t (00:31:22) Using 'PAD60SQ36D.pad'.
+\i (00:31:25) undo 
+\t (00:31:25) Exiting from Add Pin.
+\i (00:31:25) generaledit 
+\i (00:31:28) delete 
+\i (00:31:29) pick grid -75 -183
+\t (00:31:29) last pick:  -75  -183
+\t (00:31:29) Pin "Pad60sq36d, 2"
+\e (00:31:29) Command not found: Del
+\i (00:31:31) delete 
+\i (00:31:34) add pin 
+\t (00:31:34) Using 'PAD60SQ36D.pad'.
+\i (00:32:09) pick 80 8 
+\t (00:32:09) last pick:  80  8
+\t (00:32:09) Using 'PAD60SQ36D.pad'.
+\i (00:32:12) prepopup 305 130
+\i (00:32:13) done 
+\t (00:32:13) Exiting from Add Pin.
+\i (00:32:14) generaledit 
+\i (00:32:14) delete 
+\i (00:32:15) pick grid 86 22
+\t (00:32:15) last pick:  86  22
+\t (00:32:15) Pin "Pad60sq36d, 3"
+\i (00:32:16) delete 
+\i (00:32:19) add pin 
+\t (00:32:19) Using 'PAD60SQ36D.pad'.
+\e (00:32:27) Please enter a coordinate.
+\i (00:32:32) fillin confirm
+\i (00:33:44) setwindow pcb
+\i (00:33:44) pick 50 -229 
+\t (00:33:44) last pick:  50  -229
+\t (00:33:44) Using 'PAD60SQ36D.pad'.
+\i (00:34:12) pick 50 -329 
+\t (00:34:12) last pick:  50  -329
+\t (00:34:12) Using 'PAD60SQ36D.pad'.
+\i (00:34:17) pick 50 -429 
+\t (00:34:17) last pick:  50  -429
+\t (00:34:17) Using 'PAD60SQ36D.pad'.
+\i (00:34:30) delete 
+\t (00:34:30) Exiting from Add Pin.
+\i (00:34:31) pick grid 35 -341
+\t (00:34:31) last pick:  35  -341
+\t (00:34:31) Pin "Pad60sq36d, 5"
+\i (00:34:33) delete 
+\i (00:34:33) pick grid 45 -434
+\t (00:34:33) last pick:  45  -434
+\t (00:34:33) Pin "Pad60sq36d, 6"
+\i (00:34:34) delete 
+\i (00:35:25) zoom in 1 
+\i (00:35:25) setwindow pcb
+\i (00:35:25) zoom in 9 -719
+\t (00:35:25) Grids are drawn 4, 4 apart for enhanced viewability.
+\i (00:35:25) trapsize 4
+\i (00:35:25) zoom in 1 
+\i (00:35:25) setwindow pcb
+\i (00:35:25) zoom in 3 -733
+\t (00:35:25) Grids are drawn 2, 2 apart for enhanced viewability.
+\i (00:35:25) trapsize 2
+\i (00:35:26) zoom in 1 
+\i (00:35:26) setwindow pcb
+\i (00:35:26) zoom in 4 -733
+\i (00:35:26) trapsize 1
+\i (00:35:26) zoom in 1 
+\i (00:35:26) setwindow pcb
+\i (00:35:26) zoom in 4 -727
+\i (00:35:26) trapsize 1
+\i (00:35:50) zoom in 1 
+\i (00:35:50) setwindow pcb
+\i (00:35:50) zoom in 19 -680
+\i (00:35:50) trapsize 1
+\i (00:35:51) zoom out 1 
+\i (00:35:51) setwindow pcb
+\i (00:35:51) zoom out 18 -679
+\i (00:35:51) trapsize 1
+\i (00:35:51) zoom out 1 
+\i (00:35:51) setwindow pcb
+\i (00:35:51) zoom out 18 -680
+\i (00:35:51) trapsize 1
+\i (00:35:51) zoom out 1 
+\i (00:35:51) setwindow pcb
+\i (00:35:51) zoom out 18 -679
+\i (00:35:51) trapsize 2
+\i (00:35:56) roam y -96 
+\i (00:35:56) roam y -96
+\i (00:35:56) roam y -96 
+\i (00:35:56) roam y -96
+\i (00:35:56) roam y -96 
+\i (00:35:56) roam y -96
+\i (00:35:56) roam y -96 
+\i (00:35:56) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:57) roam y -96 
+\i (00:35:57) roam y -96
+\i (00:35:58) zoom out 1 
+\i (00:35:58) setwindow pcb
+\i (00:35:58) zoom out 77 -267
+\t (00:35:58) Grids are drawn 4, 4 apart for enhanced viewability.
+\i (00:35:58) trapsize 4
+\i (00:35:58) zoom out 1 
+\i (00:35:58) setwindow pcb
+\i (00:35:58) zoom out 77 -268
+\t (00:35:58) Grids are drawn 8, 8 apart for enhanced viewability.
+\i (00:35:58) trapsize 8
+\i (00:35:59) zoom out 1 
+\i (00:35:59) setwindow pcb
+\i (00:35:59) zoom out 76 -273
+\t (00:35:59) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:35:59) trapsize 15
+\i (00:36:03) pick grid 37 -233
+\t (00:36:03) last pick:  37  -233
+\t (00:36:03) Pin "Pad60sq36d, 4"
+\i (00:36:04) delete 
+\i (00:36:06) add pin 
+\t (00:36:06) Using 'PAD60SQ36D.pad'.
+\i (00:36:19) pick 50 -225 
+\t (00:36:19) last pick:  50  -225
+\t (00:36:19) Using 'PAD60SQ36D.pad'.
+\i (00:36:23) setwindow form.mini
+\i (00:36:23) FORM mini pad_browse  
+\i (00:36:28) fillin "Pad60cir35d"
+\t (00:36:28) Using 'PAD60CIR35D.pad'.
+\i (00:36:37) setwindow pcb
+\i (00:36:37) pick 50 -325 
+\t (00:36:37) last pick:  50  -325
+\t (00:36:37) Using 'PAD60CIR35D.pad'.
+\i (00:36:42) pick 50 -425 
+\t (00:36:42) last pick:  50  -425
+\t (00:36:42) Using 'PAD60CIR35D.pad'.
+\i (00:36:47) zoom in 1 
+\i (00:36:47) setwindow pcb
+\i (00:36:47) zoom in -468 -174
+\t (00:36:47) Grids are drawn 8, 8 apart for enhanced viewability.
+\i (00:36:47) trapsize 7
+\i (00:36:48) zoom in 1 
+\i (00:36:48) setwindow pcb
+\i (00:36:48) zoom in -451 -180
+\t (00:36:48) Grids are drawn 4, 4 apart for enhanced viewability.
+\i (00:36:48) trapsize 4
+\i (00:36:49) zoom out 1 
+\i (00:36:49) setwindow pcb
+\i (00:36:49) zoom out -92 -303
+\t (00:36:49) Grids are drawn 8, 8 apart for enhanced viewability.
+\i (00:36:49) trapsize 7
+\i (00:36:49) zoom out 1 
+\i (00:36:49) setwindow pcb
+\i (00:36:49) zoom out 3 -301
+\t (00:36:49) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:36:49) trapsize 15
+\i (00:36:55) delete 
+\t (00:36:55) Exiting from Add Pin.
+\i (00:36:56) pick grid 52 -221
+\t (00:36:56) last pick:  52  -221
+\t (00:36:56) Pin "Pad60sq36d, 7"
+\i (00:37:00) delete 
+\i (00:37:01) pick grid 55 -331
+\t (00:37:01) last pick:  55  -331
+\t (00:37:01) Pin "Pad60cir35d, 8"
+\i (00:37:03) delete 
+\i (00:37:04) pick grid 43 -431
+\t (00:37:04) last pick:  43  -431
+\t (00:37:04) Pin "Pad60cir35d, 9"
+\i (00:37:04) delete 
+\i (00:37:18) add pin 
+\t (00:37:18) Using 'PAD60CIR35D.pad'.
+\i (00:37:28) setwindow form.mini
+\i (00:37:28) FORM mini next_pin_number 1 
+\i (00:37:29) FORM mini pad_browse  
+\i (00:37:37) fillin "Pad60cir35d"
+\t (00:37:37) Using 'PAD60CIR35D.pad'.
+\i (00:37:40) FORM mini pad_browse  
+\i (00:37:45) fillin "Pad60sq36d"
+\t (00:37:45) Using 'PAD60SQ36D.pad'.
+\i (00:37:56) setwindow pcb
+\i (00:37:56) pick 50 -225 
+\t (00:37:56) last pick:  50  -225
+\t (00:37:56) Using 'PAD60SQ36D.pad'.
+\i (00:37:59) setwindow form.mini
+\i (00:37:59) FORM mini pad_browse  
+\i (00:38:04) fillin "Pad60cir35d"
+\t (00:38:04) Using 'PAD60CIR35D.pad'.
+\i (00:38:17) setwindow pcb
+\i (00:38:17) pick 50 -325 
+\t (00:38:17) last pick:  50  -325
+\t (00:38:17) Using 'PAD60CIR35D.pad'.
+\i (00:38:33) pick 50 -425 
+\t (00:38:33) last pick:  50  -425
+\t (00:38:33) Using 'PAD60CIR35D.pad'.
+\i (00:39:16) pick 750 -425 
+\t (00:39:16) last pick:  750  -425
+\t (00:39:16) Using 'PAD60CIR35D.pad'.
+\i (00:39:19) pick 750 -325 
+\t (00:39:19) last pick:  750  -325
+\t (00:39:19) Using 'PAD60CIR35D.pad'.
+\i (00:39:22) pick 750 -225 
+\t (00:39:22) last pick:  750  -225
+\t (00:39:22) Using 'PAD60CIR35D.pad'.
+\i (00:39:24) prepopup 1438 -434
+\i (00:39:24) done 
+\t (00:39:24) Exiting from Add Pin.
+\i (00:39:24) generaledit 
+\i (00:39:25) pick grid 1349 -348
+\t (00:39:25) last pick:  1349  -348
+\i (00:40:08) dimension edit 
+\i (00:40:08) prepopup 1175 130
+\i (00:40:09) pop dyn_option_select '@:@Linear dimension' 
+\t (00:40:09) Pick an element or point to dimension ...
+\i (00:40:10) prepopup 885 50
+\i (00:40:16) pop dyn_option_select 'Snap pick to@:@Intersection' 
+\t (00:40:17) last pick:  800  0
+\t (00:40:17) First point found ... pick the second point.
+\i (00:40:18) pick grid 800 9
+\t (00:40:18) last pick:  800  9
+\w (00:40:18) WARNING(SPMHA1-339): Pick equals previous pick ... try again.
+\i (00:40:19) pick grid 797 -721
+\t (00:40:19) last pick:  797  -721
+\t (00:40:19) Pick location for the dimension value.
+\i (00:40:21) prepopup 1281 -375
+\i (00:40:23) oops 
+\t (00:40:23) last pick:  800  9
+\t (00:40:23) First point found ... pick the second point.
+\i (00:40:23) prepopup 1145 -313
+\i (00:40:24) oops 
+\t (00:40:24) last pick:  800  0
+\t (00:40:24) Pick an element or point to dimension ...
+\i (00:40:26) pick grid -1 0
+\t (00:40:26) last pick:  -1  0
+\t (00:40:26) First point found ... pick the second point.
+\i (00:40:28) pick grid 803 0
+\t (00:40:28) last pick:  803  0
+\t (00:40:28) Pick location for the dimension value.
+\i (00:41:17) prepopup 528 452
+\i (00:41:18) oops 
+\t (00:41:18) last pick:  -1  0
+\t (00:41:18) First point found ... pick the second point.
+\i (00:41:18) prepopup 546 470
+\i (00:41:19) oops 
+\t (00:41:19) last pick:  800  0
+\t (00:41:19) Pick an element or point to dimension ...
+\i (00:41:20) prepopup 939 56
+\i (00:41:23) pop dyn_option_select 'Snap pick to@:@Pin' 
+\i (00:41:26) pick grid 747 -227
+\t (00:41:26) last pick:  747  -227
+\t (00:41:26) First point found ... pick the second point.
+\i (00:41:28) pick grid 747 -322
+\t (00:41:28) last pick:  747  -322
+\t (00:41:28) Pick location for the dimension value.
+\i (00:41:52) prepopup 1210 53
+\i (00:41:53) cancel 
+\i (00:41:53) generaledit 
+\i (01:01:40) open 
+\e (01:01:40) Do you want to save the changes you made to C:/Users/tge/Desktop/Conductivity_sensor_footprint/conductivity_Sensor.dra?
+\i (01:01:42) fillin yes 
+\t (01:01:42) Symbol 'conductivity_sensor.psm' created.
+\i (01:02:13) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\sip3.dra"
+\i (01:02:13) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (01:02:13) Opening existing design...
+\i (01:02:13) trapsize 2
+\t (01:02:13)     Journal end - Fri Feb 21 09:54:41 2014

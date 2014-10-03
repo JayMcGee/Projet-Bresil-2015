@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLACEMENT LOG                                                    )
+(                                                                     )
+(    Drawing          : board6DFfils4.brd                             )
+(    Software Version : 16.6S021                                      )
+(    Date/Time        : Fri Mar 28 13:30:56 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Autoplace E:/cegep/cours/1Hiver_2014/Projet/pcb/board6DFfils4.brd 
+ Save as E:/cegep/cours/1Hiver_2014/Projet/pcb/board6DFfils4.brd 
+
+ Will search while getting acceptable improvement
+ Will not scale complete graph edges
+ Start time Fri Mar 28 13:30:56 2014
+
+
+ 
+ 	 	 Placement Task Version 1.00 
+ 
+ 
+ Algorithm  : IC
+ Place within: board
+ Map grid points to: library origin
+ Place leftovers on bottom: YES
+ Allow component overlap: NO
+ Soft boundary: NO
+ Cluster: NO
+ No Rat: NO
+ Remove TAG: NO
+ Components at rotation of 0 degrees are weighted 50
+
+ Components at rotation of 90 degrees are weighted 0
+
+ Components at rotation of 180 degrees are weighted 0
+
+ Components at rotation of 270 degrees are weighted 0
+
+ Board direction of north is weighted 50
+
+ Board direction of east is weighted 50
+
+ Board direction of south is weighted 50
+
+ Board direction of west is weighted 50
+
+ Component mirroring weight is 50
+
+ Component straightness weight is 50
+
+ Warning: unplaced components are not PLACE TAGGED.
+
+ Warning : Positive Plane may result in a poor placement
+
+ Error: No Package Keepin was found
+ERROR(SPMHGE-458): Error see the message(s) above.

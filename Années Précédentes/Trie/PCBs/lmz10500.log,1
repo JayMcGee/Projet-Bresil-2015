@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LMZ10500.dra                                  )
+(    Software Version : 16.6S021                                      )
+(    Date/Time        : Wed Mar 12 17:15:55 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/cegep/cours/1Hiver_2014/Projet/pcb
+    Name      = lmz10500.osm
+    User      = tge
+    Machine   = tge-9-109
+
+
+Create symbol started.
+ 
+ WARNING(SPMHA1-297): Create symbol illegal element. 
+ WARNING(SPMHA1-297): Create symbol illegal element. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

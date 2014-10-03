@@ -1,0 +1,1915 @@
+(PCB E:/cegep/cours/1Hiver_2014/Projet/pcb/board6DFfils4.brd
+ (parser
+  (string_quote ')
+  (space_in_quoted_tokens on)
+  (host_cad allegro)
+  (host_version 'v16-6-112BL_12/17/2013')
+  (write_resolution MIL 1000)
+  (routes_include testpoint)
+  (constant pcb_xlo -1042)
+  (constant pcb_ylo -978)
+  (constant pcb_xhi 9958)
+  (constant pcb_yhi 7522)
+  (constant board_name E:/cegep/cours/1Hiver_2014/Projet/pcb/board6DFfils4.brd
+   )
+  (via_rotate_first off))
+ (resolution MIL 1000)
+ (time_resolution nsec 1000000)
+ (structure
+  (boundary (rect pcb -91.50 -740.50 1789.50 2658.50))
+  (boundary (rect signal -6 -586 1704 2504))
+  (control (off_grid off)
+   (force_to_terminal_point on)
+   (noise_accumulation RSS)
+   (noise_calculation linear_interpolation)
+   (crosstalk_model CCT1A)
+   (bbv_ctr2ctr on)
+   (roundoff_rotation on)
+   (average_pair_length off)
+   (reroute_order_viols on))
+  (layer TOP
+   (type signal))
+  (layer BOTTOM
+   (type signal))
+  (rule (clearance 12))
+  (rule (width 12))
+  (via VIA)
+  (grid via 0.01)
+  (grid wire 0.01)
+  (grid manufacturing 0.001))
+ (placement
+  (place_control (flip_style mirror_first))
+  (component CONDUCTIVITY_SENSOR_J3
+   (place J3 -1 349 front 90 (property (value 'Convertion Board') (height
+      150.00))))
+  (component JUMPER3_J2
+   (place J2 49 74 front 90 (property (value 'HEADER 3') (height 500.00))))
+  (component DIPSWITCH_SW1
+   (place SW1 349 2199 front 0 (property (value 'SW DIP-8') (height 400.00))))
+  (component PQFP44_U3
+   (place U3 974 849 back 0 (property (value PIC18F47J13) (height 96.00))))
+  (component DIODESOD323_3.3V
+   (place 3.3V 724 474 back 270 (property (value 'Vz 6V') (height 150.00))))
+  (component C_0805_C14
+   (place C14 226 569 back 180 (property (value 10uF) (height 30.00))))
+  (component C_0805_C8
+   (place C8 900 2205 back 180 (property (value 100uF) (height 30.00))))
+  (component C_0805_C7
+   (place C7 574 1349 back 180 (property (value 10uF) (height 30.00))))
+  (component C_0805_C13
+   (place C13 1358 839 back 180 (property (value '0.1 uF') (height 30.00))))
+  (component C_0805_C12
+   (place C12 599 774 back 270 (property (value '0.1 uF') (height 30.00))))
+  (component C_0805_C11
+   (place C11 624 599 back 90 (property (value 10uF) (height 30.00))))
+  (component C_0805_C10
+   (place C10 174 924 back 180 (property (value 27pF) (height 30.00))))
+  (component C_0805_C9
+   (place C9 183 697 back 180 (property (value 27pF) (height 30.00))))
+  (component C_0805_C6
+   (place C6 824 424 front 90 (property (value 22uF) (height 30.00))))
+  (component C_0805_C5
+   (place C5 1199 499 back 90 (property (value 100nF) (height 30.00))))
+  (component C_0805_C4
+   (place C4 1199 499 front 270 (property (value 10uF) (height 30.00))))
+  (component C_0805_C3
+   (place C3 1599 699 front 90 (property (value 10uF) (height 30.00))))
+  (component C_0805_C2
+   (place C2 1408 522 front 0 (property (value 100nF) (height 30.00))))
+  (component C_0805_C1
+   (place C1 1408 522 back 180 (property (value 10uF) (height 30.00))))
+  (component CONNECTEUR_BNC_J4
+   (place J4 99 324 front 270 (property (value 'BNC au capteur') (height
+      150.00))))
+  (component XBEE_U4
+   (place U4 1199 1849 front 0 (property (value Xbee) (height 160.00))))
+  (component SIP6_J6
+   (place J6 624 2399 back 90 (property (value 'Connecteur PicKit') (height
+      400.00))))
+  (component CONNECTEUR_2_200_J*
+   (place J* 1324 149 front 0 (property (value 'HEADER 2') (height 150.00))))
+  (component CONNECTEUR_2_200_J7
+   (place J7 849 149 front 0 (property (value 'contact eau') (height 150.00)))
+   )
+  (component BOBINE10U100MH_L2
+   (place L2 874 724 front 0 (property (value 10uH) (height 150.00))))
+  (component BOBINE10U100MH_L1
+   (place L1 1349 999 front 0 (property (value 10uH) (height 150.00))))
+  (component R_0805_R2
+   (place R2 1424 649 back 0 (property (value ?) (height 30.00))))
+  (component R_0805_R10
+   (place R10 474 1999 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R15
+   (place R15 474 1499 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R14
+   (place R14 474 1599 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R13
+   (place R13 474 1699 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R12
+   (place R12 474 1799 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R11
+   (place R11 474 1899 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R9
+   (place R9 474 2099 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R8
+   (place R8 474 2199 back 180 (property (value 10K) (height 30.00))))
+  (component R_0805_R7
+   (place R7 649 374 back 0 (property (value 10K) (height 30.00))))
+  (component R_0805_R6
+   (place R6 374 2399 back 180 (property (value 4.7K) (height 30.00))))
+  (component R_0805_R5
+   (place R5 1249 649 front 180 (property (value 20K) (height 30.00))))
+  (component R_0805_R4
+   (place R4 1174 774 front 0 (property (value 61.9K) (height 30.00))))
+  (component R_0805_R3
+   (place R3 1524 874 back 180 (property (value 20K) (height 30.00))))
+  (component R_0805_R1
+   (place R1 1599 999 back 0 (property (value 105K) (height 30.00))))
+  (component TPS560200_U2
+   (place U2 949 499 front 0 (property (value LM104/TO) (height 150.00))))
+  (component TPS560200_U1
+   (place U1 1374 774 front 0 (property (value LM104/TO) (height 150.00))))
+  (component CRYSTAL_SMD_Y1
+   (place Y1 424 749 back 90 (property (value '4Mhz CRYSTAL') (height 150.00))
+    )))
+ (library
+  (image CONDUCTIVITY_SENSOR
+   (pin PAD60CIR35D 8 750 -625)
+   (pin PAD60CIR35D 7 750 -525)
+   (pin PAD60CIR35D 6 750 -425)
+   (pin PAD60CIR35D 5 750 -325)
+   (pin PAD60CIR35D 4 750 -225)
+   (pin PAD60CIR35D 3 50 -425)
+   (pin PAD60CIR35D 2 50 -325)
+   (pin PAD60SQ36D 1 50 -225)
+   (outline (rect signal 0 -724 800 0)))
+  (image CONDUCTIVITY_SENSOR_J3
+   (pin PAD60SQ36D 1 50 -225)
+   (pin PAD60CIR35D 2 50 -325)
+   (pin PAD60CIR35D 3 50 -425)
+   (pin PAD60CIR35D 4 750 -225)
+   (pin PAD60CIR35D 5 750 -325)
+   (pin PAD60CIR35D 6 750 -425)
+   (pin PAD60CIR35D 7 750 -525)
+   (pin PAD60CIR35D 8 750 -625)
+   (outline (polygon signal 0 0 -724 800 -724 800 0 0 0 0 -724)))
+  (image JUMPER3
+   (pin PAD60CIR36D 3 200 0)
+   (pin PAD60CIR36D 2 100 0)
+   (pin PAD60CIR36D 1 0 0)
+   (outline (rect signal -50 -50 250 50)))
+  (image JUMPER3_J2
+   (pin PAD60CIR36D 1 0 0)
+   (pin PAD60CIR36D 2 100 0)
+   (pin PAD60CIR36D 3 200 0)
+   (outline (polygon signal 0 -50 -50 250 -50 250 50 -50 50 -50 -50)))
+  (image DIPSWITCH
+   (pin PAD60CIR36D 16 300 0)
+   (pin PAD60CIR36D 15 300 -100)
+   (pin PAD60CIR36D 14 300 -200)
+   (pin PAD60CIR36D 13 300 -300)
+   (pin PAD60CIR36D 12 300 -400)
+   (pin PAD60CIR36D 11 300 -500)
+   (pin PAD60CIR36D 10 300 -600)
+   (pin PAD60CIR36D 9 300 -700)
+   (pin PAD60CIR36D 8 0 -700)
+   (pin PAD60CIR36D 7 0 -600)
+   (pin PAD60CIR36D 6 0 -500)
+   (pin PAD60CIR36D 5 0 -400)
+   (pin PAD60CIR36D 4 0 -300)
+   (pin PAD60CIR36D 3 0 -200)
+   (pin PAD60CIR36D 2 0 -100)
+   (pin PAD60SQ36D 1 0 0)
+   (outline (rect signal -40 -780 340 90)))
+  (image DIPSWITCH_SW1
+   (pin 'PAD60SQ36D-1' 1 0 0)
+   (pin PAD60CIR36D 2 0 -100)
+   (pin PAD60CIR36D 3 0 -200)
+   (pin PAD60CIR36D 4 0 -300)
+   (pin PAD60CIR36D 5 0 -400)
+   (pin PAD60CIR36D 6 0 -500)
+   (pin PAD60CIR36D 7 0 -600)
+   (pin PAD60CIR36D 8 0 -700)
+   (pin PAD60CIR36D 9 300 -700)
+   (pin PAD60CIR36D 10 300 -600)
+   (pin PAD60CIR36D 11 300 -500)
+   (pin PAD60CIR36D 12 300 -400)
+   (pin PAD60CIR36D 13 300 -300)
+   (pin PAD60CIR36D 14 300 -200)
+   (pin PAD60CIR36D 15 300 -100)
+   (pin PAD60CIR36D 16 300 0)
+   (outline (polygon signal 0 -40 -780 340 -780 340 90 -40 90 -40 -780)))
+  (image PQFP44
+   (pin SMD50REC19 22 160 -246 (rotate 270))
+   (pin SMD50REC19 21 128 -246 (rotate 270))
+   (pin SMD50REC19 20 96 -246 (rotate 270))
+   (pin SMD50REC19 19 64 -246 (rotate 270))
+   (pin SMD50REC19 18 32 -246 (rotate 270))
+   (pin SMD50REC19 17 0 -246 (rotate 270))
+   (pin SMD50REC19 16 -32 -246 (rotate 270))
+   (pin SMD50REC19 15 -64 -246 (rotate 270))
+   (pin SMD50REC19 14 -96 -246 (rotate 270))
+   (pin SMD50REC19 13 -128 -246 (rotate 270))
+   (pin SMD50REC19 12 -160 -246 (rotate 270))
+   (pin SMD50REC19 44 -160 246 (rotate 270))
+   (pin SMD50REC19 43 -128 246 (rotate 270))
+   (pin SMD50REC19 42 -96 246 (rotate 270))
+   (pin SMD50REC19 41 -64 246 (rotate 270))
+   (pin SMD50REC19 40 -32 246 (rotate 270))
+   (pin SMD50REC19 39 0 246 (rotate 270))
+   (pin SMD50REC19 38 32 246 (rotate 270))
+   (pin SMD50REC19 37 64 246 (rotate 270))
+   (pin SMD50REC19 36 96 246 (rotate 270))
+   (pin SMD50REC19 35 128 246 (rotate 270))
+   (pin SMD50REC19 34 160 246 (rotate 270))
+   (pin SMD50REC19 5 -246 32)
+   (pin SMD50REC19 4 -246 64)
+   (pin SMD50REC19 3 -246 96)
+   (pin SMD50REC19 2 -246 128)
+   (pin SMD50REC19 1 -246 160)
+   (pin SMD50REC19 27 246 -32)
+   (pin SMD50REC19 26 246 -64)
+   (pin SMD50REC19 25 246 -96)
+   (pin SMD50REC19 24 246 -128)
+   (pin SMD50REC19 23 246 -160)
+   (pin SMD50REC19 33 246 160)
+   (pin SMD50REC19 32 246 128)
+   (pin SMD50REC19 31 246 96)
+   (pin SMD50REC19 30 246 64)
+   (pin SMD50REC19 29 246 32)
+   (pin SMD50REC19 28 246 0)
+   (pin SMD50REC19 11 -246 -160)
+   (pin SMD50REC19 10 -246 -128)
+   (pin SMD50REC19 9 -246 -96)
+   (pin SMD50REC19 8 -246 -64)
+   (pin SMD50REC19 7 -246 -32)
+   (pin SMD50REC19 6 -246 0)
+   (outline (polygon signal 0 -172 277 172 277 172 197 197 197 197 172 277 172
+     277 -172 197 -172 197 -197 172 -197 172 -277 -172 -277 -172 -197 -197
+     -197 -197 -172 -277 -172 -277 172 -197 172 -197 197 -172 197 -172 277)))
+  (image PQFP44_U3
+   (pin SMD50REC19 6 -246 0)
+   (pin SMD50REC19 7 -246 -32)
+   (pin SMD50REC19 8 -246 -64)
+   (pin SMD50REC19 9 -246 -96)
+   (pin SMD50REC19 10 -246 -128)
+   (pin SMD50REC19 11 -246 -160)
+   (pin SMD50REC19 28 246 0)
+   (pin SMD50REC19 29 246 32)
+   (pin SMD50REC19 30 246 64)
+   (pin SMD50REC19 31 246 96)
+   (pin SMD50REC19 32 246 128)
+   (pin SMD50REC19 33 246 160)
+   (pin SMD50REC19 23 246 -160)
+   (pin SMD50REC19 24 246 -128)
+   (pin SMD50REC19 25 246 -96)
+   (pin SMD50REC19 26 246 -64)
+   (pin SMD50REC19 27 246 -32)
+   (pin SMD50REC19 1 -246 160)
+   (pin SMD50REC19 2 -246 128)
+   (pin SMD50REC19 3 -246 96)
+   (pin SMD50REC19 4 -246 64)
+   (pin SMD50REC19 5 -246 32)
+   (pin SMD50REC19 34 160 246 (rotate 270))
+   (pin SMD50REC19 35 128 246 (rotate 270))
+   (pin SMD50REC19 36 96 246 (rotate 270))
+   (pin SMD50REC19 37 64 246 (rotate 270))
+   (pin SMD50REC19 38 32 246 (rotate 270))
+   (pin SMD50REC19 39 0 246 (rotate 270))
+   (pin SMD50REC19 40 -32 246 (rotate 270))
+   (pin SMD50REC19 41 -64 246 (rotate 270))
+   (pin SMD50REC19 42 -96 246 (rotate 270))
+   (pin SMD50REC19 43 -128 246 (rotate 270))
+   (pin SMD50REC19 44 -160 246 (rotate 270))
+   (pin SMD50REC19 12 -160 -246 (rotate 270))
+   (pin SMD50REC19 13 -128 -246 (rotate 270))
+   (pin SMD50REC19 14 -96 -246 (rotate 270))
+   (pin SMD50REC19 15 -64 -246 (rotate 270))
+   (pin SMD50REC19 16 -32 -246 (rotate 270))
+   (pin SMD50REC19 17 0 -246 (rotate 270))
+   (pin SMD50REC19 18 32 -246 (rotate 270))
+   (pin SMD50REC19 19 64 -246 (rotate 270))
+   (pin SMD50REC19 20 96 -246 (rotate 270))
+   (pin SMD50REC19 21 128 -246 (rotate 270))
+   (pin SMD50REC19 22 160 -246 (rotate 270))
+   (outline (polygon signal 0 -172 277 172 277 172 197 197 197 197 172 277 172
+     277 -172 197 -172 197 -197 172 -197 172 -277 -172 -277 -172 -197 -197
+     -197 -197 -172 -277 -172 -277 172 -197 172 -197 197 -172 197 -172 277)))
+  (image DIODESOD323
+   (pin SMD0_7REC1_5MM 2 94.49 0 (rotate 90))
+   (pin SMD0_7REC1_5MM 1 0 0 (rotate 90))
+   (outline (rect signal -15.75 -29.53 110.24 29.53)))
+  (image DIODESOD323_3.3V
+   (pin SMD0_7REC1_5MM 1 0 0 (rotate 90))
+   (pin SMD0_7REC1_5MM 2 94.49 0 (rotate 90))
+   (outline (polygon signal 0 -15.75 -29.53 -15.75 29.53 110.24 29.53 110.24
+     -29.53 -15.75 -29.53)))
+  (image C_0805
+   (pin SMD50_60 2 75 0)
+   (pin SMD50_60 1 0 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C14
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C8
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C7
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C13
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C12
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C11
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C10
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C9
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C6
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C5
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C4
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C3
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C2
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image C_0805_C1
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image CONNECTEUR_BNC
+   (pin PAD100CIR79D cct_misc_233199360 250 485 (mechanical))
+   (pin PAD100CIR79D cct_misc_233199240 250 85 (mechanical))
+   (pin PAD55CIR38D 2 50 385)
+   (pin PAD55SQ38D 1 50 285)
+   (outline (rect signal 10 25 310 545)))
+  (image CONNECTEUR_BNC_J4
+   (pin 'PAD55SQ38D-1' 1 50 285)
+   (pin 'PAD55CIR38D-1' 2 50 385)
+   (pin PAD100CIR79D cct_misc_233199240 250 85 (mechanical))
+   (pin PAD100CIR79D cct_misc_233199360 250 485 (mechanical))
+   (outline (polygon signal 0 10 25 310 25 310 545 10 545 10 25)))
+  (image XBEE
+   (pin PAD55CIR28D 20 433 356)
+   (pin PAD55CIR28D 19 433 276)
+   (pin PAD55CIR28D 18 433 198)
+   (pin PAD55CIR28D 17 433 118)
+   (pin PAD55CIR28D 16 433 40)
+   (pin PAD55CIR28D 15 433 -40)
+   (pin PAD55CIR28D 14 433 -118)
+   (pin PAD55CIR28D 13 433 -198)
+   (pin PAD55CIR28D 12 433 -276)
+   (pin PAD55CIR28D 11 433 -356)
+   (pin PAD55CIR28D 10 -433 -356)
+   (pin PAD55CIR28D 9 -433 -276)
+   (pin PAD55CIR28D 8 -433 -198)
+   (pin PAD55CIR28D 7 -433 -118)
+   (pin PAD55CIR28D 6 -433 -40)
+   (pin PAD55CIR28D 5 -433 40)
+   (pin PAD55CIR28D 4 -433 118)
+   (pin PAD55CIR28D 3 -433 198)
+   (pin PAD55CIR28D 2 -433 276)
+   (pin PAD55CIR28D 1 -433 356)
+   (outline (rect signal -480 -648 480 648)))
+  (image XBEE_U4
+   (pin PAD55CIR28D 1 -433 356)
+   (pin PAD55CIR28D 2 -433 276)
+   (pin PAD55CIR28D 3 -433 198)
+   (pin PAD55CIR28D 4 -433 118)
+   (pin PAD55CIR28D 5 -433 40)
+   (pin PAD55CIR28D 6 -433 -40)
+   (pin PAD55CIR28D 7 -433 -118)
+   (pin PAD55CIR28D 8 -433 -198)
+   (pin PAD55CIR28D 9 -433 -276)
+   (pin 'PAD55CIR28D-1' 10 -433 -356)
+   (pin PAD55CIR28D 11 433 -356)
+   (pin PAD55CIR28D 12 433 -276)
+   (pin PAD55CIR28D 13 433 -198)
+   (pin PAD55CIR28D 14 433 -118)
+   (pin PAD55CIR28D 15 433 -40)
+   (pin PAD55CIR28D 16 433 40)
+   (pin PAD55CIR28D 17 433 118)
+   (pin PAD55CIR28D 18 433 198)
+   (pin PAD55CIR28D 19 433 276)
+   (pin PAD55CIR28D 20 433 356)
+   (outline (polygon signal 0 -480 -648 480 -648 480 648 -480 648 -480 -648)))
+  (image SIP6
+   (pin PAD60CIR36D 6 0 -500)
+   (pin PAD60CIR36D 5 0 -400)
+   (pin PAD60CIR36D 4 0 -300)
+   (pin PAD60CIR36D 3 0 -200)
+   (pin PAD60CIR36D 2 0 -100)
+   (pin PAD60SQ36D 1 0 0)
+   (outline (rect signal -50 -550 50 75)))
+  (image SIP6_J6
+   (pin PAD60SQ36D 1 0 0)
+   (pin PAD60CIR36D 2 0 -100)
+   (pin PAD60CIR36D 3 0 -200)
+   (pin PAD60CIR36D 4 0 -300)
+   (pin PAD60CIR36D 5 0 -400)
+   (pin PAD60CIR36D 6 0 -500)
+   (outline (polygon signal 0 -50 -550 -50 75 50 75 50 -550 -50 -550)))
+  (image CONNECTEUR_2_200
+   (pin PAD70CIR52D 2 200 0)
+   (pin PAD70SQ52D 1 0 0)
+   (outline (polygon signal 0 -100 175 -100 -150 300 -150 300 175 -100 175)))
+  (image CONNECTEUR_2_200_J*
+   (pin PAD70SQ52D 1 0 0)
+   (pin PAD70CIR52D 2 200 0)
+   (outline (polygon signal 0 -100 175 -100 -150 300 -150 300 175 -100 175)))
+  (image CONNECTEUR_2_200_J7
+   (pin PAD70SQ52D 1 0 0)
+   (pin PAD70CIR52D 2 200 0)
+   (outline (polygon signal 0 -100 175 -100 -150 300 -150 300 175 -100 175)))
+  (image BOBINE10U100MH
+   (pin SMD2_1REC5_8MM 2 153.54 0)
+   (pin SMD2_1REC5_8MM 1 0 0)
+   (outline (rect signal -55.12 -118.11 208.66 118.11)))
+  (image BOBINE10U100MH_L2
+   (pin SMD2_1REC5_8MM 1 0 0)
+   (pin SMD2_1REC5_8MM 2 153.54 0)
+   (outline (polygon signal 0 -55.12 -118.11 208.66 -118.11 208.66 118.11
+     -55.12 118.11 -55.12 -118.11)))
+  (image BOBINE10U100MH_L1
+   (pin SMD2_1REC5_8MM 1 0 0)
+   (pin SMD2_1REC5_8MM 2 153.54 0)
+   (outline (polygon signal 0 -55.12 -118.11 208.66 -118.11 208.66 118.11
+     -55.12 118.11 -55.12 -118.11)))
+  (image R_0805
+   (pin SMD50_60 2 75 0)
+   (pin SMD50_60 1 0 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R2
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R10
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R15
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R14
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R13
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R12
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R11
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R9
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R8
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R7
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R6
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R5
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R4
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R3
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image R_0805_R1
+   (pin SMD50_60 1 0 0)
+   (pin SMD50_60 2 75 0)
+   (outline (polygon signal 0 -30 35 -30 -35 105 -35 105 35 -30 35)))
+  (image TPS560200
+   (pin SMD60REC105MM 5 106.30 0 (rotate 270))
+   (pin SMD60REC105MM 4 106.30 -74.80 (rotate 90))
+   (pin SMD60REC105MM 3 0 -74.80 (rotate 90))
+   (pin SMD60REC105MM 2 0 -37.40 (rotate 90))
+   (pin SMD60REC105MM 1 0 0 (rotate 90))
+   (outline (rect signal -13.78 -98.43 120.08 23.62)))
+  (image TPS560200_U2
+   (pin SMD60REC105MM 1 0 0 (rotate 90))
+   (pin SMD60REC105MM 2 0 -37.40 (rotate 90))
+   (pin SMD60REC105MM 3 0 -74.80 (rotate 90))
+   (pin SMD60REC105MM 4 106.30 -74.80 (rotate 90))
+   (pin SMD60REC105MM 5 106.30 0 (rotate 270))
+   (outline (polygon signal 0 -13.78 -98.43 120.08 -98.43 120.08 23.62 -13.78
+     23.62 -13.78 -98.43)))
+  (image TPS560200_U1
+   (pin SMD60REC105MM 1 0 0 (rotate 90))
+   (pin SMD60REC105MM 2 0 -37.40 (rotate 90))
+   (pin SMD60REC105MM 3 0 -74.80 (rotate 90))
+   (pin SMD60REC105MM 4 106.30 -74.80 (rotate 90))
+   (pin SMD60REC105MM 5 106.30 0 (rotate 270))
+   (outline (polygon signal 0 -13.78 -98.43 120.08 -98.43 120.08 23.62 -13.78
+     23.62 -13.78 -98.43)))
+  (image CRYSTAL_SMD
+   (pin SMD110REC23 2 175 0)
+   (pin SMD110REC23 1 -175 0)
+   (outline (rect signal -235 -88 235 88)))
+  (image CRYSTAL_SMD_Y1
+   (pin SMD110REC23 1 -175 0)
+   (pin SMD110REC23 2 175 0)
+   (outline (polygon signal 0 -235 -88 -235 88 235 88 235 -88 -235 -88)))
+  (padstack 'PAD55CIR28D-1'
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 55 0 0))
+   (hole (circle signal 28 0 0))
+   (hole (circle power 28 0 0))
+   (antipad (circle TOP 75 0 0))
+   (antipad (circle BOTTOM 75 0 0)))
+  (padstack 'PAD60SQ36D-1'
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -30 -30 30 30))
+   (hole (circle signal 38 0 0))
+   (hole (circle power 38 0 0))
+   (antipad (rect TOP -44 -44 44 44))
+   (antipad (rect BOTTOM -44 -44 44 44)))
+  (padstack 'PAD55CIR38D-1'
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 55 0 0))
+   (hole (circle signal 38 0 0))
+   (hole (circle power 38 0 0))
+   (antipad (circle TOP 75 0 0))
+   (antipad (circle BOTTOM 75 0 0)))
+  (padstack 'PAD55SQ38D-1'
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -30 -30 30 30))
+   (hole (circle signal 38 0 0))
+   (hole (circle power 38 0 0))
+   (antipad (rect TOP -40 -40 40 40))
+   (antipad (rect BOTTOM -40 -40 40 40)))
+  (padstack SMD110REC23
+   (type smdpad)
+   (shape (rect TOP -55 -11.500 55 11.500)))
+  (padstack SMD50REC19
+   (type smdpad)
+   (shape (rect TOP -25 -9.500 25 9.500)))
+  (padstack SMD60REC105MM
+   (type smdpad)
+   (shape (rect TOP -11.810 -20.670 11.810 20.670)))
+  (padstack SMD2_1REC5_8MM
+   (type smdpad)
+   (shape (rect TOP -41.340 -114.175 41.340 114.175)))
+  (padstack PAD60CIR36D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 60 0 0))
+   (hole (circle signal 38 0 0))
+   (hole (circle power 38 0 0))
+   (antipad (circle TOP 88 0 0))
+   (antipad (circle BOTTOM 88 0 0)))
+  (padstack PAD55CIR28D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 55 0 0))
+   (hole (circle signal 28 0 0))
+   (hole (circle power 28 0 0))
+   (antipad (circle TOP 75 0 0))
+   (antipad (circle BOTTOM 75 0 0)))
+  (padstack PAD100CIR79D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 90 0 0))
+   (hole (circle signal 86 0 0))
+   (hole (circle power 86 0 0))
+   (antipad (circle TOP 120 0 0))
+   (antipad (circle BOTTOM 120 0 0)))
+  (padstack PAD55CIR38D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 55 0 0))
+   (hole (circle signal 35 0 0))
+   (hole (circle power 35 0 0))
+   (antipad (circle TOP 75 0 0))
+   (antipad (circle BOTTOM 75 0 0)))
+  (padstack PAD55SQ38D
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -30 -30 30 30))
+   (hole (circle signal 42 0 0))
+   (hole (circle power 42 0 0))
+   (antipad (rect TOP -40 -40 40 40))
+   (antipad (rect BOTTOM -40 -40 40 40)))
+  (padstack PAD60CIR35D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 60 0 0))
+   (hole (circle signal 35 0 0))
+   (hole (circle power 35 0 0))
+   (antipad (circle TOP 88 0 0))
+   (antipad (circle BOTTOM 88 0 0)))
+  (padstack PAD60SQ36D
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -30 -30 30 30))
+   (hole (circle signal 38 0 0))
+   (hole (circle power 38 0 0))
+   (antipad (rect TOP -44 -44 44 44))
+   (antipad (rect BOTTOM -44 -44 44 44)))
+  (padstack PAD70CIR52D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 70 0 0))
+   (hole (circle signal 52 0 0))
+   (hole (circle power 52 0 0))
+   (antipad (circle TOP 90 0 0))
+   (antipad (circle BOTTOM 90 0 0)))
+  (padstack PAD70SQ52D
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -35 -35 35 35))
+   (hole (circle signal 52 0 0))
+   (hole (circle power 52 0 0))
+   (antipad (rect TOP -45 -45 45 45))
+   (antipad (rect BOTTOM -45 -45 45 45)))
+  (padstack SMD0_7REC1_5MM
+   (type smdpad)
+   (shape (rect TOP -13.780 -27.560 13.780 27.560)))
+  (padstack SMD50_60
+   (type smdpad)
+   (shape (rect TOP -25 -31.500 25 31.500)))
+  (padstack VIA
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 24 0 0))
+   (hole (circle signal 20 0 0))
+   (hole (circle power 20 0 0))
+   (antipad (circle TOP 30 0 0))
+   (antipad (circle BOTTOM 30 0 0))))
+ (floor_plan)
+ (part_library
+  (logical_part_mapping 'HEADER 3_JUMPER3_HEADER 3'
+   (comp J2))
+  (logical_part 'HEADER 3_JUMPER3_HEADER 3'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 3               0    G1             1    3                    0 )
+   (pin 2               0    G1             1    2                    0 )
+   (pin 1               0    G1             1    1                    0 ))
+  (logical_part_mapping 'CAPACITOR NON-POL_C_0805_100UF'
+   (comp C8))
+  (logical_part 'CAPACITOR NON-POL_C_0805_100UF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             2    2                    0 )
+   (pin 1               0    G1             2    1                    0 ))
+  (logical_part_mapping R_R_0805_?
+   (comp R2))
+  (logical_part R_R_0805_?
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             3    2                    0 )
+   (pin 1               0    G1             3    1                    0 ))
+  (logical_part_mapping 'HEADER 2_1_CONNECTEUR_2_200_HEA'
+   (comp J*))
+  (logical_part 'HEADER 2_1_CONNECTEUR_2_200_HEA'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             4    2                    0 )
+   (pin 1               0    G1             4    1                    0 ))
+  (logical_part_mapping C_C_0805_10UF
+   (comp C14 C1 C3 C4))
+  (logical_part C_C_0805_10UF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             5    2                    0 )
+   (pin 1               0    G1             5    1                    0 ))
+  (logical_part_mapping 'CAP NP_C_0805_0.1 UF'
+   (comp C12 C13))
+  (logical_part 'CAP NP_C_0805_0.1 UF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             6    2                    0 )
+   (pin 1               0    G1             6    1                    0 ))
+  (logical_part_mapping C_C_0805_100NF
+   (comp C2 C5))
+  (logical_part C_C_0805_100NF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             7    2                    0 )
+   (pin 1               0    G1             7    1                    0 ))
+  (logical_part_mapping C_C_0805_22UF
+   (comp C6))
+  (logical_part C_C_0805_22UF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             8    2                    0 )
+   (pin 1               0    G1             8    1                    0 ))
+  (logical_part_mapping 'CAPACITOR NON-POL_C_0805_27PF'
+   (comp C9 C10))
+  (logical_part 'CAPACITOR NON-POL_C_0805_27PF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             9    2                    0 )
+   (pin 1               0    G1             9    1                    0 ))
+  (logical_part_mapping 'CAPACITOR NON-POL_C_0805_10UF'
+   (comp C7 C11))
+  (logical_part 'CAPACITOR NON-POL_C_0805_10UF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             10   2                    0 )
+   (pin 1               0    G1             10   1                    0 ))
+  (logical_part_mapping 'DIODE ZENER_DIODESOD323_VZ 6V'
+   (comp 3.3V))
+  (logical_part 'DIODE ZENER_DIODESOD323_VZ 6V'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               0    G1             11   CATHODE              0 )
+   (pin 2               0    G1             11   ANODE                0 ))
+  (logical_part_mapping 'HEADER 3X2_3_CONDUCTIVITY_SENSO'
+   (comp J3))
+  (logical_part 'HEADER 3X2_3_CONDUCTIVITY_SENSO'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 4               2    G1             12   GND                  0 )
+   (pin 8               5    G1             12   8                    0 )
+   (pin 7               5    G1             12   7                    0 )
+   (pin 6               0    G1             12   6                    0 )
+   (pin 5               0    G1             12   5                    0 )
+   (pin 3               0    G1             12   3                    0 )
+   (pin 2               0    G1             12   2                    0 )
+   (pin 1               0    G1             12   1                    0 ))
+  (logical_part_mapping 'BNC_CONNECTEUR_BNC_BNC AU CAPTE'
+   (comp J4))
+  (logical_part 'BNC_CONNECTEUR_BNC_BNC AU CAPTE'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             13   SHIELD               0 )
+   (pin 1               0    G1             13   CENTER               0 ))
+  (logical_part_mapping 'HEADER 11X2_1_XBEE_XBEE'
+   (comp U4))
+  (logical_part 'HEADER 11X2_1_XBEE_XBEE'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 9               0    G1             14   9                    0 )
+   (pin 8               0    G1             14   8                    0 )
+   (pin 7               0    G1             14   7                    0 )
+   (pin 6               0    G1             14   6                    0 )
+   (pin 5               0    G1             14   5                    0 )
+   (pin 4               0    G1             14   4                    0 )
+   (pin 3               0    G1             14   3                    0 )
+   (pin 20              0    G1             14   20                   0 )
+   (pin 2               0    G1             14   2                    0 )
+   (pin 19              0    G1             14   19                   0 )
+   (pin 18              0    G1             14   18                   0 )
+   (pin 17              0    G1             14   17                   0 )
+   (pin 16              0    G1             14   16                   0 )
+   (pin 15              0    G1             14   15                   0 )
+   (pin 14              0    G1             14   14                   0 )
+   (pin 13              0    G1             14   13                   0 )
+   (pin 12              0    G1             14   12                   0 )
+   (pin 11              0    G1             14   11                   0 )
+   (pin 10              0    G1             14   10                   0 )
+   (pin 1               0    G1             14   1                    0 ))
+  (logical_part_mapping 'HEADER 6_0_SIP6_CONNECTEUR PICK'
+   (comp J6))
+  (logical_part 'HEADER 6_0_SIP6_CONNECTEUR PICK'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 6               0    G1             15   6                    0 )
+   (pin 5               0    G1             15   5                    0 )
+   (pin 4               0    G1             15   4                    0 )
+   (pin 3               0    G1             15   3                    0 )
+   (pin 2               0    G1             15   2                    0 )
+   (pin 1               0    G1             15   1                    0 ))
+  (logical_part_mapping 'HEADER 2_CONNECTEUR_2_200_CONTA'
+   (comp J7))
+  (logical_part 'HEADER 2_CONNECTEUR_2_200_CONTA'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             16   2                    0 )
+   (pin 1               0    G1             16   1                    0 ))
+  (logical_part_mapping INDUCTOR_BOBINE10U100MH_10UH
+   (comp L1 L2))
+  (logical_part INDUCTOR_BOBINE10U100MH_10UH
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             17   2                    0 )
+   (pin 1               0    G1             17   1                    0 ))
+  (logical_part_mapping R_R_0805_105K
+   (comp R1))
+  (logical_part R_R_0805_105K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             18   2                    0 )
+   (pin 1               0    G1             18   1                    0 ))
+  (logical_part_mapping R_R_0805_10K
+   (comp R10 R15 R11 R12 R13 R14 R7 R8 R9))
+  (logical_part R_R_0805_10K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             19   2                    0 )
+   (pin 1               0    G1             19   1                    0 ))
+  (logical_part_mapping R_R_0805_20K
+   (comp R3 R5))
+  (logical_part R_R_0805_20K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             20   2                    0 )
+   (pin 1               0    G1             20   1                    0 ))
+  (logical_part_mapping R_R_0805_61.9K
+   (comp R4))
+  (logical_part R_R_0805_61.9K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             21   2                    0 )
+   (pin 1               0    G1             21   1                    0 ))
+  (logical_part_mapping RESISTOR_R_0805_4.7K
+   (comp R6))
+  (logical_part RESISTOR_R_0805_4.7K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             22   2                    0 )
+   (pin 1               0    G1             22   1                    0 ))
+  (logical_part_mapping 'SW DIP-8_DIPSWITCH_SW DIP-8'
+   (comp SW1))
+  (logical_part 'SW DIP-8_DIPSWITCH_SW DIP-8'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 9               0    G1             23   B8                   0 )
+   (pin 10              0    G1             23   B7                   0 )
+   (pin 11              0    G1             23   B6                   0 )
+   (pin 12              0    G1             23   B5                   0 )
+   (pin 13              0    G1             23   B4                   0 )
+   (pin 14              0    G1             23   B3                   0 )
+   (pin 15              0    G1             23   B2                   0 )
+   (pin 16              0    G1             23   B1                   0 )
+   (pin 8               0    G1             23   A8                   0 )
+   (pin 7               0    G1             23   A7                   0 )
+   (pin 6               0    G1             23   A6                   0 )
+   (pin 5               0    G1             23   A5                   0 )
+   (pin 4               0    G1             23   A4                   0 )
+   (pin 3               0    G1             23   A3                   0 )
+   (pin 2               0    G1             23   A2                   0 )
+   (pin 1               0    G1             23   A1                   0 ))
+  (logical_part_mapping LM104/TO_3_TPS560200_LM104/TO
+   (comp U1 U2))
+  (logical_part LM104/TO_3_TPS560200_LM104/TO
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 5               5    G1             24   VSENSE               0 )
+   (pin 4               2    G1             24   VIN                  0 )
+   (pin 3               2    G1             24   PH                   0 )
+   (pin 2               2    G1             24   GND                  0 )
+   (pin 1               3    G1             24   EN                   0 ))
+  (logical_part_mapping PIC16C67_2_PQFP44_PIC18F47J13
+   (comp U3))
+  (logical_part PIC16C67_2_PQFP44_PIC18F47J13
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 29              0    G1             25   VSS2                 0 )
+   (pin 6               0    G1             25   VSS1                 0 )
+   (pin 23              0    G1             25   VDDCORE              0 )
+   (pin 28              0    G1             25   VDD2                 0 )
+   (pin 7               0    G1             25   VDD1                 0 )
+   (pin 27              0    G1             25   RE2                  0 )
+   (pin 26              0    G1             25   RE1                  0 )
+   (pin 25              0    G1             25   RE0                  0 )
+   (pin 5               0    G1             25   RD7                  0 )
+   (pin 4               0    G1             25   RD6                  0 )
+   (pin 3               0    G1             25   RD5                  0 )
+   (pin 2               0    G1             25   RD4                  0 )
+   (pin 41              0    G1             25   RD3                  0 )
+   (pin 40              0    G1             25   RD2                  0 )
+   (pin 39              0    G1             25   RD1/SDA2             0 )
+   (pin 38              0    G1             25   RD0/SCL2             0 )
+   (pin 1               0    G1             25   RC7                  0 )
+   (pin 44              0    G1             25   RC6                  0 )
+   (pin 43              0    G1             25   RC5/SDO              0 )
+   (pin 42              0    G1             25   RC4/SDA1/SDI         0 )
+   (pin 37              0    G1             25   RC3/SCL1             0 )
+   (pin 36              0    G1             25   RC2                  0 )
+   (pin 35              0    G1             25   RC1                  0 )
+   (pin 32              0    G1             25   RC0                  0 )
+   (pin 17              0    G1             25   RB7                  0 )
+   (pin 16              0    G1             25   RB6                  0 )
+   (pin 15              0    G1             25   RB5                  0 )
+   (pin 14              0    G1             25   RB4                  0 )
+   (pin 11              0    G1             25   RB3                  0 )
+   (pin 10              0    G1             25   RB2                  0 )
+   (pin 9               0    G1             25   RB1                  0 )
+   (pin 8               0    G1             25   RB0                  0 )
+   (pin 24              0    G1             25   RA5                  0 )
+   (pin 22              0    G1             25   RA3                  0 )
+   (pin 21              0    G1             25   RA2                  0 )
+   (pin 20              0    G1             25   RA1                  0 )
+   (pin 19              0    G1             25   RA0                  0 )
+   (pin 31              0    G1             25   OSC2/RA6             0 )
+   (pin 30              0    G1             25   OSC1/RA7             0 )
+   (pin 34              0    G1             25   NC4                  0 )
+   (pin 33              0    G1             25   NC3                  0 )
+   (pin 13              0    G1             25   NC2                  0 )
+   (pin 12              0    G1             25   NC1                  0 )
+   (pin 18              0    G1             25   'M\C\L\R\'           0 ))
+  (logical_part_mapping 'CRYSTAL_CRYSTAL_SMD_4MHZ CRYSTA'
+   (comp Y1))
+  (logical_part 'CRYSTAL_CRYSTAL_SMD_4MHZ CRYSTA'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             26   2                    0 )
+   (pin 1               0    G1             26   1                    0 )))
+ (network
+  (net N94966
+   (pins R7-1 U3-25 J7-2))
+  (net N61373
+   (pins J4-1 J3-2))
+  (net N78169
+   (pins C10-2 Y1-1 U3-31))
+  (net N78069
+   (pins Y1-2 U3-30 C9-2))
+  (net GND
+   (pins C8-2 C10-1 C7-2 SW1-16 J6-3 SW1-15 SW1-14 SW1-13 SW1-12 SW1-11 SW1-10
+    SW1-9 U4-10 J3-4 U1-2 R2-1 U3-6 R3-1 C13-2 C2-1 C1-1 C4-1 C5-1 J*-1 J7-1
+    C3-1 R5-1 U2-2 C6-1 U3-29 U3-21 C11-2 C9-1 C12-2 C14-2))
+  (net XBEESLEEP
+   (pins U4-9 U3-42))
+  (net N45305
+   (pins J6-1 U3-18 R6-2))
+  (net 3.3V
+   (pins J6-2 U4-1 R8-2 R9-2 R11-2 R12-2 R13-2 R14-2 R15-2 R10-2 R6-1 C7-1
+    C6-2 R4-2 L2-2 C12-1 J2-3 U3-28 U3-22 R7-2 U3-7 C8-1 C13-1))
+  (net N56544
+   (pins U3-5 SW1-1 R8-1))
+  (net N56552
+   (pins R12-1 SW1-5 U3-41))
+  (net N56548
+   (pins U3-3 SW1-3 R10-1))
+  (net N56554
+   (pins R13-1 SW1-6 U3-40))
+  (net N56546
+   (pins U3-4 SW1-2 R9-1))
+  (net N56556
+   (pins R14-1 SW1-7 U3-39))
+  (net N56550
+   (pins R11-1 SW1-4 U3-2))
+  (net N45265
+   (pins J6-4 U3-17))
+  (net N45185
+   (pins C11-1 U3-23))
+  (net N56558
+   (pins SW1-8 U3-38 R15-1))
+  (net 'ENABLE POWER5V'
+   (pins U1-1 R2-2 U3-8))
+  (net '6A9V(PILE)'
+   (pins C1-2 C2-2 U1-4 3.3V-1 J*-2 U2-4 C5-2 C4-2))
+  (net 5V
+   (pins R1-2 L1-2 C3-2 J2-1))
+  (net XBEERESET
+   (pins U4-5 U3-36))
+  (net N88155
+   (pins L1-1 U1-3))
+  (net N88127
+   (pins U1-5 R1-1 R3-2))
+  (net XBEEDIN
+   (pins U4-3 U3-1))
+  (net XBEEDOUT
+   (pins U3-44 U4-2))
+  (net CAPTEURRX
+   (pins U3-14 J3-6))
+  (net CAPTEURTX
+   (pins U3-15 J3-5))
+  (net N45221
+   (pins J6-5 U3-16))
+  (net N61433
+   (pins C14-1 J2-2 J3-1))
+  (net N61405
+   (pins J4-2 J3-3))
+  (net CELL8
+   (pins U3-37 J3-7))
+  (net CELL7
+   (pins U3-35 J3-8))
+  (net N81598
+   (pins U3-27 3.3V-2))
+  (net N82912
+   (pins R5-2 R4-1 U2-5))
+  (net N83047
+   (pins L2-1 U2-3)))
+ (wiring
+  (wire (path BOTTOM 20 649 374 649 406 624 431) (net N94966) (type protect))
+  (via VIA 624 431 (net N94966) (type protect))
+  (via VIA 665 728 (net N94966) (type protect))
+  (wire (path BOTTOM 20 665 728 690 753 728 753) (net N94966) (type protect))
+  (wire (path BOTTOM 20 649 374 666 357 666 61 678 49 1037 49 1049 61 1049 149
+    ) (net N94966) (type protect))
+  (wire (path TOP 20 624 431 624 687 665 728) (net N94966) (type protect))
+  (wire (path TOP 20 324 399 324 334 384 274) (net N61373) (type protect))
+  (wire (path BOTTOM 20 728 945 467.50 945 446.50 924 424 924) (net N78169)
+   (type protect))
+  (wire (path BOTTOM 20 424 924 249 924) (net N78169) (type protect))
+  (wire (path BOTTOM 20 258 697 344.50 697 424 617.50) (net N78069) (type
+    protect))
+  (wire (path BOTTOM 20 424 617.50 424 574) (net N78069) (type protect))
+  (wire (path BOTTOM 20 728 913 547 913 424 790 424 617.50) (net N78069) (type
+    protect))
+  (wire (polygon BOTTOM 0 987.52 633.02 987.52 648.60 986.52 649.60 986.52 939
+    992.48 939 992.48 652.08 993.48 651.08 993.48 633.02 987.52 633.02
+    (viapop on)) (net GND) (type protect))
+  (wire (polygon BOTTOM 0 1018.52 633.02 1018.52 661.44 1017.52 662.44 1017.52
+    894.52 1021.09 894.52 1021.46 892.99 1022.09 890.94 1022.98 888.99 1022.98
+    633.02 1018.52 633.02 (viapop on)) (net GND) (type protect))
+  (wire (polygon TOP 0 1635.52 791.52 1635.52 804.02 1616.52 804.02 1616.52
+    918.25 1602.60 932.17 1602.14 932.73 1601.78 933.36 1601.54 934.04 1601.43
+    934.76 1601.46 935.48 1601.61 936.19 1601.88 936.86 1602.28 937.47 1602.78
+    938 1603.36 938.42 1604.01 938.74 1604.71 938.94 1605.43 939 1647 939 1647
+    791.52 1635.52 791.52 (viapop on)) (net GND) (type protect))
+  (wire (path BOTTOM 25 1408 522 1408 560.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 1408 483.48 1408 522) (net GND) (type protect))
+  (wire (path TOP 25 1408 522 1408 560.52) (net GND) (type protect))
+  (wire (path TOP 25 1408 483.48 1408 522) (net GND) (type protect))
+  (wire (path TOP 25 1375.98 522 1344 522) (net GND) (type protect))
+  (wire (path BOTTOM 25 1375.98 522 1344 522) (net GND) (type protect))
+  (wire (path TOP 25 1408 522 1375.98 522) (net GND) (type protect))
+  (wire (path BOTTOM 25 1408 522 1375.98 522) (net GND) (type protect))
+  (wire (path TOP 25 1199 499 1199 531.02) (net GND) (type protect))
+  (wire (path TOP 25 1199 531.02 1199 551) (net GND) (type protect))
+  (wire (path BOTTOM 25 1199 499 1199 531.02) (net GND) (type protect))
+  (wire (path BOTTOM 25 1199 531.02 1199 551) (net GND) (type protect))
+  (wire (path TOP 25 1424 737 1423.60 736.60) (net GND) (type protect))
+  (wire (path BOTTOM 25 150.98 697 183 697) (net GND) (type protect))
+  (wire (path BOTTOM 25 183 697 183 735.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 301 569 333.02 569) (net GND) (type protect))
+  (wire (path BOTTOM 25 301 569 301 607.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 301 530.48 301 569) (net GND) (type protect))
+  (wire (path BOTTOM 25 624 524 662.52 524) (net GND) (type protect))
+  (wire (path BOTTOM 25 585.48 524 624 524) (net GND) (type protect))
+  (wire (path BOTTOM 25 849 149 891.02 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 806.98 149 849 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 849 149 849 191.02) (net GND) (type protect))
+  (wire (path BOTTOM 25 849 106.98 849 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 1324 149 1366.02 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 1281.98 149 1324 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 1324 149 1324 191.02) (net GND) (type protect))
+  (wire (path BOTTOM 25 1324 106.98 1324 149) (net GND) (type protect))
+  (wire (path BOTTOM 25 1199 499 1237.52 499) (net GND) (type protect))
+  (wire (path BOTTOM 25 1160.48 499 1199 499) (net GND) (type protect))
+  (wire (path BOTTOM 25 1433 839 1465.02 839) (net GND) (type protect))
+  (wire (path BOTTOM 25 1433 839 1433 877.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 1433 800.48 1433 839) (net GND) (type protect))
+  (wire (path BOTTOM 25 1424 649 1456.02 649) (net GND) (type protect))
+  (wire (path BOTTOM 25 1424 649 1424 687.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 1424 610.48 1424 649) (net GND) (type protect))
+  (wire (path BOTTOM 25 1491.98 874 1524 874) (net GND) (type protect))
+  (wire (path BOTTOM 25 1524 874 1524 912.52) (net GND) (type protect))
+  (wire (path BOTTOM 25 1524 835.48 1524 874) (net GND) (type protect))
+  (wire (path TOP 25 949 461.60 976.69 461.60) (net GND) (type protect))
+  (wire (path TOP 25 921.31 461.60 949 461.60) (net GND) (type protect))
+  (wire (path TOP 25 849 149 891.02 149) (net GND) (type protect))
+  (wire (path TOP 25 806.98 149 849 149) (net GND) (type protect))
+  (wire (path TOP 25 849 149 849 191.02) (net GND) (type protect))
+  (wire (path TOP 25 1324 149 1366.02 149) (net GND) (type protect))
+  (wire (path TOP 25 1281.98 149 1324 149) (net GND) (type protect))
+  (wire (path TOP 25 1324 149 1324 191.02) (net GND) (type protect))
+  (wire (path TOP 25 1199 499 1237.52 499) (net GND) (type protect))
+  (wire (path TOP 25 1160.48 499 1199 499) (net GND) (type protect))
+  (wire (path TOP 25 1249 649 1281.02 649) (net GND) (type protect))
+  (wire (path TOP 25 1249 649 1249 687.52) (net GND) (type protect))
+  (wire (path TOP 25 1249 610.48 1249 649) (net GND) (type protect))
+  (wire (path TOP 25 1599 699 1637.52 699) (net GND) (type protect))
+  (wire (path TOP 25 1560.48 699 1599 699) (net GND) (type protect))
+  (wire (path TOP 25 1599 666.98 1599 699) (net GND) (type protect))
+  (wire (path TOP 25 1423.60 736.60 1374 736.60) (net GND) (type protect))
+  (wire (path TOP 25 1374 736.60 1373.99 736.60) (net GND) (type protect))
+  (wire (path BOTTOM 25 183 697 183 658.48) (net GND) (type protect))
+  (wire (path BOTTOM 25 975 2205 975 2235.99 949.99 2261 791.55 2261) (net GND
+    ) (type protect))
+  (wire (path TOP 25 791.55 2261 824 2293.45 824 2399) (net GND) (type protect
+    ))
+  (wire (path TOP 25 649 1499 696.50 1499 702.50 1493 766 1493) (net GND)
+   (type protect))
+  (via VIA 791.55 2261 (net GND) (type protect))
+  (wire (path BOTTOM 25 174 924 174 1049 224 1099) (net GND) (type protect))
+  (wire (path TOP 25 649 2199 711 2261 791.55 2261) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1499 649 1349) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1599 649 1499) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1699 649 1599) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1799 649 1699) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1899 649 1799) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1999 649 1899) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 2099 649 1999) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 2199 649 2099) (net GND) (type protect))
+  (wire (path BOTTOM 25 649 1349 649 1332.85 609.15 1293 418 1293 224 1099)
+   (net GND) (type protect))
+  (wire (path BOTTOM 25 174 924 174 878.50) (net GND) (type protect))
+  (wire (path BOTTOM 25 646 866 629 849 599 849) (net GND) (type protect))
+  (wire (path BOTTOM 25 599 849 546 849) (net GND) (type protect))
+  (wire (path BOTTOM 20 1261.45 849 1220 849) (net GND) (type protect))
+  (wire (path TOP 25 824 424 878 424) (net GND) (type protect))
+  (via VIA 1001 424 (net GND) (type protect))
+  (via VIA 1002 462 (net GND) (type protect))
+  (via VIA 1002 499 (net GND) (type protect))
+  (via VIA 1053 461 (net GND) (type protect))
+  (wire (path BOTTOM 20 1220 849 1176 849) (net GND) (type protect))
+  (via VIA 1478 736 (net GND) (type protect))
+  (via VIA 1427 774 (net GND) (type protect))
+  (via VIA 1427 737 (net GND) (type protect))
+  (via VIA 1427 700 (net GND) (type protect))
+  (via VIA 1344 522 (net GND) (type protect))
+  (via VIA 1199 551 (net GND) (type protect))
+  (via VIA 241 839 (net GND) (type protect))
+  (wire (path BOTTOM 20 846 603 846 558) (net GND) (type protect))
+  (wire (path BOTTOM 20 728 881 779 881) (net GND) (type protect))
+  (wire (path BOTTOM 20 728 881 688 881) (net GND) (type protect))
+  (wire (path BOTTOM 20 846 603 846 646) (net GND) (type protect))
+  (via VIA 893 517 (net GND) (type protect))
+  (via VIA 220 634 (net GND) (type protect))
+  (via VIA 175 849 (net GND) (type protect))
+  (wire (polygon TOP 0 1279.48 835.75 1269.93 826.20 1269.63 825.95 1269.28
+    825.77 1268.91 825.66 1268.52 825.62 1268.13 825.66 1267.75 825.77 1267.41
+    825.96 1267.10 826.21 1266.86 826.51 1266.67 826.86 1266.56 827.23 1266.52
+    827.62 1266.52 830.25 1186.66 910.10 1141.52 910.10 1141.52 939 1302.64
+    939 1302.64 879.81 1331.48 879.81 1331.48 826.25 1301.98 796.74 1301.98
+    716.73 1337.02 681.68 1374 681.68 1376.32 681.84 1378.59 682.31 1378.85
+    682.38 1399.68 682.38 1399.68 719.77 1399.69 719.77 1399.69 790.83 1362.35
+    790.83 1359.56 792.08 1356.59 792.82 1355.88 793 1355.21 793.30 1354.61
+    793.72 1354.10 794.25 1353.69 794.86 1353.40 795.53 1353.24 796.24 1353.21
+    796.98 1353.31 797.70 1353.54 798.40 1353.90 799.04 1354.37 799.60 1366.52
+    811.75 1366.52 879.81 1395.36 879.81 1395.36 939 1456.18 939 1456.18
+    879.81 1548.90 879.81 1548.90 926.68 1548.98 927.46 1549.20 928.21 1549.57
+    928.90 1550.07 929.50 1550.68 930 1551.37 930.37 1552.11 930.60 1552.89
+    930.68 1553.67 930.60 1554.42 930.37 1555.11 930.01 1555.72 929.51 1581.48
+    903.75 1581.48 804.02 1562.48 804.02 1562.48 743.98 1635.52 743.98 1635.52
+    756.48 1640.75 756.48 1647 750.23 1647 149 1564.07 149 1563.97 150.90 1563
+    157.96 1560.79 164.74 1557.42 171.02 1552.98 176.60 1547.62 181.30 1541.52
+    184.98 1541.52 406.25 1500.52 447.25 1500.52 485.48 1513.02 485.48 1513.02
+    558.52 1500.52 558.52 1500.52 582.85 1500.64 583.53 1500.68 583.67 1500.69
+    583.70 1501.31 586.32 1501.52 589 1501.52 673.44 1497.82 677.14 1497.82
+    682.38 1505.98 682.38 1505.98 716.02 1485.48 716.02 1484.84 716.12 1484.74
+    716.15 1481.73 716.66 1478.68 716.65 1475.68 716.10 1475.42 716.02 1454.62
+    716.02 1454.62 682.38 1462.78 682.38 1462.78 662.64 1466.48 658.94 1466.48
+    596.25 1465.48 595.25 1465.48 558.52 1452.98 558.52 1452.98 485.48 1465.48
+    485.48 1465.48 441.52 1235.52 441.52 1235.52 454.02 1162.48 454.02 1162.48
+    441.52 1100.92 441.52 1100.72 441.72 1055.30 441.72 1052.97 441.56 1050.68
+    441.10 1050.42 441.02 1029.62 441.02 1029.62 407.38 1050.12 407.38 1050.76
+    407.28 1050.86 407.25 1053.05 406.82 1055.28 406.68 1086.22 406.68 1086.42
+    406.48 1162.48 406.48 1162.48 393.98 1235.52 393.98 1235.52 406.48 1491.75
+    406.48 1506.48 391.75 1506.48 184.98 1500.38 181.30 1495.02 176.60 1490.58
+    171.02 1487.21 164.74 1485 157.96 1484.03 150.90 1483.93 149 1364.02 149
+    1364.02 189.02 1283.98 189.02 1283.98 149 1089.07 149 1088.97 150.90
+    1087.89 158.43 1085.40 165.62 1081.60 172.21 1076.62 177.96 1070.64 182.66
+    1063.87 186.15 1056.57 188.29 1049 189.02 1041.43 188.29 1034.13 186.15
+    1027.36 182.66 1021.38 177.96 1016.40 172.21 1012.60 165.62 1010.11 158.43
+    1009.03 150.90 1008.93 149 889.02 149 889.02 189.02 808.98 189.02 808.98
+    149 731.60 149 731.60 460.39 697.49 494.49 694.84 496.67 691.81 498.29
+    688.53 499.28 685.11 499.62 681.69 499.28 678.41 498.29 675.38 496.67
+    672.73 494.49 670.55 491.84 668.93 488.81 667.94 485.53 667.60 482.11
+    667.94 478.69 668.93 475.41 670.55 472.38 672.73 469.73 696.56 445.89
+    696.56 149 660.77 149 628.25 181.52 170.94 181.52 170.16 181.60 169.41
+    181.82 168.72 182.19 168.12 182.69 167.62 183.30 167.25 183.99 167.02
+    184.73 166.94 185.51 167.02 186.29 167.25 187.04 167.61 187.73 168.11
+    188.34 241.52 261.75 241.52 363.98 259.02 363.98 259.02 434.02 241.52
+    434.02 241.52 439.25 243.52 441.25 243.52 520.93 182.22 582.22 179.57
+    584.40 176.54 586.02 173.26 587.01 169.84 587.35 166.42 587.01 163.14
+    586.02 160.11 584.40 157.46 582.22 155.28 579.57 153.66 576.54 152.67
+    573.26 152.33 569.84 152.67 566.42 153.66 563.14 155.28 560.11 157.46
+    557.46 208.48 506.43 208.48 455.75 206.48 453.75 206.48 434.02 188.98
+    434.02 188.98 363.98 206.48 363.98 206.48 276.25 148.76 218.52 139 218.52
+    139 756.48 502 756.48 505.42 756.82 508.70 757.81 511.73 759.43 514.39
+    761.61 516.57 764.27 518.19 767.30 519.18 770.58 519.52 774 519.18 777.42
+    518.19 780.70 516.57 783.73 514.39 786.39 511.73 788.57 508.70 790.19
+    505.42 791.18 502 791.52 139 791.52 139 939 1022.98 939 1022.98 905.01
+    1021.71 901.95 1021.06 898.69 1021.05 895.38 1021.68 892.12 1022.94 889.05
+    1024.76 886.28 1027.09 883.92 1029.83 882.05 1032.88 880.75 1036.13 880.07
+    1039.44 880.03 1042.71 880.63 1045.79 881.86 1048.58 883.66 1050.96 885.96
+    1051.51 886.49 1052.15 886.91 1052.86 887.20 1053.62 887.34 1054.38 887.34
+    1055.14 887.20 1055.85 886.91 1056.49 886.49 1057.04 885.96 1059.42 883.66
+    1062.21 881.86 1065.29 880.63 1068.56 880.03 1071.87 880.07 1075.12 880.75
+    1078.17 882.05 1080.91 883.92 1083.24 886.28 1085.06 889.05 1086.32 892.12
+    1086.95 895.38 1086.94 898.69 1086.29 901.95 1085.02 905.01 1085.02 939
+    1106.48 939 1106.48 900.55 1049.12 843.19 981.18 843.19 981.18 629.57
+    948.84 597.22 903.96 597.22 848.34 541.61 847.73 541.11 847.04 540.75
+    846.29 540.52 845.51 540.44 844.73 540.52 843.99 540.75 843.30 541.12
+    842.69 541.62 842.19 542.22 841.82 542.91 841.60 543.66 841.52 544.44
+    841.52 549.25 826.38 564.38 823.73 566.56 820.70 568.18 817.42 569.17 814
+    569.51 810.58 569.17 807.30 568.18 804.27 566.56 801.62 564.38 799.44
+    561.73 797.82 558.70 796.83 555.42 796.49 552 796.83 548.58 797.82 545.30
+    799.44 542.27 801.62 539.62 806.48 534.75 806.48 529.02 787.48 529.02
+    787.48 468.98 860.52 468.98 860.52 504.25 918.46 562.20 963.34 562.20
+    1005.96 604.81 1073.90 604.81 1073.90 818.43 1130.54 875.08 1172.16 875.08
+    1231.48 815.75 1231.48 810.52 1218.98 810.52 1218.98 737.48 1279.02 737.48
+    1279.02 785.75 1314.52 821.25 1314.52 839 1314.18 842.42 1313.19 845.70
+    1311.57 848.73 1309.39 851.39 1306.73 853.57 1303.70 855.19 1300.42 856.18
+    1297 856.52 1293.58 856.18 1290.30 855.19 1287.27 853.57 1284.61 851.39
+    1282.43 848.73 1280.81 845.70 1279.82 842.42 1279.48 839 1279.48 835.75
+    (viapop on)) (net GND) (type protect)
+   (window (polygon TOP 0 669.94 711.71 639.02 680.78 639.02 439.01 640.29
+     435.93 640.94 432.66 640.94 429.32 640.29 426.05 639.01 422.97 637.15
+     420.20 634.79 417.84 632.02 415.99 628.94 414.71 625.67 414.06 622.33
+     414.06 619.06 414.71 615.98 415.99 613.21 417.84 610.85 420.20 608.99
+     422.97 607.71 426.05 607.06 429.32 607.06 432.66 607.71 435.93 608.98
+     439.01 608.98 693.22 648.71 732.94 648.86 733.39 650.20 736.40 652.09
+     739.09 654.47 741.37 657.24 743.14 660.30 744.35 663.53 744.95 666.82
+     744.92 670.05 744.25 673.08 742.98 675.81 741.14 678.14 738.81 679.98
+     736.08 681.25 733.05 681.92 729.82 681.95 726.53 681.35 723.30 680.14
+     720.24 678.37 717.47 676.09 715.09 673.40 713.20 670.39 711.86 669.94
+     711.71))
+   (window (polygon TOP 0 884.19 343.48 777.55 343.48 742.28 378.75 742.28
+     706.25 777.55 741.52 827.64 741.52 827.64 843.19 920.36 843.19 920.36
+     604.81 827.64 604.81 827.64 706.48 792.05 706.48 777.32 691.75 777.32
+     393.25 792.05 378.52 869.69 378.52 923.32 432.14 923.32 444.77 923.31
+     444.77 923.31 515.83 974.69 515.83 974.69 444.77 974.68 444.77 974.68
+     407.38 953.88 407.38 953.62 407.30 951.33 406.84 949 406.68 947.39 406.68
+     884.19 343.48))
+   (window (polygon TOP 0 1562.48 729.02 1635.52 729.02 1635.52 668.98 1562.48
+     668.98 1562.48 729.02))
+   (window (polygon TOP 0 1218.98 685.52 1279.02 685.52 1279.02 612.48 1218.98
+     612.48 1218.98 685.52))
+   (window (polygon TOP 0 787.48 454.02 860.52 454.02 860.52 393.98 787.48
+     393.98 787.48 454.02))
+   (window (polygon TOP 0 339.02 340.22 370.22 309.02 419.02 309.02 419.02
+     238.98 348.98 238.98 348.98 287.78 308.98 327.78 308.98 367.36 303.20
+     370.82 298.19 375.33 294.13 380.71 291.18 386.77 289.45 393.29 288.99
+     400.01 289.83 406.70 291.94 413.10 295.23 418.98 299.59 424.12 304.86
+     428.33 310.83 431.45 317.29 433.38 324 434.02 330.71 433.38 337.17 431.45
+     343.14 428.33 348.41 424.12 352.77 418.98 356.06 413.10 358.17 406.70
+     359.01 400.01 358.55 393.29 356.82 386.77 353.87 380.71 349.81 375.33
+     344.80 370.82 339.02 367.36 339.02 340.22))
+   (window (polygon TOP 0 439.02 340.22 474.20 305.03 475.33 305.34 481.55
+     306.42 487.87 306.29 494.03 304.93 499.82 302.41 505.02 298.81 509.42
+     294.28 512.86 288.99 515.21 283.13 516.39 276.92 516.34 270.61 515.07
+     264.42 512.64 258.59 509.12 253.35 504.65 248.88 499.41 245.36 493.58
+     242.93 487.39 241.66 481.08 241.61 474.87 242.79 469.01 245.14 463.72
+     248.58 459.19 252.98 455.59 258.18 453.07 263.97 451.71 270.13 451.58
+     276.45 452.66 282.67 452.97 283.80 408.98 327.78 408.98 367.36 403.20
+     370.82 398.19 375.33 394.13 380.71 391.18 386.77 389.45 393.29 388.99
+     400.01 389.83 406.70 391.94 413.10 395.23 418.98 399.59 424.12 404.86
+     428.33 410.83 431.45 417.29 433.38 424 434.02 430.71 433.38 437.17 431.45
+     443.14 428.33 448.41 424.12 452.77 418.98 456.06 413.10 458.17 406.70
+     459.01 400.01 458.55 393.29 456.82 386.77 453.87 380.71 449.81 375.33
+     444.80 370.82 439.02 367.36 439.02 340.22))
+   (window (polygon TOP 0 1168.75 612.48 1105.86 549.60 1105.86 515.94 1080.98
+     491.06 1080.98 482.18 1072.10 482.18 1071.41 481.48 1055.30 481.48
+     1052.97 481.64 1050.68 482.10 1050.42 482.18 1029.62 482.18 1029.62
+     515.82 1050.42 515.82 1050.68 515.90 1052.97 516.36 1055.30 516.52
+     1056.91 516.52 1070.84 530.44 1070.84 564.10 1143.98 637.25 1143.98
+     685.52 1156.48 685.52 1156.48 737.48 1143.98 737.48 1143.98 810.52
+     1204.02 810.52 1204.02 737.48 1191.52 737.48 1191.52 685.52 1204.02
+     685.52 1204.02 612.48 1168.75 612.48))
+   (window (polygon TOP 0 1527 791.52 1530.42 791.18 1533.70 790.19 1536.73
+     788.57 1539.39 786.39 1541.57 783.73 1543.19 780.70 1544.18 777.42
+     1544.52 774 1544.18 770.58 1543.19 767.30 1541.57 764.27 1539.39 761.61
+     1536.73 759.43 1533.70 757.81 1530.42 756.82 1527 756.48 1480.30 756.48
+     1477.97 756.64 1475.68 757.10 1475.42 757.18 1454.62 757.18 1454.62
+     790.82 1475.42 790.82 1475.68 790.90 1477.97 791.36 1480.30 791.52 1527
+     791.52))
+   (window (polygon TOP 0 1235.52 468.98 1162.48 468.98 1162.48 529.02 1235.52
+     529.02 1235.52 468.98))
+   (window (polygon TOP 0 1377.98 558.52 1438.02 558.52 1438.02 485.48 1377.98
+     485.48 1377.98 558.52)))
+  (wire (polygon BOTTOM 0 829.02 633.02 829.02 834.72 799.72 864.02 758.02
+    864.02 758.02 939 959.48 939 959.48 638.40 960.48 637.40 960.48 633.02
+    829.02 633.02 (viapop on)) (net GND) (type protect))
+  (wire (polygon BOTTOM 0 702.22 430.02 654.22 478.02 563.22 478.02 535.22
+    506.02 139 506.02 139 939 143.98 939 143.98 887.48 204.02 887.48 204.02
+    939 218.98 939 218.98 887.48 279.02 887.48 279.02 908.98 407.48 908.98
+    407.48 863.98 440.52 863.98 440.52 908.98 452.72 908.98 473.72 929.98
+    533.09 929.98 533.87 929.90 534.62 929.68 535.31 929.31 535.92 928.81
+    536.41 928.21 536.78 927.52 537.01 926.77 537.09 925.99 537.01 925.21
+    536.78 924.46 536.42 923.77 535.92 923.16 408.98 796.22 408.98 663.41
+    408.90 662.63 408.68 661.88 408.31 661.19 407.81 660.58 407.21 660.09
+    406.52 659.72 405.77 659.49 404.99 659.41 404.21 659.49 403.46 659.72
+    402.77 660.08 402.16 660.58 350.72 712.02 288.02 712.02 288.02 733.52
+    227.98 733.52 227.98 660.48 288.02 660.48 288.02 681.98 338.28 681.98
+    407.48 612.78 407.48 513.98 440.52 513.98 440.52 634.02 439.02 634.02
+    439.02 783.78 553.22 897.98 697.98 897.98 697.98 864.02 681.78 864.02
+    664.77 847 664.27 846.86 661.24 845.70 658.48 844 656.08 841.83 654.12
+    839.24 652.67 836.34 651.78 833.23 651.48 830 651.48 802.25 640.75 791.52
+    635.52 791.52 635.52 804.02 562.48 804.02 562.48 791.52 502 791.52 498.58
+    791.18 495.30 790.19 492.27 788.57 489.61 786.39 487.43 783.73 485.81
+    780.70 484.82 777.42 484.48 774 484.82 770.58 485.81 767.30 487.43 764.27
+    489.61 761.61 492.27 759.43 495.30 757.81 498.58 756.82 502 756.48 562.48
+    756.48 562.48 743.98 635.52 743.98 635.52 756.48 655.25 756.48 686.52
+    787.75 686.52 826.28 694.22 833.98 697.98 833.98 697.98 768.02 683.78
+    768.02 660.06 744.29 659.61 744.14 656.60 742.80 653.91 740.91 651.63
+    738.53 649.86 735.76 648.65 732.70 648.05 729.47 648.08 726.18 648.75
+    722.95 650.02 719.92 651.86 717.19 654.19 714.86 656.92 713.02 659.95
+    711.75 663.18 711.08 666.47 711.05 669.70 711.65 672.76 712.86 675.53
+    714.63 677.91 716.91 679.80 719.60 681.14 722.61 681.29 723.06 691.16
+    732.92 691.77 733.42 692.46 733.78 693.21 734.01 693.99 734.09 694.77
+    734.01 695.52 733.78 696.21 733.41 696.81 732.92 697.31 732.31 697.68
+    731.62 697.90 730.87 697.98 730.09 697.98 704.02 642.78 704.02 608.98
+    670.22 608.98 629.02 587.48 629.02 587.48 568.98 660.52 568.98 660.52
+    629.02 639.02 629.02 639.02 657.78 655.22 673.98 728 673.98 729.82 674.10
+    731.61 674.43 731.85 674.48 759.98 674.48 759.98 668.27 708.98 617.27
+    708.98 601.06 705.20 601.06 705.20 535.92 742.80 535.92 742.80 601.06
+    739.02 601.06 739.02 604.83 790.02 655.83 790.02 809.84 772.70 827.16
+    772.20 827.77 771.84 828.46 771.61 829.21 771.53 829.99 771.61 830.77
+    771.84 831.52 772.21 832.21 772.70 832.81 773.31 833.31 774 833.68 774.75
+    833.90 775.53 833.98 787.28 833.98 798.98 822.28 798.98 560.01 797.71
+    556.93 797.06 553.66 797.06 550.32 797.71 547.05 798.99 543.97 800.85
+    541.20 803.21 538.84 805.98 536.99 809.06 535.71 812.33 535.06 815.67
+    535.06 818.94 535.71 822.02 536.99 824.79 538.84 827.15 541.20 829.01
+    543.97 830.29 547.05 830.94 550.32 830.94 553.66 830.29 556.93 829.02
+    560.01 829.02 572.98 926.98 572.98 926.98 486.22 870.78 430.02 702.22
+    430.02 (viapop on)) (net GND) (type protect)
+   (window (polygon BOTTOM 0 256.02 605.52 256.02 532.48 195.98 532.48 195.98
+     551.48 163.43 551.48 157.46 557.46 155.35 560.01 153.76 562.91 152.75
+     566.06 152.34 569.35 152.56 572.65 153.40 575.85 154.82 578.84 156.79
+     581.51 159.21 583.75 162.02 585.51 165.11 586.70 168.37 587.29 171.68
+     587.26 174.92 586.60 175.21 586.52 195.98 586.52 195.98 605.52 256.02
+     605.52))
+   (window (polygon BOTTOM 0 742.80 506.58 742.80 441.42 705.20 441.42 705.20
+     456.48 685.97 456.48 672.73 469.73 670.55 472.38 668.93 475.41 667.94
+     478.69 667.60 482.11 667.94 485.53 668.93 488.81 670.55 491.84 672.73
+     494.49 675.38 496.67 678.41 498.29 681.69 499.28 685.11 499.62 688.53
+     499.28 691.81 498.29 694.84 496.67 697.49 494.49 700.47 491.52 705.20
+     491.52 705.20 506.58 742.80 506.58))
+   (window (polygon BOTTOM 0 152.98 733.52 213.02 733.52 213.02 660.48 152.98
+     660.48 152.98 733.52))
+   (window (polygon BOTTOM 0 270.98 605.52 331.02 605.52 331.02 532.48 270.98
+     532.48 270.98 605.52))
+   (window (polygon BOTTOM 0 587.48 554.02 660.52 554.02 660.52 493.98 587.48
+     493.98 587.48 554.02))
+   (window (polygon BOTTOM 0 562.48 879.02 635.52 879.02 635.52 818.98 562.48
+     818.98 562.48 879.02)))
+  (wire (polygon BOTTOM 0 1647 49 1063.07 49 1062.68 49.04 1062.31 49.15
+    1061.96 49.34 1061.66 49.58 1061.41 49.89 1061.22 50.23 1061.11 50.61
+    1061.07 51 1061.11 51.39 1061.22 51.76 1061.40 52.11 1061.65 52.41 1064.02
+    54.78 1064.02 111.90 1070.76 115.41 1076.72 120.13 1081.67 125.88 1085.45
+    132.48 1087.92 139.66 1088.98 147.19 1088.61 154.78 1086.80 162.16 1083.63
+    169.06 1079.22 175.25 1073.71 180.49 1067.32 184.59 1060.26 187.41 1052.80
+    188.84 1045.20 188.84 1037.74 187.41 1030.68 184.59 1024.29 180.49 1018.78
+    175.25 1014.37 169.06 1011.20 162.16 1009.39 154.78 1009.02 147.19 1010.08
+    139.66 1012.55 132.48 1016.33 125.88 1021.28 120.13 1027.24 115.41 1033.98
+    111.90 1033.98 67.22 1030.78 64.02 684.22 64.02 681.02 67.22 681.02 363.22
+    679.02 365.22 679.02 401.09 679.10 401.87 679.32 402.62 679.69 403.31
+    680.19 403.92 680.79 404.41 681.48 404.78 682.23 405.01 683.01 405.09
+    683.79 405.01 684.54 404.78 685.23 404.42 685.84 403.92 689.78 399.98
+    883.22 399.98 957.02 473.78 957.02 572.98 1148.52 572.98 1148.52 633.02
+    1085.02 633.02 1085.02 888.99 1086.29 892.05 1086.94 895.31 1086.95 898.62
+    1086.32 901.88 1085.06 904.95 1083.24 907.72 1080.91 910.08 1078.17 911.95
+    1075.12 913.25 1071.87 913.93 1068.56 913.97 1065.29 913.37 1062.21 912.14
+    1059.42 910.34 1057.04 908.04 1056.49 907.51 1055.85 907.09 1055.14 906.80
+    1054.38 906.66 1053.62 906.66 1052.86 906.80 1052.15 907.09 1051.51 907.51
+    1050.96 908.04 1048.56 910.36 1045.75 912.16 1042.64 913.38 1039.36 913.97
+    1036.03 913.91 1032.76 913.20 1029.71 911.87 1026.97 909.96 1024.65 907.56
+    1024.12 907.01 1023.51 906.58 1022.81 906.26 1022.08 906.09 1021.32 906.05
+    1020.57 906.16 1019.85 906.41 1019.20 906.79 1018.62 907.29 1018.15 907.88
+    1017.81 908.56 1017.59 909.28 1017.52 910.04 1017.52 939 1189.98 939
+    1189.98 674.48 1250.02 674.48 1250.02 769.98 1253.78 769.98 1276.78 746.98
+    1333.98 746.98 1333.98 685.52 1318.98 685.52 1318.98 612.48 1379.02 612.48
+    1379.02 685.52 1364.02 685.52 1364.02 762.24 1366.42 764.36 1368.37 766.88
+    1369.82 769.73 1370.72 772.80 1371.02 775.98 1370.73 779.16 1369.84 782.23
+    1368.40 785.08 1366.45 787.61 1364.06 789.73 1361.31 791.37 1358.31 792.46
+    1355.16 792.98 1351.96 792.90 1348.84 792.22 1345.90 790.96 1343.24 789.19
+    1340.97 786.94 1339.15 784.31 1337.86 781.39 1337.71 780.94 1333.78 777.02
+    1289.22 777.02 1267.66 798.57 1267.41 798.87 1267.23 799.22 1267.12 799.59
+    1267.08 799.98 1267.12 800.37 1267.23 800.75 1267.42 801.09 1267.67 801.40
+    1267.97 801.64 1268.32 801.83 1268.69 801.94 1269.08 801.98 1272.62 801.98
+    1272.98 801.85 1276.23 800.92 1279.60 800.63 1282.96 801 1286.19 802
+    1289.17 803.61 1291.78 805.76 1307.51 821.48 1327.98 821.48 1327.98 802.48
+    1388.02 802.48 1388.02 875.52 1327.98 875.52 1327.98 856.52 1297 856.52
+    1293.82 856.23 1290.75 855.37 1287.89 853.96 1285.33 852.07 1283.16 849.73
+    1281.44 847.04 1280.24 844.09 1280.24 844.08 1280.09 843.60 1268.51 832.02
+    1250.02 832.02 1250.02 865.98 1301.22 865.98 1374.23 939 1581.48 939
+    1581.48 910.52 1568.98 910.52 1568.98 837.48 1581.48 837.48 1581.48 823.75
+    1549.25 791.52 1527 791.52 1523.58 791.18 1520.30 790.19 1517.27 788.57
+    1514.61 786.39 1512.43 783.73 1510.81 780.70 1509.82 777.42 1509.48 774
+    1509.82 770.58 1510.81 767.30 1512.43 764.27 1514.61 761.61 1517.27 759.43
+    1520.30 757.81 1523.58 756.82 1527 756.48 1563.75 756.48 1616.52 809.25
+    1616.52 837.48 1629.02 837.48 1629.02 910.52 1616.52 910.52 1616.52 939
+    1647 939 1647 49 (viapop on)) (net GND) (type protect)
+   (window (polygon BOTTOM 0 1493.98 910.52 1554.02 910.52 1554.02 837.48
+     1493.98 837.48 1493.98 910.52))
+   (window (polygon BOTTOM 0 1393.98 685.52 1454.02 685.52 1454.02 612.48
+     1393.98 612.48 1393.98 685.52))
+   (window (polygon BOTTOM 0 1402.98 875.52 1463.02 875.52 1463.02 802.48
+     1402.98 802.48 1402.98 875.52))
+   (window (polygon BOTTOM 0 1564.02 149 1563.25 141.19 1560.97 133.69 1557.28
+     126.77 1552.30 120.70 1546.23 115.72 1539.31 112.03 1531.81 109.75 1524
+     108.98 1516.19 109.75 1508.69 112.03 1501.77 115.72 1495.70 120.70
+     1490.72 126.77 1487.03 133.69 1484.75 141.19 1483.98 149 1484.75 156.81
+     1487.03 164.31 1490.72 171.23 1495.70 177.30 1501.77 182.28 1508.69
+     185.97 1516.19 188.25 1524 189.02 1531.81 188.25 1539.31 185.97 1546.23
+     182.28 1552.30 177.30 1557.28 171.23 1560.97 164.31 1563.25 156.81
+     1564.02 149))
+   (window (polygon BOTTOM 0 1283.98 189.02 1364.02 189.02 1364.02 108.98
+     1283.98 108.98 1283.98 189.02))
+   (window (polygon BOTTOM 0 808.98 189.02 889.02 189.02 889.02 108.98 808.98
+     108.98 808.98 189.02))
+   (window (polygon BOTTOM 0 1235.52 454.02 1235.52 393.98 1162.48 393.98
+     1162.48 406.48 1121 406.48 1117.58 406.82 1114.30 407.81 1111.27 409.43
+     1108.61 411.61 1106.43 414.27 1104.81 417.30 1103.82 420.58 1103.48 424
+     1103.82 427.42 1104.81 430.70 1106.43 433.73 1108.61 436.39 1111.27
+     438.57 1114.30 440.19 1117.58 441.18 1121 441.52 1162.48 441.52 1162.48
+     454.02 1235.52 454.02))
+   (window (polygon BOTTOM 0 1513.02 558.52 1513.02 485.48 1452.98 485.48
+     1452.98 558.52 1465.48 558.52 1465.48 595.25 1471.62 601.38 1474.20
+     603.51 1477.14 605.11 1480.32 606.12 1483.64 606.50 1486.98 606.25
+     1490.20 605.37 1493.20 603.89 1495.87 601.87 1498.10 599.38 1499.82
+     596.52 1500.96 593.37 1501.48 590.07 1501.37 586.73 1500.62 583.47
+     1500.52 583.16 1500.52 558.52 1513.02 558.52))
+   (window (polygon BOTTOM 0 1235.52 468.98 1162.48 468.98 1162.48 529.02
+     1235.52 529.02 1235.52 468.98))
+   (window (polygon BOTTOM 0 1377.98 558.52 1438.02 558.52 1438.02 485.48
+     1377.98 485.48 1377.98 558.52)))
+  (wire (path TOP 20 766 1573 1070 1573) (net XBEESLEEP) (type protect))
+  (via VIA 1070 1573 (net XBEESLEEP) (type protect))
+  (wire (path BOTTOM 20 1070 1573 1070 1095) (net XBEESLEEP) (type protect))
+  (wire (path BOTTOM 20 449 2399 449 2445.50 430.50 2464 340 2464 92 2216 92
+    506.50 107.50 491 529 491 557 463 648 463 696 415 877 415 942 480 942 603)
+   (net N45305) (type protect))
+  (wire (path BOTTOM 20 624 2399 449 2399) (net N45305) (type protect))
+  (wire (path BOTTOM 25 1297 839 1297 835.74 1279.40 818.14) (net 3.3V) (type
+    protect))
+  (wire (path BOTTOM 20 1279.40 818.14 1278.26 817 1220 817) (net 3.3V) (type
+    protect))
+  (wire (path TOP 25 1249 780.50 1297 828.50 1297 839) (net 3.3V) (type
+    protect))
+  (wire (path TOP 25 1249 780.50 1249 823 1179.41 892.59 1123.29 892.59) (net
+    3.3V) (type protect))
+  (wire (path BOTTOM 25 1358 839 1297 839) (net 3.3V) (type protect))
+  (wire (path TOP 25 824 499 830.50 499 911.21 579.71 956.09 579.71 1027.54
+    651.16 1027.54 724) (net 3.3V) (type protect))
+  (wire (path TOP 25 824 499 824 542 814 552) (net 3.3V) (type protect))
+  (wire (path BOTTOM 20 814 603 814 552) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 900 2205 900 2198.50 862.62 2161.12 809.88 2161.12 766
+    2205) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 599 774 502 774) (net 3.3V) (type protect))
+  (wire (path BOTTOM 20 728 849 793.50 849 814 828.50 814 603) (net 3.3V)
+   (type protect))
+  (wire (path TOP 25 1249 774 1249 780.50) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1999 549 2099) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 2099 549 2199) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 724 2399 724 2247) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 724 2247 766 2205) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 2215 587.50 2253.50 717.50 2253.50 724 2247) (net
+    3.3V) (type protect))
+  (wire (path BOTTOM 25 374 2399 374 2382.85 413.85 2343 454 2343 549 2248 549
+    2215) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1499 549 1599) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1599 549 1699) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1699 549 1799) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1799 549 1899) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1899 549 1999) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 2215 549 2199) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 549 1499 549 1423 574 1398 574 1349) (net 3.3V) (type
+    protect))
+  (wire (path TOP 25 1027.54 724 1027.54 796.84 1123.29 892.59) (net 3.3V)
+   (type protect))
+  (via VIA 814 552 (net 3.3V) (type protect))
+  (wire (path BOTTOM 20 728 849 688 849 669 830) (net 3.3V) (type protect))
+  (wire (path BOTTOM 25 669 830 669 795 648 774 599 774) (net 3.3V) (type
+    protect))
+  (via VIA 502 774 (net 3.3V) (type protect))
+  (via VIA 1297 839 (net 3.3V) (type protect))
+  (wire (path TOP 25 766 2205 866 2105 1543.55 2105 1580 2068.55 1580 1245
+    1537 1202 1219 1202 1124 1107 1124 893.30 1123.29 892.59) (net 3.3V) (type
+    protect))
+  (wire (path BOTTOM 25 49 274 49 429 74 454 500.50 454 574 380.50 574 374)
+   (net 3.3V) (type protect))
+  (wire (path TOP 25 502 774 75 774 50 749 50 275 49 274) (net 3.3V) (type
+    protect))
+  (wire (path BOTTOM 20 1220 881 1295 881 1440 1026 1440 1433) (net N56544)
+   (type protect))
+  (via VIA 1440 1433 (net N56544) (type protect))
+  (wire (path BOTTOM 20 349 2199 474 2199) (net N56544) (type protect))
+  (wire (path TOP 20 1440 1433 641.45 1433 597 1477.45 597 2179 577 2199 349
+    2199) (net N56544) (type protect))
+  (wire (path BOTTOM 20 1038 1172 1038 1095) (net N56552) (type protect))
+  (wire (path BOTTOM 20 474 1799 349 1799) (net N56552) (type protect))
+  (via VIA 1038 1172 (net N56552) (type protect))
+  (wire (path TOP 20 349 1799 443.59 1799 465 1777.59 465 1413.23 576.23 1302
+    1018 1302 1038 1282 1038 1172) (net N56552) (type protect))
+  (wire (path BOTTOM 20 1220 945 1268.48 945 1375 1051.52 1375 1367) (net
+    N56548) (type protect))
+  (wire (path BOTTOM 20 474 1999 349 1999) (net N56548) (type protect))
+  (via VIA 1375 1367 (net N56548) (type protect))
+  (wire (path TOP 20 349 1999 509 1999 529 1979 529 1439.75 601.75 1367 1375
+    1367) (net N56548) (type protect))
+  (wire (path BOTTOM 20 1006 1095 1006 1172) (net N56554) (type protect))
+  (wire (path BOTTOM 20 474 1699 349 1699) (net N56554) (type protect))
+  (via VIA 1006 1172 (net N56554) (type protect))
+  (wire (path TOP 20 1006 1172 1006 1251 987 1270 562.97 1270 433 1399.97 433
+    1615 349 1699) (net N56554) (type protect))
+  (wire (path BOTTOM 20 1220 913 1281.74 913 1407 1038.26 1407 1399) (net
+    N56546) (type protect))
+  (wire (path BOTTOM 20 474 2099 349 2099) (net N56546) (type protect))
+  (via VIA 1407 1399 (net N56546) (type protect))
+  (wire (path TOP 20 349 2099 541 2099 561 2079 561 1453.01 615.01 1399 1407
+    1399) (net N56546) (type protect))
+  (wire (path BOTTOM 20 974 1095 974 1172) (net N56556) (type protect))
+  (wire (path BOTTOM 20 474 1599 349 1599) (net N56556) (type protect))
+  (via VIA 974 1172 (net N56556) (type protect))
+  (wire (path TOP 20 349 1599 401 1547 401 1386.71 549.71 1238 954 1238 974
+    1218 974 1172) (net N56556) (type protect))
+  (wire (path BOTTOM 20 1342 1335 1342 1063.78 1255.22 977 1220 977) (net
+    N56550) (type protect))
+  (wire (path BOTTOM 20 474 1899 349 1899) (net N56550) (type protect))
+  (via VIA 1342 1335 (net N56550) (type protect))
+  (wire (path TOP 20 1342 1335 588.49 1335 497 1426.49 497 1875 473 1899 349
+    1899) (net N56550) (type protect))
+  (wire (path BOTTOM 17 974 603 974 643 973 644 973 1009.26 1003.74 1040 1149
+    1040 1209 1100 1209 2114 924 2399) (net N45265) (type protect))
+  (wire (path BOTTOM 20 728 689 649 689 624 664 624 599) (net N45185) (type
+    protect))
+  (wire (path BOTTOM 20 942 1095 942 1172) (net N56558) (type protect))
+  (wire (path BOTTOM 20 349 1499 474 1499) (net N56558) (type protect))
+  (via VIA 942 1172 (net N56558) (type protect))
+  (wire (path TOP 20 942 1172 940 1174 940 1187.27 921.27 1206 536.45 1206 349
+    1393.45 349 1499) (net N56558) (type protect))
+  (wire (path BOTTOM 20 1354 776 1349 771 1349 762) (net 'ENABLE POWER5V')
+   (type protect))
+  (wire (path BOTTOM 20 1349 762 1349 649) (net 'ENABLE POWER5V') (type
+    protect))
+  (wire (path BOTTOM 20 1349 762 1283 762 1260 785 1220 785) (net
+    'ENABLE POWER5V') (type protect))
+  (wire (path TOP 20 1354 776 1356 774 1374 774) (net 'ENABLE POWER5V') (type
+    protect))
+  (via VIA 1354 776 (net 'ENABLE POWER5V') (type protect))
+  (wire (path BOTTOM 25 724 474 693.22 474 685.11 482.11) (net '6A9V(PILE)')
+   (type protect))
+  (wire (path TOP 25 1121 424 1093.67 424 1093.47 424.20 1055.30 424.20) (net
+    '6A9V(PILE)') (type protect))
+  (wire (path BOTTOM 25 1199 424 1121 424) (net '6A9V(PILE)') (type protect))
+  (wire (path TOP 25 1483 522 1483 440 1499 424) (net '6A9V(PILE)') (type
+    protect))
+  (wire (path TOP 25 1499 424 1199 424) (net '6A9V(PILE)') (type protect))
+  (wire (path TOP 25 1480.30 699.20 1480.30 669.89 1484 666.19 1484 589) (net
+    '6A9V(PILE)') (type protect))
+  (via VIA 1484 589 (net '6A9V(PILE)') (type protect))
+  (wire (path BOTTOM 25 1483 522 1483 588 1484 589) (net '6A9V(PILE)') (type
+    protect))
+  (wire (path TOP 25 1483 522 1483 588 1484 589) (net '6A9V(PILE)') (type
+    protect))
+  (wire (path TOP 25 1524 149 1524 399 1499 424) (net '6A9V(PILE)') (type
+    protect))
+  (via VIA 685.11 482.11 (net '6A9V(PILE)') (type protect))
+  (via VIA 1121 424 (net '6A9V(PILE)') (type protect))
+  (wire (path TOP 25 1199 424 1121 424) (net '6A9V(PILE)') (type protect))
+  (wire (path TOP 25 685.11 482.11 714.08 453.14 714.08 123.25 767.35 69.98
+    1444.98 69.98 1524 149) (net '6A9V(PILE)') (type protect))
+  (wire (path TOP 25 1502.54 999 1511 999) (net 5V) (type protect))
+  (via VIA 1595 1076 (net 5V) (type protect))
+  (wire (path TOP 25 1511 999 1599 911 1599 774) (net 5V) (type protect))
+  (wire (path TOP 25 1599 774 1648 774 1674.52 747.48 1674.52 81.52 1625.98
+    32.98 752.02 32.98 621 164 139 164 49 74) (net 5V) (type protect))
+  (wire (path TOP 25 1595 1076 1518 999 1511 999) (net 5V) (type protect))
+  (wire (path BOTTOM 25 1595 1076 1552 1076 1524 1048 1524 999) (net 5V) (type
+    protect))
+  (wire (path BOTTOM 20 878 1095 878 1876 879 1877 867 1889 766 1889) (net
+    XBEERESET) (type protect))
+  (wire (path TOP 25 1374 699.20 1344.27 699.20 1319.49 723.98 1319.49 789.49
+    1349 819 1349 999) (net N88155) (type protect))
+  (wire (path TOP 25 1480.30 774 1527 774) (net N88127) (type protect))
+  (wire (path BOTTOM 25 1527 774 1556.50 774 1599 816.50 1599 874) (net N88127
+    ) (type protect))
+  (via VIA 1527 774 (net N88127) (type protect))
+  (wire (path BOTTOM 25 1599 874 1599 999) (net N88127) (type protect))
+  (wire (path TOP 20 766 2047 1301 2047) (net XBEEDIN) (type protect))
+  (via VIA 1301 2047 (net XBEEDIN) (type protect))
+  (wire (path BOTTOM 20 1220 1009 1235.50 1009 1300.50 1074 1300.50 1338.76
+    1301 1339.26 1301 2047) (net XBEEDIN) (type protect))
+  (wire (path BOTTOM 20 1134 1095 1134 2072 1081 2125 766 2125) (net XBEEDOUT)
+   (type protect))
+  (wire (path BOTTOM 20 1070 897 1070 603) (net CAPTEURRX) (type protect))
+  (via VIA 1070 897 (net CAPTEURRX) (type protect))
+  (wire (path TOP 20 1070 897 1070 1019 1050 1039 484 1039 424 1099) (net
+    CAPTEURRX) (type protect))
+  (wire (path BOTTOM 20 1038 897 1038 603) (net CAPTEURTX) (type protect))
+  (via VIA 1038 897 (net CAPTEURTX) (type protect))
+  (wire (path TOP 20 1038 897 1038 985 1018 1005 418 1005 324 1099) (net
+    CAPTEURTX) (type protect))
+  (wire (path BOTTOM 15 1006 603 1006 656.26 1005 657.26 1005 996 1017 1008
+    1156.60 1008 1255 1106.40 1255 2168 1024 2399) (net N45221) (type protect)
+   )
+  (wire (path BOTTOM 25 226 569 170.68 569 169.84 569.84) (net N61433) (type
+    protect))
+  (via VIA 169.84 569.84 (net N61433) (type protect))
+  (wire (path TOP 25 49 174 96.67 174 123.68 201.01 156.01 201.01 224 269 224
+    399) (net N61433) (type protect))
+  (wire (path TOP 25 169.84 569.84 226 513.68 226 448.50 224 446.50 224 399)
+   (net N61433) (type protect))
+  (wire (path TOP 20 424 399 424 334 484 274) (net N61405) (type protect))
+  (wire (path BOTTOM 20 908 1174 910 1172 910 1095) (net CELL8) (type protect)
+   )
+  (via VIA 908 1174 (net CELL8) (type protect))
+  (wire (path TOP 20 908 1174 627.74 1174 627.73 1173.99 598.99 1173.99 524
+    1099) (net CELL8) (type protect))
+  (wire (path TOP 20 727 1145 644 1145 624 1125 624 1099) (net CELL7) (type
+    protect))
+  (via VIA 727 1145 (net CELL7) (type protect))
+  (wire (path BOTTOM 20 727 1145 829.62 1145 845.50 1129.12 845.50 1095.50 846
+    1095) (net CELL7) (type protect))
+  (wire (path BOTTOM 20 724 568.49 724 611.05 775 662.05 775 803.62 762.12
+    816.50 756.46 816.50 755.96 817 728 817) (net N81598) (type protect))
+  (wire (path TOP 25 1055.30 499 1064.16 499 1088.35 523.19 1088.35 556.85
+    1174 642.50 1174 649) (net N82912) (type protect))
+  (wire (path TOP 25 1174 774 1174 649) (net N82912) (type protect))
+  (wire (path TOP 25 949 424.20 940.14 424.20 876.94 361 784.80 361 759.80 386
+    759.80 699 784.80 724 874 724) (net N83047) (type protect)))
+ (colors
+  (color 16 color16 149 0 74)
+  (color 17 color17 255 255 0)
+  (color 18 color18 88 88 88)
+  (color 19 color19 135 113 95)
+  (color 20 color20 172 94 64)
+  (color 21 color21 216 5 21)
+  (color 22 color22 226 128 18)
+  (color 23 color23 181 181 0)
+  (color 24 color24 99 139 58)
+  (color 25 color25 0 162 0)
+  (color 26 color26 0 170 123)
+  (color 27 color27 0 151 183)
+  (color 28 color28 0 112 223)
+  (color 29 color29 0 0 227)
+  (color 30 color30 141 0 217)
+  (color 31 color31 191 0 191)
+  (color 32 color32 215 0 107)
+  (color 33 color33 0 255 0)
+  (color 34 color34 131 131 131)
+  (color 35 color35 156 134 114)
+  (color 36 color36 202 133 106)
+  (color 37 color37 252 78 90)
+  (color 38 color38 239 155 63)
+  (color 39 color39 215 215 0)
+  (color 40 color40 129 180 78)
+  (color 41 color41 0 221 0)
+  (color 42 color42 0 215 155)
+  (color 43 color43 1 192 233)
+  (color 44 color44 51 152 255)
+  (color 45 color45 100 100 255)
+  (color 46 color46 189 66 255)
+  (color 47 color47 242 0 242)
+  (color 48 color48 255 51 153)
+  (color 49 color49 0 0 255)
+  (color 50 color50 172 172 172)
+  (color 51 color51 169 149 131)
+  (color 52 color52 216 160 139)
+  (color 53 color53 252 122 132)
+  (color 54 color54 242 176 104)
+  (color 55 color55 240 240 0)
+  (color 56 color56 157 197 118)
+  (color 57 color57 38 255 38)
+  (color 58 color58 0 244 177)
+  (color 59 color59 17 214 255)
+  (color 60 color60 98 176 254)
+  (color 61 color61 130 130 255)
+  (color 62 color62 206 115 255)
+  (color 63 color63 255 111 255)
+  (color 64 color64 255 119 187)
+  (color 65 color65 255 0 255)
+  (color 66 color66 217 217 217)
+  (color 67 color67 186 169 154)
+  (color 68 color68 231 182 169)
+  (color 69 color69 253 162 168)
+  (color 70 color70 247 199 147)
+  (color 71 color71 255 255 140)
+  (color 72 color72 192 218 167)
+  (color 73 color73 138 255 138)
+  (color 74 color74 117 255 217)
+  (color 75 color75 145 236 255)
+  (color 76 color76 151 203 255)
+  (color 77 color77 176 176 255)
+  (color 78 color78 223 164 255)
+  (color 79 color79 255 168 255)
+  (color 80 color80 255 176 216)
+  (color 81 color81 0 255 255)
+  (color 82 color82 255 255 255)
+  (color 83 color83 202 189 170)
+  (color 84 color84 235 199 190)
+  (color 85 color85 254 197 201)
+  (color 86 color86 251 216 181)
+  (color 87 color87 255 255 187)
+  (color 88 color88 213 231 194)
+  (color 89 color89 189 255 189)
+  (color 90 color90 176 255 230)
+  (color 91 color91 185 241 255)
+  (color 92 color92 191 223 255)
+  (color 93 color93 198 198 255)
+  (color 94 color94 233 191 255)
+  (color 95 color95 255 198 255)
+  (color 96 color96 255 198 255)
+  (color 97 color97 255 0 0)
+  (color 98 color98 250 120 120)
+  (color 0 background 170 210 255)
+  (color 1 blue 0 0 255)
+  (color 2 green 0 255 0)
+  (color 3 violet 175 0 175)
+  (color 4 red 255 0 0)
+  (color 5 magenta 125 0 125)
+  (color 6 white 255 255 255)
+  (color 7 lgtgray 180 180 180)
+  (color 8 drkgray 120 120 120)
+  (color 9 drkblue 0 0 170)
+  (color 10 drkgreen 0 170 0)
+  (color 11 coral 255 127 0)
+  (color 12 drkred 170 0 0)
+  (color 13 lgtmgnta 255 0 255)
+  (color 14 yellow 255 255 0)
+  (color 15 black 0 0 0)
+  (set_color background black)
+  (set_color via drkgreen)
+  (set_color thru drkgray)
+  (set_color select color82)
+  (set_color highlight green)
+  (set_color antipad white)
+  (set_color guide color59)
+  (set_color histogram grid color82)
+  (set_color histogram segment red)
+  (set_color histogram peak red)
+  (set_color grid via color82)
+  (set_color grid wiring color82)
+  (set_color grid place color82)
+  (set_color grid manuf color82)
+  (set_color grid major route color82)
+  (set_color grid major place color82)
+  (set_color error clearance yellow)
+  (set_color error length yellow)
+  (set_color error crosstalk white)
+  (set_color error balance white)
+  (set_color error placement white)
+  (set_color routability min green)
+  (set_color routability max red)
+  (set_color iroute target white)
+  (set_color testpoint color24)
+  (set_color protect white)
+  (set_color fix component lgtmgnta)
+  (set_color component front color74)
+  (set_color component back magenta)
+  (set_color site white)
+  (set_color ruler drkgray)
+  (set_color rowcolumn white)
+  (set_color viakeepouts color35)
+  (set_color signal 1 color57)
+  (set_color signal 2 color17)))
