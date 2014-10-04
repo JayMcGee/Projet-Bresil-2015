@@ -1,0 +1,104 @@
+===============================
+Brésil -- 2013
+
+//////ALIMENTATION/////
+Batterie 12V 2200mAh
+Régulateur 12-5V
+Consommation max d'environ 560mA
+Panneau solaire dans cas nuageux 150mA, soleil 300mA
+Consommation de 40mAh par jour, 2mA en veille
+25 jours de batterie sans recharge
+
+//////RÉGULATION///////
+Fusible a la sortie du régulateur 2A
+
+//////MODULE GSM/////////
+SIM5100B
+
+CODES GSM
+0 La carte SIM a été enlevée
+1 La carte SIM a été insérée
+2 Sonnerie
+3 Le module AT est partiellement prêt
+4 Le module AT est totalement prêt
+5 ID de l’appel effectué
+6 Appel envoyé dont l’ID est ID=<idx>
+7 Le service réseau est disponible pour faire des appels d’urgence
+8 Le réseau est perdu
+9 Le son est activé
+10 Montre le statut de chaque répertoire après la phase d’initialisation
+11 Enregistré sur le réseau
+
+CODE AT de demande de bande actuelle
+
+AT+SBAND=?
+
+CODE AT de selectiuon de bande
+
+AT+SBAND=<valeur>
+
+Description
+GSM900					= 0
+DCS1800					= 1
+PCS1900					= 2
+GSM850					...
+GSM900&DCS1800
+GSM850&GSM900
+GSM850&DCS1800
+GSM850&PCS1900
+GSM900&PCS1900
+GSM850&GSM900&DCS1800
+GSM850&GSM900&PCS1900
+
+Module GSM et programme de dépannage :
+Baud rate :	9600		Data bits : 8		Parity : none		Stop bits : 1
+Handshaking : none	COM Port : Celui de l’Arduino		
++CR : dois être coché pour l’envoi de donnée
+
+////////////////////CAPTEURS//////////////
+Conductivité, pH et oxygène dissous : 
+Baud rate : 38400		Data bits : 8		Parity : none		Stop bits : 1
+Handshaking : none	COM Port : Celui de l’Arduino		
++CR : dois être coché pour l’envoi de donnée
+
+
+//CALIBRATION PH//
+1. Vérifiez que la sonde de pH est propre, pour ne pas contaminer les solutions.
+2. Déposez la sonde de pH dans le liquide jaune de pH 7.
+3. À l’aide du Terminal, envoyez la commande <tt.tt>, qui représente la température de la pièce en °C. Exemples à 25°C : <25> ou <25.00>
+4. Envoyez la commande de lecture continue qui est la lettre <C>.
+5. Après 1 à 2 minutes, la lecture se stabilisera.
+6. Envoyez la commande <S>, qui permettra de dire au circuit de se calibrer au pH 7.
+7. Nettoyez et séchez avec un papier essuietout la sonde pour empêcher de contaminer les différentes solutions.
+8.Déposez la sonde dans le liquide rouge de pH 4. (Le circuit devrait toujours être en mode de lecture continue)
+9.Après 1 à 2 minutes, la lecture se stabilisera.
+10.Envoyez la commande <F>, qui permettra de dire au circuit de se calibrer au pH 4
+11.Nettoyez et séchez avec un papier essuietout la sonde pour empêcher de contaminer les différentes solutions.
+12.Déposez la sonde dans le liquide bleu de pH 10. (Le circuit devrait toujours être en mode de lecture continue)
+13.Après 1 à 2 minutes, la lecture se stabilisera.
+14.Envoyez la commande <T>, qui permettra de dire au circuit de se calibrer au pH 10.
+15. Envoyez la commande <E>, qui permettra d’arrêter la lecture en continu.
+16. La sonde est maintenant calibrée. Tout est sauvegardé dans la mémoire EEPROM, ce qui est conservé, quand l’alimentation est éteinte.
+
+//CALIBRATION CS//
+1. À l’aide du Terminal envoyez la commande <P,1> ce qui permettra au circuit de déterminer que nous utilisons la sonde K0.1.
+2. Il est important de vérifier que la sonde est bien sèche et propre.
+3. À l’aide du Terminal, envoyez la commande <tt.tt>, qui représente la température de la pièce en °C. Exemples à 25°C : <25> ou <25.00>
+4. Envoyez la commande de calibration sèche qui est <Z0>, le circuit répondra « Dry Cal », ce qui confirme que le circuit a bien effectué la première calibration.
+5. Déposez la sonde de conductivité dans le liquide de 3000μS, puis envoyez la commande de lecture continue <C>.
+6. Attendez 3 à 5mins que la lecture se stabilise.
+7. Envoyez la commande de calibration de 3000μS, <Z30>, le circuit répondra « 3,000 μs cal », pour confirmé que la 2e calibration est effectuée.
+8.Nettoyez et séchez avec un papier essuietout la sonde pour empêcher de contaminer les différentes solutions.
+9. Déposez la sonde de conductivité dans le liquide de 220μS, puis envoyez la commande de lecture continue <C>. (Si la lecture continue n’est plus en cours)
+10.Attendez 3 à 5mins que la lecture se stabilise.
+11. Envoyez la commande de calibration de 220μS, <Z2>, le circuit répondra « 220 μs cal », pour confirmer que la dernière calibration est effectuée. (Envoyez la commande <E> si la lecture continue est toujours active)
+12. Nettoyez et séchez avec un papier essuietout la sonde. La calibration est terminée.
+
+//CALIBRATION OD//
+1. Déposez la sonde d’oxygène dissous dans de l’eau, seulement pour la mouiller, puis laissez là sécher pendant 5mins à l’air libre.
+2. Après 5mins d’attente, envoyez la commande <X>, le circuit répondra : « calibration set: nn » où nn est la pressionpartielled'oxygène dans l’atmosphère. 
+
+
+===================================2014==================================
+
+Memes séquences de calibration
