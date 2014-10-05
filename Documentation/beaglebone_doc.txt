@@ -23,10 +23,12 @@ make
 make install
 
 //Installation de NPM (je crois que c'est comme ca)
+npm config set ca ""
 npm install -g npm
+cd .. 
 
 //Cloner le git de Cloud9
 git clone https://github.com/ajaxorg/cloud9.git cloud9
 cd cloud9
 npm install
-bin/cloud9.sh
+bin/cloud9.sh -l 0.0.0.0 -p 3131
