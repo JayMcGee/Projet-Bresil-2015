@@ -1,1 +1,32 @@
 http://dotnetdavid.wordpress.com/2013/09/16/beaglebone-black-cloud9-and-bonescript-install-guide/
+
+//Ajouter node et non nodejs comme PATH
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+//
+https://github.com/ajaxorg/cloud9/issues/2971
+
+http://stackoverflow.com/questions/9626990/receiving-error-error-ssl-error-self-signed-cert-in-chain-while-using-npm
+
+////PROCEDURE V1 A TESTER SUR BEAGLEBONE et d'un shot aussi sur une VM
+sudo apt-get update
+sudo apt-get install libssl-dev git-core pkg-config build-essential curl gcc g++ libxml2-dev
+sudo apt-get update
+cd ~
+
+//Installation de NODE 0.8.8
+wget http://nodejs.org/dist/v0.8.8/node-v0.8.8.tar.gz
+tar -xzvf node-v0.8.8.tar.gz node
+cd node
+./configure
+make
+make install
+
+//Installation de NPM (je crois que c'est comme ca)
+npm install -g npm
+
+//Cloner le git de Cloud9
+git clone https://github.com/ajaxorg/cloud9.git cloud9
+cd cloud9
+npm install
+bin/cloud9.sh
