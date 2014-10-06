@@ -6,6 +6,6 @@ Projet TSO, Créer une balise avec des capteurs de qualité de l'eau pour l'univ
 
 http://www.microchip.com/forums/m819434.aspx
 
-http://visualgdb.com/tutorials/beaglebone/
-
-https://gist.github.com/RIAEvangelist/6335743
+//// Librairie C/C++ pour BBB
+https://github.com/jackmitch/libsoc
+http://blacklib.yigityuce.com/annotated.html
