@@ -40,3 +40,9 @@ Désactiver le HDMI pour activer le UART5
 http://www.logicsupply.com/blog/2013/07/18/disabling-the-beaglebone-black-hdmi-cape/
 
 ////////////////////////////////
+
+////////////////////////////////
+Libraire C pour le DHt22
+
+https://github.com/adafruit/Adafruit_Python_DHT/tree/master/source/Beaglebone_Black
+////////////////////////////////
