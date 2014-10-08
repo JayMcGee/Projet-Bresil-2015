@@ -32,3 +32,11 @@ git clone https://github.com/ajaxorg/cloud9.git cloud9
 cd cloud9
 npm install
 bin/cloud9.sh -l 0.0.0.0 -p 3131
+
+
+////////////////////////////////
+Désactiver le HDMI pour activer le UART5
+
+http://www.logicsupply.com/blog/2013/07/18/disabling-the-beaglebone-black-hdmi-cape/
+
+////////////////////////////////
