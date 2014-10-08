@@ -46,3 +46,8 @@ Libraire C pour le DHt22
 
 https://github.com/adafruit/Adafruit_Python_DHT/tree/master/source/Beaglebone_Black
 ////////////////////////////////
+
+////////////////////////////////
+Code pour DHT22
+
+
