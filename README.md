@@ -11,3 +11,5 @@ http://www.microchip.com/forums/m819434.aspx
 https://github.com/jackmitch/libsoc
 
 http://blacklib.yigityuce.com/annotated.html
+
+http://beagleboard.org/Support/bone101
