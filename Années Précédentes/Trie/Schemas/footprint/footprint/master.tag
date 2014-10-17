@@ -1,1 +1,0 @@
-BNC_connecteur.dra

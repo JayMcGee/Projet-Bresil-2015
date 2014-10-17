@@ -1,8 +1,0 @@
-Auteur Maxime Gaudreau
-date : 2014-04-09
-Nom du cours 247-67F
-Quantité 6 identique avec silkscreen 
-Nom du projet Brésil (Projet CloudIA)
-Permettre le match des drill pour les standards
-dimension 1.7" par 2.5" pouce
-

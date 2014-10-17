@@ -1,9 +1,0 @@
-\t (00:00:00) pad_designer 16.6 S013 (v16-6-112AN) Windows 32
-\t (00:00:00)     Journal start - Mon Mar 24 15:30:58 2014
-\t (00:00:00)         Host=tge-9-109 User=tge Pid=1732 CPUs=4
-\t (00:00:00) 
-\i (00:00:05) setwindow form.padedit
-\i (00:00:05) pse_open 
-\i (00:00:36) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\smd25_48.pad"
-\i (00:00:36) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
-\t (00:00:36)     Journal end - Mon Mar 24 15:31:33 2014
