@@ -11,9 +11,7 @@
 				[{
 					"id": "001",        		
 					"valuetype": "max",   		
-					"value": "3.00",
-					"datetime":"",
-					"hh": ""
+					"value": "3.00"
         		}, 
 				{
 					"id": "001",
