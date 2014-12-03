@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="json.cpp" />
+    <ClCompile Include="..\..\commun.cpp" />
+    <ClCompile Include="..\..\SuperEasyJSON\json.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="json.h" />
+    <ClInclude Include="..\..\commun.h" />
+    <ClInclude Include="..\..\SuperEasyJSON\json.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
