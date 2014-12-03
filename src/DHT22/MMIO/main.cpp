@@ -5,13 +5,12 @@ using namespace std;
 
 int main()
 {
-    
     int sensor = 22;
     float humidite = 0;
     float temperature = 0;
     
     int base = 1;
-    int number = 13;
+    int number = 12;
     
     int retour = 0;
     
@@ -32,6 +31,7 @@ int main()
         }
         else if(retour >= 0)
         {   
+            
             cout << "Température : " << temperature << " et humidité : " << humidite << endl;
         }
         else

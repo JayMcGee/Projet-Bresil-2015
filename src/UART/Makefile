@@ -1,7 +1,13 @@
-all: TestUart
+all: TestUart Terminal
 
 TestUart: TestUart.o BlackUART.o BlackCore.o
-	g++ -std=c++0x TestUart.o BlackUART.o BlackCore.o -o MainTest
+	g++ -std=c++0x TestUart.o BlackUART.o BlackCore.o -o TestUart
+	
+Terminal: Terminal.o BlackUART.o BlackCore.o
+	g++ -std=c++0x -lpthread Terminal.o BlackUART.o BlackCore.o -o Terminal
+	
+Terminal.o: Terminal.cpp
+	g++ -std=c++0x -c Terminal.cpp
 	
 TestUart.o: TestUart.cpp
 	g++ -std=c++0x -c TestUart.cpp

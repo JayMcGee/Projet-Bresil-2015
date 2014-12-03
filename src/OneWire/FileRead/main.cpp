@@ -2,6 +2,7 @@
 #define DEVICE "28-000006052315"
 
 #include "commun.h"
+#include <stdint.h>
 
 using namespace std;
 
@@ -15,25 +16,29 @@ int main(int argc, char * argv[])
     cout << "Device created succesfully" << endl;
     
     float temp;
-    
-    if(ow.isValidPath())
+    while(1)
     {
-        cout << "Device path is valid" << endl;
-        if(ow.updateTemperature())
+        
+        if(ow.isValidPath())
         {
-            cout << "Temperature updated " << endl;
-            if(ow.getLastTemperature(&temp))
+            cout << "Device path is valid" << endl;
+            if(ow.updateTemperature())
             {
-                cout << "Current temperature : " << temp << endl;
+                cout << "Temperature updated " << endl;
+                if(ow.getLastTemperature(&temp))
+                {
+                    cout << "Current temperature : " << temp << endl;
+                }
+                else
+                    cout << "Could not retrieve latest temperature" << endl;
             }
             else
-                cout << "Could not retrieve latest temperature" << endl;
+                cout << "Could not update temperature" << endl;
         }
-        else
-            cout << "Could not update temperature" << endl;
+        else 
+            cout << "Device path is not valid";
+        sleep(2);
     }
-    else 
-        cout << "Device path is not valid";
     
     return 1;
 }

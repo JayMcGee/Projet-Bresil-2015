@@ -2,7 +2,10 @@
 
 OneWireDevice::OneWireDevice()
 {
+    // Create file path with a default deviceID
     filePath_ = createFilePath("28-000006052315");
+    
+    //If the file path exists
     if(exists_test(filePath_))
         hasValidPath_ = true;
     else
@@ -14,6 +17,7 @@ OneWireDevice::OneWireDevice()
 
 OneWireDevice::OneWireDevice(string deviceID)
 {
+    //Create file path with the included deviceID
     filePath_ = createFilePath(deviceID);
     if(exists_test(filePath_))
         hasValidPath_ = true;
@@ -38,12 +42,14 @@ bool OneWireDevice::updateTemperature()
 {
     if(hasValidPath_)
     {
+        //input file stream to read in the device file
         ifstream onewireFin(filePath_);
     
         string data = "";
         
         string temp = "";
         
+        //Read all the lines in the file
         while(onewireFin.good())
         {
             onewireFin >> temp;
@@ -55,6 +61,7 @@ bool OneWireDevice::updateTemperature()
         
         size_t found = temp.find_last_of('=');
         
+        //If the data includes a '=', substring and cast to float, divided by 1000 to get Celsius
         if(found != string::npos)
         {
             data = temp.substr(found + 1);
