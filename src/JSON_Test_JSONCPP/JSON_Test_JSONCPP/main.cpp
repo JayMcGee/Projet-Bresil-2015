@@ -4,6 +4,7 @@
 using namespace std;
 using namespace json;
 
+
 int main(int argc, char **argv)
 {
 	Object json_main;
@@ -22,6 +23,8 @@ int main(int argc, char **argv)
 
 
 	cout << "Hello wordl" << endl;
+
+	cout << aquarius::currentDateTime() << endl;
 
 	system("pause");
 

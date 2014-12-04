@@ -3,11 +3,18 @@
 */
 
 
+//Standard libraries
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include <time.h>
+
+//External libraries
 #include "SuperEasyJSON\json.h"
 
+//System wide constants
 #define NOM_STATION "aquarius001"
-
-
+#define DATE_TIME_OUTPUT "%Y/%m/%d %X"
 
 namespace aquarius
 {
@@ -27,5 +34,11 @@ namespace aquarius
 		t_Temperature case_temp;
 		t_Humidity case_humidity;
 	};
+
+	/*
+	*	@brief Function that gives out the current systeme date and time
+	*   @return Gives back a date time formatted to the system constant DATE_TIME_OUTPUT
+	*/
+	const std::string currentDateTime();
 
 }
